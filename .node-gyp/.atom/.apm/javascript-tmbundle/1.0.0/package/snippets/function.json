@@ -1,0 +1,7 @@
+{
+  "content": "function ($1) {\n\t${0:$TM_SELECTED_TEXT}\n}",
+  "name": "Anonymous Function",
+  "scope": "source.js",
+  "tabTrigger": "f",
+  "uuid": "4C6EDB43-3E2E-411B-A016-13C135C59833"
+}

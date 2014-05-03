@@ -1,0 +1,7 @@
+{
+  "content": "@include ${0};",
+  "name": "@Include",
+  "scope": "source.css.scss",
+  "tabTrigger": "include",
+  "uuid": "C57F0AAD-FBBC-4A3D-BE60-11EF1DDB8BD8"
+}

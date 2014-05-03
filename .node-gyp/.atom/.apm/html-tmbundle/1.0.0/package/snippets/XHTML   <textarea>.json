@@ -1,0 +1,7 @@
+{
+  "content": "<textarea name=\"${1:Name}\" rows=\"${2:8}\" cols=\"${3:40}\">$0</textarea>",
+  "name": "Text Area",
+  "scope": "text.html",
+  "tabTrigger": "textarea",
+  "uuid": "AAC9D7B8-A12C-11D9-A5A2-000D93C8BE28"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "user { \"${1:name}\":\n\tcomment => \"${2:First Last}\",\n\thome => \"${3:/home/$1}\",\n\tensure => ${4:present},\n\t#shell => \"/bin/bash\",\n\t#uid => '501',\n\t#gid => '20'\n}$0",
+  "name": "user",
+  "scope": "source.puppet",
+  "tabTrigger": "user",
+  "uuid": "831FA574-7FC1-47B7-BDD3-67E3E94E8188"
+}

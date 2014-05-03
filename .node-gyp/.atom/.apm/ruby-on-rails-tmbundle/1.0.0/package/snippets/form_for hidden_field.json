@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.hidden_field :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "f.hidden_field (ffhf)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "f.",
+  "uuid": "5DBA8F72-DD6C-4CBF-83FD-76301E159BA9"
+}

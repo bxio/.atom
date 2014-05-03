@@ -1,0 +1,7 @@
+{
+  "content": "\\$_SESSION['${1:variable}']",
+  "name": "SESSION['…']",
+  "scope": "source.php",
+  "tabTrigger": "$_",
+  "uuid": "40A7709D-8CD1-11D9-B507-000D93C8BE28"
+}

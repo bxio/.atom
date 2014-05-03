@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "source.css",
+  "settings": {
+    "foldingStartMarker": "/\\*\\*(?!\\*)|\\{\\s*($|/\\*(?!.*?\\*/.*\\S))|\\/\\*\\s*@group\\s*.*\\s*\\*\\/",
+    "foldingStopMarker": "(?<!\\*)\\*\\*/|^\\s*\\}|\\/*\\s*@end\\s*\\*\\/"
+  },
+  "uuid": "37393068-A217-494A-9DA4-68FD43FB4F8B"
+}

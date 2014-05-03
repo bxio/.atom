@@ -1,0 +1,17 @@
+{
+  "name": "Java Properties Comments",
+  "scope": "source.java-props",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "# "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "! "
+      }
+    ]
+  },
+  "uuid": "CD9D5650-7188-498F-9305-1BA9D8D8D27F"
+}

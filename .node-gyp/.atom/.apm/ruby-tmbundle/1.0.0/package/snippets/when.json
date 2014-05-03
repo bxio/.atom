@@ -1,0 +1,7 @@
+{
+  "content": "when ${1:condition}\n\t$0",
+  "name": "when …",
+  "scope": "source.ruby",
+  "tabTrigger": "when",
+  "uuid": "48D8E498-C9A5-4B1B-9A18-71A5860276FB"
+}

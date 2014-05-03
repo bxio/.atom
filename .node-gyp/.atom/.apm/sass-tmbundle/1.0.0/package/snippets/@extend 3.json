@@ -1,0 +1,7 @@
+{
+  "content": "@extend $0;",
+  "name": "@extend",
+  "scope": "source.css.scss",
+  "tabTrigger": "extend",
+  "uuid": "2F24AFE1-17D3-4144-8F2E-C8DAAA298186"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "include_once '${1:file}';$0",
+  "name": "include_once …",
+  "scope": "source.php",
+  "tabTrigger": "incl1",
+  "uuid": "4833C612-8CCF-11D9-B507-000D93C8BE28"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "coffee-script-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "A TextMate Bundle for CoffeeScript",
+  "homepage": "https://github.com/kevinsawicki/coffee-script-tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinsawicki/coffee-script-tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinsawicki/coffee-script-tmbundle/issues"
+  },
+  "commitSha": "32d2852470da251b19fa324bd69c476f845eaaa2",
+  "version": "2.0.0"
+}

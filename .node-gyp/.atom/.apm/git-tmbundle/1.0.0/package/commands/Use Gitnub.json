@@ -1,0 +1,14 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch(:controller => \"misc\", :action => \"gitnub\")\n\t",
+  "input": "selection",
+  "inputFormat": "text",
+  "name": "Visualize History with Gitnub",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "discard",
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.other",
+  "uuid": "1FF5FF82-13A0-4C83-BAD6-D67AE8180FA9",
+  "version": 2
+}

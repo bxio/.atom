@@ -1,0 +1,7 @@
+{
+  "content": "has_many :${1:objects}, :through => :${2:join_association}${3:, :source => :${4:${2}_table_foreign_key_to_${1}_table}}",
+  "name": "has_many (through)",
+  "scope": "meta.rails.model",
+  "tabTrigger": "hmt",
+  "uuid": "9D58B6C9-BA52-48B3-B639-D5CB894AF810"
+}

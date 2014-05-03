@@ -1,0 +1,9 @@
+{
+  "name": "Indentation rules",
+  "scope": "source.sass, source.css.scss",
+  "settings": {
+    "decreaseIndentPattern": "^\\s*\\}",
+    "increaseIndentPattern": "(^.*\\{[^}]*$)"
+  },
+  "uuid": "FA3DF25D-0CAC-4FD2-8768-1A2D96B19297"
+}

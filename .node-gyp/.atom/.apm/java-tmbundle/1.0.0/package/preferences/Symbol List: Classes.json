@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: Classes",
+  "scope": "source.java meta.class meta.class.identifier",
+  "settings": {
+    "showInSymbolList": 1
+  },
+  "uuid": "22E489AE-989E-4A76-9C18-89944CF5013D"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "grunt-coffeelint",
+  "description": "Lint your Coffee",
+  "version": "0.0.6",
+  "homepage": "https://github.com/vojtajina/grunt-coffeelint",
+  "author": {
+    "name": "Vojta Jína",
+    "email": "vojta.jina@gmail.com"
+  },
+  "contributors": [
+    "Christoph Neuroth <christoph.neuroth@gmail.com>",
+    "Ed Siok <sioked@gmail.com>",
+    "travis4all <travis4all@diamon.dz>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vojtajina/grunt-coffeelint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vojtajina/grunt-coffeelint/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/vojtajina/grunt-coffeelint/blob/master/LICENSE-"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4"
+  },
+  "dependencies": {
+    "coffeelint": "~0.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

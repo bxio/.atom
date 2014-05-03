@@ -1,0 +1,15 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\n\ndef toggle(keyword)\n  case keyword\n    when 'import'  then 'include'\n    when 'include' then 'import'\n    else keyword\n  end\nend\n\nSTDOUT << toggle(STDIN.read)\n",
+  "hideFromUser": true,
+  "input": "scope",
+  "inputFormat": "text",
+  "keyEquivalent": "^\"",
+  "name": "Toggle Import/Include Keyword",
+  "outputCaret": "interpolateByChar",
+  "outputFormat": "text",
+  "outputLocation": "replaceInput",
+  "scope": "keyword.control.import.include, L:keyword.control.import.include",
+  "uuid": "A8F23393-4D73-480A-A268-6DCD514DE2E4",
+  "version": 2
+}

@@ -1,0 +1,7 @@
+{
+  "content": "@synthesize ${1:property};",
+  "name": "Synthesize Property",
+  "scope": "(source.objc | source.objc++) & meta.scope.implementation.objc - meta.function-with-body",
+  "tabTrigger": "syn",
+  "uuid": "C0B942C9-07CE-46B6-8FAE-CB8496F9F544"
+}

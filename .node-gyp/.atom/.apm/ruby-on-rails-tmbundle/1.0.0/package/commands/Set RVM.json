@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n. \"$TM_BUNDLE_SUPPORT/lib/rvm/change_rvm\"",
+  "fallbackInput": "word",
+  "input": "none",
+  "name": "Set RVM…",
+  "output": "discard",
+  "scope": "source.ruby.rails",
+  "uuid": "88047A77-B889-4F47-892D-4C3EBA98D968"
+}

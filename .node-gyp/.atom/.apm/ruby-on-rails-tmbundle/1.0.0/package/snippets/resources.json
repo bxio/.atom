@@ -1,0 +1,7 @@
+{
+  "content": "resources :${1:posts}${2: do\n  $3\nend}",
+  "name": "resources",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "res",
+  "uuid": "92E54811-6041-4BF8-B808-918B8C11F1D9"
+}

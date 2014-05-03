@@ -1,0 +1,18 @@
+{
+  "name": "ruby-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for Ruby",
+  "homepage": "https://github.com/textmate/ruby.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/ruby.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/ruby.tmbundle/issues"
+  },
+  "commitSha": "4b74231cb27d8d6e8e917947c566d21ec9d6e76a",
+  "version": "1.0.0"
+}

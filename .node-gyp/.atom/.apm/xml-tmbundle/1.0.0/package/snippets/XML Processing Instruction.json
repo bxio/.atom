@@ -1,0 +1,7 @@
+{
+  "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+  "name": "XML Processing Instruction",
+  "scope": "text.xml",
+  "tabTrigger": "xml",
+  "uuid": "4F9C4923-6A89-4B49-BB22-8C446B86D12D"
+}

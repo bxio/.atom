@@ -1,0 +1,117 @@
+[
+  {
+    "file": "spec/templates/methods/instance_methods.coffee",
+    "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+    },
+    "class": {
+      "className": "TestInstanceMethods",
+      "name": "TestInstanceMethods",
+      "namespace": ""
+    },
+    "methods": [
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "instance",
+        "signature": ".<strong>helper</strong>()",
+        "name": "helper",
+        "bound": false,
+        "parameters": []
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "instance",
+        "signature": ".<strong>another</strong>(param, obj)",
+        "name": "another",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "param",
+            "splat": false
+          },
+          {
+            "name": "obj",
+            "splat": false
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "instance",
+        "signature": ".<strong>anotherWithValues</strong>(param = 123, obj = { a: 1 }, yup, comp = new TestInstanceMethods())",
+        "name": "anotherWithValues",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "param",
+            "default": "123",
+            "splat": false
+          },
+          {
+            "name": "obj",
+            "default": "{\n  a: 1\n}",
+            "splat": false
+          },
+          {
+            "name": "yup",
+            "splat": false
+          },
+          {
+            "name": "comp",
+            "default": "new TestInstanceMethods()",
+            "splat": false
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "instance",
+        "signature": ".<strong>nowWithSpalt</strong>(foo, bar...)",
+        "name": "nowWithSpalt",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "foo",
+            "splat": false
+          },
+          {
+            "name": "bar",
+            "splat": true
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "instance",
+        "signature": ".<strong>bound</strong>()",
+        "name": "bound",
+        "bound": true,
+        "parameters": []
+      }
+    ],
+    "variables": [],
+    "properties": []
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "content": "public static void main(String[] args) {\n\t$0\n}",
+  "name": "method (main)",
+  "scope": "source.java",
+  "tabTrigger": "main",
+  "uuid": "90A0278A-56B2-465B-B629-A01DF6524FEA"
+}

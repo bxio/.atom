@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n#\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/generate.rb\" &>/dev/null &\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/generate.rb\"\n",
+  "input": "none",
+  "keyEquivalent": "^|",
+  "name": "Call Generate Script",
+  "output": "showAsTooltip",
+  "scope": "source.ruby.rails, source.yaml",
+  "uuid": "4904EDC7-5ED3-4132-AAB2-C2AD87C97EFE"
+}

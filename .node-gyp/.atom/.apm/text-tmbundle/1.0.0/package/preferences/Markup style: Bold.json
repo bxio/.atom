@@ -1,0 +1,8 @@
+{
+  "name": "Style: Bold",
+  "scope": "markup.bold",
+  "settings": {
+    "bold": "1"
+  },
+  "uuid": "A088E2CA-03E7-4A8C-855C-AC954E739D6D"
+}

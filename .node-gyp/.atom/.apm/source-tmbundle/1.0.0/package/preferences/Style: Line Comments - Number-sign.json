@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Number-sign",
+  "scope": "comment.line.number-sign, comment.line.double-number-sign",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(##?)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "8CF53FBD-89AD-4F14-A268-1F061C02E91D"
+}

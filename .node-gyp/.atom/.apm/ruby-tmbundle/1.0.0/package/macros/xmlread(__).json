@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb rexml/document",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "content": "REXML::Document.new(File.read(${1:\"${2:path/to/file}\"}))",
+        "name": "xmlread(..)",
+        "scope": "source.ruby",
+        "tabTrigger": "xml-",
+        "uuid": "B904D4AA-D15D-48A4-8EB2-563BAF489332"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "xmlread(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "xml",
+  "uuid": "F6BF907E-FDF7-4D9B-9E57-BE159561349D"
+}

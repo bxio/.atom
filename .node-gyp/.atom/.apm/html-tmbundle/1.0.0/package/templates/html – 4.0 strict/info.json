@@ -1,0 +1,7 @@
+{
+  "command": "if [[ ! -f \"$TM_NEW_FILE\" ]]; then\n   TM_DATE=`date +%Y-%m-%d` \\\n   perl -pe 's/\\$\\{([^}]*)\\}/$ENV{$1}/g' \\\n      < index.html > \"$TM_NEW_FILE\"\nfi",
+  "extension": "html",
+  "name": "HTML — 4.01 Strict",
+  "scope": "text.html",
+  "uuid": "04332FA8-8157-46C4-9854-8C190FFD96C6"
+}

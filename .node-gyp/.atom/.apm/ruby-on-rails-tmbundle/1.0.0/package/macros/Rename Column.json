@@ -1,0 +1,26 @@
+{
+  "commands": [
+    {
+      "command": "deleteWordLeft:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "intelligent_migration_snippet.rb rename_column",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "name": "Rename / Rename Column",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "mcol",
+  "uuid": "AC50762C-DE40-4EB9-9A22-2F6AF2EA4EA3"
+}

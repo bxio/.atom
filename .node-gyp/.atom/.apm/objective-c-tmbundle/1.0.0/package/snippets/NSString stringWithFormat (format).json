@@ -1,0 +1,7 @@
+{
+  "content": "[NSString stringWithFormat:@\"$1\", $2]$0",
+  "name": "NSString With Format",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "format",
+  "uuid": "B07879C7-F1E0-4606-93F1-1A948965CD0E"
+}

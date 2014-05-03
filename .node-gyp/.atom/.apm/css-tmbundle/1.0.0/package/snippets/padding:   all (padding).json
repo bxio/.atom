@@ -1,0 +1,7 @@
+{
+  "content": "padding: ${1:20px};$0",
+  "name": "padding: all",
+  "scope": "source.css",
+  "tabTrigger": "padding",
+  "uuid": "6E64EA4A-A10E-49B3-AC9C-D53DBF9ED14A"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ruby-on-rails-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "Ruby on Rails TextMate bundle [Learn it with PeepCode - http://peepcode.com/products/textmate-for-rails-2]",
+  "homepage": "https://github.com/drnic/ruby-on-rails-tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drnic/ruby-on-rails-tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drnic/ruby-on-rails-tmbundle/issues"
+  },
+  "commitSha": "683f6e652cc467e0007f80aa11f174a4d9189f3c",
+  "version": "1.0.0"
+}

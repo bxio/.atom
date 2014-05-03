@@ -1,0 +1,7 @@
+{
+  "content": "inject${1/.+/(/}${1:init}${1/.+/)/} { |${2:mem}, ${3:var}| $0 }",
+  "name": "inject(init) { |mem, var| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "inj",
+  "uuid": "B563E0D7-513D-49B4-9733-1B04A6F25A74"
+}

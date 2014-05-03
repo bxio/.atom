@@ -1,0 +1,7 @@
+{
+  "content": "mattr_accessor :${0:attr_names}",
+  "name": "mattr_accessor",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "mrw",
+  "uuid": "B25B7560-FACB-4A9E-A226-B71C796BD1F3"
+}

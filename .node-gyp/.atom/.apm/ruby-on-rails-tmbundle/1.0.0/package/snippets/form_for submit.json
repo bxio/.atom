@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.submit \"${1:Submit}\"${2:, :disable_with => '${3:$1ing...}'}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "f.submit (ffs)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "f.",
+  "uuid": "C315EC5D-A7F3-49CB-9795-21B78BB42FF4"
+}

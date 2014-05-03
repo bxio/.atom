@@ -1,0 +1,7 @@
+{
+  "content": "assert_nothing_thrown { $0 }",
+  "name": "assert_nothing_thrown { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "asnt",
+  "uuid": "33639D7A-BD8C-4396-9C44-307B8AC87C9E"
+}

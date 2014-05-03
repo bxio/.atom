@@ -1,0 +1,7 @@
+{
+  "content": "assert_redirected_to ${10:${2:model}s_path}",
+  "name": "assert_redirected_to (path plural)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "asrt",
+  "uuid": "0249637E-0720-46DA-A8FD-E176A2CC458B"
+}

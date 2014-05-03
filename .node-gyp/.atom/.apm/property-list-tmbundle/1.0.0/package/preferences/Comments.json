@@ -1,0 +1,21 @@
+{
+  "name": "Comments",
+  "scope": "source.plist",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "// "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "/*"
+      },
+      {
+        "name": "TM_COMMENT_END_2",
+        "value": "*/"
+      }
+    ]
+  },
+  "uuid": "CDA3D2D7-63C8-4208-9ADA-2D5031128B34"
+}

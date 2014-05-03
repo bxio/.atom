@@ -1,0 +1,7 @@
+{
+  "content": "list-style-type:${TM_CSS_SPACE}${1|decimal,decimal-leading-zero,zero|}${2:;}$0",
+  "name": "list-style-type: numeric",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "list",
+  "uuid": "E9EA3AF2-2F52-4DCD-921F-71CAE9BE3745"
+}

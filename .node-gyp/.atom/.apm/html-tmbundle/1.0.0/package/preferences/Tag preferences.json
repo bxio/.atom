@@ -1,0 +1,38 @@
+{
+  "name": "Tag Preferences",
+  "scope": "meta.tag",
+  "settings": {
+    "smartTypingPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "{",
+        "}"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "“",
+        "”"
+      ],
+      [
+        "<",
+        ">"
+      ],
+      [
+        "'",
+        "'"
+      ]
+    ],
+    "spellChecking": "0"
+  },
+  "uuid": "73251DBE-EBD2-470F-8148-E6F2EC1A9641"
+}

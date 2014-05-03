@@ -1,0 +1,7 @@
+{
+  "content": "@if ${1:conditions} {\n\t$0\n}",
+  "name": "@if",
+  "scope": "source.css.scss",
+  "tabTrigger": "if",
+  "uuid": "C982BE8E-E0C0-4582-A00E-0FD6CDE33055"
+}

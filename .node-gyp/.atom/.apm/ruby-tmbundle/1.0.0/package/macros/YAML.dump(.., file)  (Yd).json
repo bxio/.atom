@@ -1,0 +1,32 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb yaml",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "bundlePath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle",
+        "content": "File.open(${1:\"${2:path/to/file}.yaml\"}, \"w\") { |${3:file}| YAML.dump(${4:obj}, ${3:file}) }",
+        "scope": "source.ruby",
+        "supportPath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle/Support",
+        "tabTrigger": "Yd-",
+        "uuid": "3BA6762A-BB6B-489E-8006-F30F386AEF48"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "keyEquivalent": "",
+  "name": "YAML.dump(.., file)",
+  "scope": "source.ruby",
+  "scopeType": "local",
+  "tabTrigger": "Yd",
+  "uuid": "9460392B-C036-4A76-A5AE-1191F10E4B1B"
+}

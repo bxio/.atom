@@ -1,0 +1,8 @@
+{
+  "name": "Spell Checking: Enable for Strings",
+  "scope": "^ source string.quoted - punctuation",
+  "settings": {
+    "spellChecking": 1
+  },
+  "uuid": "CF9BE765-81D0-4644-9684-4F310C94A3AD"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "else {\n\t${1:$TM_SELECTED_TEXT}\n}",
+  "name": "else",
+  "scope": "source.js",
+  "tabTrigger": "else",
+  "uuid": "5BA406DB-A4B1-4CED-BA61-33D378FD7F53"
+}

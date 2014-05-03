@@ -1,0 +1,7 @@
+{
+  "content": "font-weight:${TM_CSS_SPACE}${1|normal,bold|}${2:;}$0",
+  "name": "font-weight: weight",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "font",
+  "uuid": "5A602BBC-8461-478E-B623-5883C07678F7"
+}

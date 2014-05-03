@@ -1,0 +1,7 @@
+{
+  "content": "find(${1:id})",
+  "name": "find(id)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "fini",
+  "uuid": "59CD3A41-8164-4FB4-B462-D7ACE86BCDBF"
+}

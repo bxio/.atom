@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch(:controller => \"branch\", :action => \"switch\")\n",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Branches (Show/Switch)…",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "toolTip",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.branches",
+  "uuid": "7F8D2058-E106-40DC-9FBE-F32A1202D158",
+  "version": 2
+}

@@ -1,0 +1,13 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n[[ -f \"${TM_SUPPORT_PATH}/lib/bash_init.sh\" ]] && . \"${TM_SUPPORT_PATH}/lib/bash_init.sh\"\n\nsort -f|uniq",
+  "input": "selection",
+  "inputFormat": "text",
+  "keyEquivalent": "",
+  "name": "Sort Document / Selection & Remove Duplicates",
+  "outputCaret": "heuristic",
+  "outputFormat": "text",
+  "outputLocation": "replaceInput",
+  "uuid": "3010E2A8-6E4F-11D9-A18D-000D93589AF6",
+  "version": 2
+}

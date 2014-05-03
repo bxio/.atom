@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nprint case str = STDIN.read\n  when /\\A\"(.*)\"\\z/m then \"<\" + $1 + \">\"\n  when /\\A<(.*)>\\z/m then '\"' + $1 + '\"'\n  else str\nend\n",
+  "fallbackInput": "scope",
+  "input": "selection",
+  "keyEquivalent": "^\"",
+  "name": "Toggle System/Local Include",
+  "output": "replaceSelectedText",
+  "scope": "string.quoted.double.include.c, string.quoted.other.lt-gt.include.c",
+  "uuid": "E8D80809-0CDE-4E57-AC2A-8C22DFF353EE"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "assert_rjs :${1:replace}, ${2:\"${3:dom id}\"}",
+  "name": "assert_rjs",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "asrj",
+  "uuid": "E0F281EC-5311-41F8-ADD9-2E2D059DA651"
+}

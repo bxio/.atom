@@ -1,0 +1,7 @@
+{
+  "content": "<!--[if IE]>${1:${TM_SELECTED_TEXT:       IE Conditional Comment: Internet Explorer          }}<![endif]-->$0",
+  "name": "IE Conditional Comment: Internet Explorer",
+  "scope": "text.html",
+  "tabTrigger": "!",
+  "uuid": "0ED6DA73-F38F-4A65-B18F-3379D2BA9387"
+}

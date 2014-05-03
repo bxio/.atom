@@ -1,0 +1,9 @@
+{
+  "name": "Indent Corrections",
+  "scope": "text.html",
+  "settings": {
+    "disableIndentCorrections": false,
+    "indentOnPaste": "default"
+  },
+  "uuid": "B842F0A4-DB70-48CD-ACA7-CC3C760D4C0D"
+}

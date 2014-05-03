@@ -1,0 +1,7 @@
+{
+  "content": "class << ${1:self}\n\t$0\nend",
+  "name": "class << self .. end",
+  "scope": "source.ruby",
+  "tabTrigger": "cla",
+  "uuid": "C7AAAE45-487A-4B61-8962-D47675AAC05F"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "json-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for JSON",
+  "homepage": "https://github.com/textmate/json.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/json.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/json.tmbundle/issues"
+  },
+  "commitSha": "36dd9a2e0096683ac9c65d7fd705bb2bb29fda0b",
+  "version": "1.0.0"
+}

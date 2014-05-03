@@ -1,0 +1,7 @@
+{
+  "content": "@include ${0}",
+  "name": "@Include",
+  "scope": "source.sass",
+  "tabTrigger": "include",
+  "uuid": "D2BA7C54-63A0-4F7C-819C-96D752899A8C"
+}

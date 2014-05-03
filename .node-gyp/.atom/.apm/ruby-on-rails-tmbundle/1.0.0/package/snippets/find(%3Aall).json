@@ -1,0 +1,7 @@
+{
+  "content": "find(:all${1:, :conditions => ['${2:${3:field} = ?}', ${5:true}]})",
+  "name": "find(:all)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "fina",
+  "uuid": "A017AB39-A875-40DC-8ACF-7E3551057CA0"
+}

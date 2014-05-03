@@ -1,0 +1,7 @@
+{
+  "content": "float: ${1|left,right,none|};$0",
+  "name": "float: left/right/none",
+  "scope": "source.css",
+  "tabTrigger": "float",
+  "uuid": "39244453-6D06-4265-9894-14D7FC0B277F"
+}

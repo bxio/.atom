@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Backtick",
+  "scope": "comment.line.backtick",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(`)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "CB0DCC73-E48C-4923-9CE4-B8E177CFC723"
+}

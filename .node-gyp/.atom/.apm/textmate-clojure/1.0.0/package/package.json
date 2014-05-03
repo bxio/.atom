@@ -1,0 +1,18 @@
+{
+  "name": "textmate-clojure",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate bundle providing syntax highlighting for Clojure",
+  "homepage": "https://github.com/mmcgrana/textmate-clojure",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmcgrana/textmate-clojure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmcgrana/textmate-clojure/issues"
+  },
+  "commitSha": "546b39c9725d88f1a0eaf74486ae50ca87ce368f",
+  "version": "1.0.0"
+}

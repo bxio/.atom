@@ -1,0 +1,9 @@
+{
+  "name": "Folding (Old-Style)",
+  "scope": "source.plist",
+  "settings": {
+    "foldingStartMarker": "^\\s*(([a-zA-Z_-]+|\"[^\"]+\"|'[^']+')\\s+=\\s+)?[{(](?!.*[)}][;,]?\\s*$)",
+    "foldingStopMarker": "^\\s*(\\}|\\))"
+  },
+  "uuid": "EE080C84-800A-49E5-B0C1-0C5DF8E6A519"
+}

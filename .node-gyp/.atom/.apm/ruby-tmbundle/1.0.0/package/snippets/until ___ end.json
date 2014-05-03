@@ -1,0 +1,7 @@
+{
+  "content": "until ${1:condition}\n\t$0\nend",
+  "name": "until ... end",
+  "scope": "source.ruby",
+  "tabTrigger": "until",
+  "uuid": "488B387C-50C0-4B2D-9260-5A7E7EAF9B42"
+}

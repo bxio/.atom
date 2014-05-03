@@ -1,0 +1,8 @@
+{
+  "name": "Character Class: Keyword",
+  "scope": "keyword",
+  "settings": {
+    "characterClass": "keyword"
+  },
+  "uuid": "B418CC70-FF3E-4522-9B28-533C5336D71A"
+}

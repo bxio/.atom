@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"config\", :action => \"index\"",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Config…",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "-attr.scm, attr.scm.git",
+  "semanticClass": "action.scm.preferences",
+  "uuid": "794C7EF9-B0A5-4B27-90BD-000837237B85",
+  "version": 2
+}

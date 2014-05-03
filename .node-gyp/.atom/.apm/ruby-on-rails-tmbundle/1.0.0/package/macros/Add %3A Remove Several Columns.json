@@ -1,0 +1,26 @@
+{
+  "commands": [
+    {
+      "command": "deleteWordLeft:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "intelligent_migration_snippet.rb add_remove_column_continue",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "name": "Add / Remove Several Columns",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "mcol",
+  "uuid": "7BC860E6-7561-4E6E-983B-507D7A6F6228"
+}

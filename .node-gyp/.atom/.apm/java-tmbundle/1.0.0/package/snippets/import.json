@@ -1,0 +1,7 @@
+{
+  "content": "import ",
+  "name": "import",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "im",
+  "uuid": "097F4236-D7A4-412F-A078-11ABFCAFC7BA"
+}

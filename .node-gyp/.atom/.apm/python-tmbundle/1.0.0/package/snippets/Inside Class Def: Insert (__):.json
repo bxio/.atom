@@ -1,0 +1,7 @@
+{
+  "content": "(${1:object}):$0",
+  "keyEquivalent": "(",
+  "name": "Inside Class Def: Insert (..):",
+  "scope": "source.python meta.class.python invalid.illegal.missing-inheritance.python",
+  "uuid": "8CE4655C-3BAE-489F-BF42-89FB6B4C4119"
+}

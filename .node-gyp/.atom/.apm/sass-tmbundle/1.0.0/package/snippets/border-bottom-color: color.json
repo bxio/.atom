@@ -1,0 +1,7 @@
+{
+  "content": "border-bottom-color:${TM_CSS_SPACE}#${1:999}${2:;}$0",
+  "name": "border-bottom-color: color",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "border",
+  "uuid": "2D9A62A9-1530-4F0C-A38A-1BB16FD373D0"
+}

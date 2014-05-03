@@ -1,0 +1,18 @@
+{
+  "name": "pegjs-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "A TextMate bundle for PEG.js grammars",
+  "homepage": "https://github.com/alexstrat/PEGjs.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexstrat/PEGjs.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexstrat/PEGjs.tmbundle/issues"
+  },
+  "commitSha": "8c75a902d6807d27cc54ffcc7cf7c8cc7c253914",
+  "version": "1.0.0"
+}

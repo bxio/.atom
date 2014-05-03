@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "query=${TM_SELECTED_TEXT:-$TM_CURRENT_LINE}\n\nruby \"$TM_BUNDLE_SUPPORT/bin/db_browser.rb\" --query=\"$(tr '\\n' ' ' <<< \"$query\")\"\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "^Q",
+  "name": "Execute Line / Selection as Query",
+  "output": "showAsHTML",
+  "uuid": "C3045596-791D-11D9-9130-000A95766570"
+}

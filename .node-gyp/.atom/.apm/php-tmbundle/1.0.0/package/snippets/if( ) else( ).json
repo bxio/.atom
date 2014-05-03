@@ -1,0 +1,7 @@
+{
+  "content": "if (${1:condition}) {\n\t${2:# code...}\n} else {\n\t${3:# code...}\n}\n$0",
+  "name": "if … else …",
+  "scope": "source.php",
+  "tabTrigger": "ifelse",
+  "uuid": "4B72EA1F-8CCE-11D9-B507-000D93C8BE28"
+}

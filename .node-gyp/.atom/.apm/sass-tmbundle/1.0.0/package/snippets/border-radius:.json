@@ -1,0 +1,7 @@
+{
+  "content": "-moz-border-radius:${TM_CSS_SPACE}${1:1}px${2:;}\nborder-radius:${TM_CSS_SPACE}${1:1}px${2:;}$0",
+  "name": "border-radius:",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "border",
+  "uuid": "7CB98910-EBEE-4A98-AF79-746DBAFB3B67"
+}

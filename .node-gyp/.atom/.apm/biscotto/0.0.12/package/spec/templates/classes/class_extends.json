@@ -1,0 +1,19 @@
+[
+  {
+    "file":      "spec/templates/classes/class_extends.coffee",
+    "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+    },
+    "class":     {
+      "className": "NS.Clazz",
+      "name":      "Clazz",
+      "namespace": "NS",
+      "parent":    "Another.Clazz"
+    },
+    "methods":   [],
+    "variables": [],
+    "properties": []
+  }
+]

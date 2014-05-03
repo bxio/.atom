@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "pbpaste|head -n1|perl -pe's/:\\(.+?\\)\\w+\\s*/:/g'|perl -pe's/^[-+]\\s*\\(.+?\\)\\s*|\\s+|;//g'",
+  "input": "none",
+  "keyEquivalent": "^V",
+  "name": "Paste selector",
+  "output": "afterSelectedText",
+  "scope": "meta.selector.objc",
+  "uuid": "D9CA98D1-7564-4CCB-8156-9A06210A1A7F"
+}

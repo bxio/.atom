@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Selector",
+  "scope": "source.css meta.selector, source.css meta.at-rule.media",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/^\\s*/CSS: /; s/\\s+/ /g"
+  },
+  "uuid": "17B2DD5B-D2EA-4DC5-9C7D-B09B505156C5"
+}

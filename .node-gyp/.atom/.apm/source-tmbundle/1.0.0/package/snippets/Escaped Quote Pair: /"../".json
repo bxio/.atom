@@ -1,0 +1,6 @@
+{
+  "content": "\\\"${0:$TM_SELECTED_TEXT}\\\"",
+  "keyEquivalent": "@\"",
+  "name": "Double Quotes — \\\"…\\\"",
+  "uuid": "9D896CE5-A52E-11D9-8CF2-000D93589AF6"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "return ",
+  "name": "return",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "re",
+  "uuid": "BF745BD9-E345-4CFB-82B1-2CC2195BEFA8"
+}

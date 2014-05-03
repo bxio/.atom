@@ -1,0 +1,7 @@
+{
+  "content": "validates_associated :${1:attribute}${2:, :on => :${3:create}}",
+  "name": "validates_associated",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "va",
+  "uuid": "47944705-F605-4ED4-B4C0-9E823EE25138"
+}

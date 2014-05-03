@@ -1,0 +1,8 @@
+{
+  "name": "Indent Corrections: Disable for Comments and Strings",
+  "scope": "comment.block, string.quoted",
+  "settings": {
+    "disableIndentCorrections": true
+  },
+  "uuid": "C4826668-9334-460A-800A-D3E2D9A8A404"
+}

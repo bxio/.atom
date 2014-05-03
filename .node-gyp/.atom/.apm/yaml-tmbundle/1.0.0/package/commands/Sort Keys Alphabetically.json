@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nprint (s = STDIN.read).split(/^#{indent = s.scan(/^(\\s*)\\b/).flatten.first}(?=\\w)/).sort.join(indent)",
+  "input": "selection",
+  "keyEquivalent": "",
+  "name": "Sort Keys Alphabetically",
+  "output": "replaceSelectedText",
+  "scope": "source.yaml",
+  "uuid": "331791FA-7335-45B9-865E-760D52294D01"
+}

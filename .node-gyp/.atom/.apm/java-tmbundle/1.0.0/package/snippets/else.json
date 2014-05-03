@@ -1,0 +1,7 @@
+{
+  "content": "else {\n\t$0\n}",
+  "name": "else",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "el",
+  "uuid": "5A7786EE-5F23-422E-A6EC-69778ED7C8FC"
+}

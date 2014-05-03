@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb benchmark",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "content": "TESTS = ${1:10_000}\nBenchmark.bmbm do |results|\n  $0\nend",
+        "name": "Benchmark.bmbm do .. end",
+        "scope": "source.ruby",
+        "tabTrigger": "bm-",
+        "uuid": "942F20E2-C40A-44B8-A3F2-99AAC68CB534"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "Benchmark.bmbm do .. end",
+  "scope": "source.ruby",
+  "tabTrigger": "bm",
+  "uuid": "C649F945-DAB8-4DA2-B73C-2EFF9D7D34F3"
+}

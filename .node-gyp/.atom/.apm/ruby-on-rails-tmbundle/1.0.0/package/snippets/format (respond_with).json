@@ -1,0 +1,7 @@
+{
+  "content": "format.${1:html|xml|json|js|any} { $0 }",
+  "name": "format (respond_with)",
+  "scope": "meta.rails.controller",
+  "tabTrigger": "format",
+  "uuid": "32AB6C81-2C22-45E0-B5FE-23CD3E420E70"
+}

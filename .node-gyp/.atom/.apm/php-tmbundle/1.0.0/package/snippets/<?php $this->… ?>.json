@@ -1,0 +1,7 @@
+{
+  "content": "<?${TM_PHP_OPEN_TAG:php} \\$this->$0 ?>",
+  "name": "<?php $this->… ?>",
+  "scope": "text.html.php - source",
+  "tabTrigger": "this",
+  "uuid": "5F800F2D-55DA-4E06-99A3-41B734C8768E"
+}

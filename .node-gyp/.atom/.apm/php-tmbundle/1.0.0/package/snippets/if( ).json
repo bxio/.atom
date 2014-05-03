@@ -1,0 +1,7 @@
+{
+  "content": "if (${1:condition}) {\n\t${0:# code...}\n}",
+  "name": "if …",
+  "scope": "source.php",
+  "tabTrigger": "if",
+  "uuid": "35F46C2E-8CCE-11D9-B507-000D93C8BE28"
+}

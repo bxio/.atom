@@ -1,0 +1,7 @@
+{
+  "content": "def ${1:foo}():\n    doc = \"${2:The $1 property.}\"\n    def fget(self):\n        ${3:return self._$1}\n    def fset(self, value):\n        ${4:self._$1 = value}\n    def fdel(self):\n        ${5:del self._$1}\n    return locals()\n$1 = property(**$1())$0",
+  "name": "New Property",
+  "scope": "source.python",
+  "tabTrigger": "property",
+  "uuid": "195B332F-4464-4539-9FB3-D89152C960DC"
+}

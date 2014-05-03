@@ -1,0 +1,7 @@
+{
+  "content": "render :inline => \"${1:<%= 'hello' %>}\", :type => ${2::rxml}",
+  "name": "render (inline, type)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rit",
+  "uuid": "A8AF8B90-94E8-42E1-8057-DDBA57809F6A"
+}

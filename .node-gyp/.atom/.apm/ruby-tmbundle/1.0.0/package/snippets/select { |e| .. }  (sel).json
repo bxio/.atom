@@ -1,0 +1,7 @@
+{
+  "content": "select { |${1:e}| $0 }",
+  "name": "select { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "sel",
+  "uuid": "4E409AA4-E7D4-46B7-A4E9-E32F992B33E9"
+}

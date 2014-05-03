@@ -1,0 +1,7 @@
+{
+  "content": "throw new $0",
+  "name": "throw new",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "tn",
+  "uuid": "E0D61777-04FC-416F-82A7-7B54C446A00B"
+}

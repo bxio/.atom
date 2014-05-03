@@ -1,0 +1,18 @@
+{
+  "name": "sass-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "Textmate bundle to work with SASS/SCSS projects",
+  "homepage": "https://github.com/alexsancho/SASS.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexsancho/SASS.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexsancho/SASS.tmbundle/issues"
+  },
+  "commitSha": "e2bef05afac130e4ebd1b2f8991e9563568faa47",
+  "version": "1.0.0"
+}

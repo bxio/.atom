@@ -1,0 +1,17 @@
+{
+  "name": "Typing Pairs: Empty Tag",
+  "scope": "text.html invalid.illegal.incomplete",
+  "settings": {
+    "smartTypingPairs": [
+      [
+        "?",
+        "?"
+      ],
+      [
+        "%",
+        "%"
+      ]
+    ]
+  },
+  "uuid": "6D6B631D-0D6C-413C-B4FA-1D535CBCE890"
+}

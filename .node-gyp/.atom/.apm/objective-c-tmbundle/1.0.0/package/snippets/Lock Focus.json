@@ -1,0 +1,7 @@
+{
+  "content": "[self lockFocus];\n$0\n[self unlockFocus];",
+  "name": "Lock Focus",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "focus",
+  "uuid": "3F57DB1B-9373-46A6-9B6E-19F2D25658DE"
+}

@@ -1,0 +1,16 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\nrequire \"#{ENV['TM_BUNDLE_SUPPORT']}/lib/docset_query.rb\"\n\ndocumentation_for_word\n",
+  "fallbackInput": "word",
+  "input": "none",
+  "inputFormat": "text",
+  "keyEquivalent": "^h",
+  "name": "Documentation for Word / Selection",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "toolTip",
+  "scope": "source.c, source.c++, source.objc, source.objc++, (source.objc support | source.objc++ support) - support.function.any-method",
+  "semanticClass": "lookup.define.objc",
+  "uuid": "2E0F350A-7B23-11D9-B084-000D93589AF6",
+  "version": 2
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Typing Pairs: Disable in Escaped Characters",
+  "scope": "B:constant.character.escape - dyn.selection",
+  "settings": {
+    "smartTypingPairs": []
+  },
+  "uuid": "F77060A4-2440-414B-9FBC-1E751A8E8FA7"
+}

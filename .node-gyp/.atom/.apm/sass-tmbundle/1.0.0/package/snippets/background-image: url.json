@@ -1,0 +1,7 @@
+{
+  "content": "background-image:${TM_CSS_SPACE}url($1)${2:;}$0",
+  "name": "background-image: url",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "background",
+  "uuid": "1CA7483D-41B8-4DD5-BD35-EDFF7E01ACC8"
+}

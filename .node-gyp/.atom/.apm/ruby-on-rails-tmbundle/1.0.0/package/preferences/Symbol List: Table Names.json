@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Table Names",
+  "scope": "meta.rails.migration.create_table",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/([^\"]*\")([^\"]*)(\".*)/$2/"
+  },
+  "uuid": "35A467CF-D63D-4EBD-BD66-52674B3C07E4"
+}

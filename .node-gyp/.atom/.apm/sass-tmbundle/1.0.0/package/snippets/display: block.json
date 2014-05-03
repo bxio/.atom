@@ -1,0 +1,7 @@
+{
+  "content": "display:${TM_CSS_SPACE}block${1:;}$0",
+  "name": "display: block",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "display",
+  "uuid": "D25D6772-9FC7-49B6-8908-E9873CB6C749"
+}

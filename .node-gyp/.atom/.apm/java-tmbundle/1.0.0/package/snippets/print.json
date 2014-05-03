@@ -1,0 +1,7 @@
+{
+  "content": "System.out.print($1);$0",
+  "name": "print",
+  "scope": "source.java",
+  "tabTrigger": "p",
+  "uuid": "5F390B93-6A28-4EED-B04A-D213640B9DAF"
+}

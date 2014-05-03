@@ -1,0 +1,27 @@
+{
+  "name": "Miscellaneous",
+  "scope": "source.json",
+  "settings": {
+    "decreaseIndentPattern": "^\\s*[}\\]],?\\s*$",
+    "increaseIndentPattern": "^.*(\\{[^}]*|\\[[^\\]]*)$",
+    "smartTypingPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "{",
+        "}"
+      ],
+      [
+        "[",
+        "]"
+      ]
+    ]
+  },
+  "uuid": "9D83F5F7-ECAD-4EFE-ADAC-2063C7EFED56"
+}

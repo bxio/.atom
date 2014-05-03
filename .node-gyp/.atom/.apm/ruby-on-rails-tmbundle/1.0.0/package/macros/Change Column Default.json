@@ -1,0 +1,26 @@
+{
+  "commands": [
+    {
+      "command": "deleteWordLeft:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "intelligent_migration_snippet.rb change_column_default",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "name": "Change Column Default",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "mcol",
+  "uuid": "A219EBB8-004A-4012-B5B2-232C9A5C94F8"
+}

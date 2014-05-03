@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\n\ndef escape(choice)\n  choice.gsub(/[,|\\\\$]/, '\\\\\\\\\\0')\nend\n\nchoices = %x{ \"${TM_GIT:-git}\" log --pretty=tformat:'%s' -n15 }.split(/\\n/)\nchoices.reject! { |choice| choice =~ /^(fixup|squash)\\b/ }\nchoices.map! { |choice| escape choice }\n\nSTDOUT << \"fixup! ${1|#{choices.join ','}|}\"\n",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Fixup!",
+  "outputCaret": "afterOutput",
+  "outputFormat": "snippet",
+  "outputLocation": "atCaret",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "text.git-commit",
+  "tabTrigger": "fix",
+  "uuid": "11CB0218-E38D-4ACE-9504-77BB3A224C15",
+  "version": 2
+}

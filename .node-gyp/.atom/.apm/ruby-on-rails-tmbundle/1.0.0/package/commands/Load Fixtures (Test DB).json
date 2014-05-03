@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" -- \"${TM_BUNDLE_SUPPORT}/bin/rake_helper.rb\" db:fixtures:load -v RAILS_ENV -a test\n",
+  "input": "none",
+  "keyEquivalent": "^|",
+  "name": "Load Fixtures (Test DB)",
+  "output": "showAsHTML",
+  "scope": "source.ruby.rails, source.yaml",
+  "uuid": "F758BFD1-00CA-4742-BE71-032580080F5C"
+}

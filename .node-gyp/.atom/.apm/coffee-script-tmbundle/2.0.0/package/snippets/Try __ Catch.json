@@ -1,0 +1,7 @@
+{
+  "content": "try\n  $1\ncatch ${2:error}\n  $3",
+  "name": "Try .. Catch",
+  "scope": "source.coffee",
+  "tabTrigger": "try",
+  "uuid": "CAFB0DED-5E23-4A84-AC20-87FBAF22DBAC"
+}

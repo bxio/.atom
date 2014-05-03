@@ -1,0 +1,9 @@
+{
+  "name": "Add goto labels to symbol list",
+  "scope": "entity.name.goto-label.php",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/$/:/a"
+  },
+  "uuid": "998BFB01-C049-4A24-A88E-86173C967748"
+}

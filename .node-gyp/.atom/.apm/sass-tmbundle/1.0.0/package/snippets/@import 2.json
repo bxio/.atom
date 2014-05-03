@@ -1,0 +1,7 @@
+{
+  "content": "@import \"$0\"",
+  "name": "@import",
+  "scope": "source.sass",
+  "tabTrigger": "import",
+  "uuid": "659654B1-C9A3-46FA-A25C-7B8E366E0C79"
+}

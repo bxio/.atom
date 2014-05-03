@@ -1,0 +1,9 @@
+{
+  "name": "Indentation",
+  "scope": "source.js",
+  "settings": {
+    "decreaseIndentPattern": "^(.*\\*/)?\\s*(\\}|\\)|case|default)",
+    "increaseIndentPattern": "(?x)\n\t\t(\n\t\t\t\\{ [^}\"']*\n\t\t|\t\\( [^)\"']*\n\t\t|\tcase[\\s\\S]*:\n\t\t|\tdefault:\n\t\t)\n\t\t$\n\t"
+  },
+  "uuid": "BC062860-3346-4D3B-8421-C5543F83D11F"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: ID",
+  "scope": "text.html meta.toc-list.id.html",
+  "settings": {
+    "symbolTransformation": "s/^/ID: /"
+  },
+  "uuid": "E7C5859E-122D-4382-84BE-5AB584DC2409"
+}

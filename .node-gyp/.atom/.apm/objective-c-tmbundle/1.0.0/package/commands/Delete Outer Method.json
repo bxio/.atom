@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\nprint STDIN.read.sub(/\\A\\[(.*\\])[^\\]]*\\]\\z/, '\\\\1')\n",
+  "fallbackInput": "scope",
+  "input": "selection",
+  "keyEquivalent": "^@",
+  "name": "Delete Outer Method Call",
+  "output": "replaceSelectedText",
+  "scope": "meta.bracketed.objc",
+  "uuid": "E802FA1A-1E2E-4F8A-957F-C1533CE57400"
+}

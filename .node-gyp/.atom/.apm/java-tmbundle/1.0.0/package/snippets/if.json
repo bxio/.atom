@@ -1,0 +1,7 @@
+{
+  "content": "if ($1) {\n\t$0\n}",
+  "name": "if",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "if",
+  "uuid": "476E26EB-5A53-45B3-A497-B22B12815C7F"
+}

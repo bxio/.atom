@@ -1,0 +1,7 @@
+{
+  "content": "if ${1:condition}\n  ${2:# body...}\nelse\n  ${3:# body...}",
+  "name": "If .. Else",
+  "scope": "source.coffee",
+  "tabTrigger": "ife",
+  "uuid": "2AD19F12-E499-4715-9A47-FC8D594BC550"
+}

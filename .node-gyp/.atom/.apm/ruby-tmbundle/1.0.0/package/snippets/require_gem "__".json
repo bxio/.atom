@@ -1,0 +1,7 @@
+{
+  "content": "require \"$0\"",
+  "name": "require_gem \"..\"",
+  "scope": "source.ruby",
+  "tabTrigger": "reqg-",
+  "uuid": "34FEBB9F-73CD-4DD4-A0A3-1CF2A5E3DE78"
+}

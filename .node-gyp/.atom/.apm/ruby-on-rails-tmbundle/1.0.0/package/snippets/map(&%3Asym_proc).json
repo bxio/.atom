@@ -1,0 +1,7 @@
+{
+  "content": "map(&:${1:id})",
+  "name": "map(&:sym_proc)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "mp",
+  "uuid": "EC605540-C431-4FD0-AD91-D913118DACA7"
+}

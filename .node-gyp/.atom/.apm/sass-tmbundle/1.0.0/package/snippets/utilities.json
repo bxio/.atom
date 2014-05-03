@@ -1,0 +1,7 @@
+{
+  "content": "@import \"compass/utilities\";$0",
+  "name": "utilities",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "66AFAE5F-BEE9-455A-8532-6DA0BF121A72"
+}

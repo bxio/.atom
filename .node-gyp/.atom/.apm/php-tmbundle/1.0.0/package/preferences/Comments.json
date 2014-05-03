@@ -1,0 +1,25 @@
+{
+  "name": "Comments",
+  "scope": "source.php",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "// "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "# "
+      },
+      {
+        "name": "TM_COMMENT_START_3",
+        "value": "/*"
+      },
+      {
+        "name": "TM_COMMENT_END_3",
+        "value": "*/"
+      }
+    ]
+  },
+  "uuid": "06276449-AA4E-424F-A2B6-9F4138416E50"
+}

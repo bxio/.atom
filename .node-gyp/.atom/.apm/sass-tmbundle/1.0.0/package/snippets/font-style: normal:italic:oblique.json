@@ -1,0 +1,7 @@
+{
+  "content": "font-style:${TM_CSS_SPACE}${1|normal,italic,oblique|}${2:;}$0",
+  "name": "font-style: normal/italic/oblique",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "font",
+  "uuid": "0CC7A276-E080-4673-89EF-4230432587CB"
+}

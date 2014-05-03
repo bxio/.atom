@@ -1,0 +1,9 @@
+{
+  "bundleUUID": "4675A940-6227-11D9-BFB1-000D93589AF6",
+  "name": "Symbol List: Exclude class inheritance",
+  "scope": "entity.name.type.inherited.c++",
+  "settings": {
+    "showInSymbolList": 0
+  },
+  "uuid": "DA926AFF-E231-4036-9197-AFD6E314A0DC"
+}

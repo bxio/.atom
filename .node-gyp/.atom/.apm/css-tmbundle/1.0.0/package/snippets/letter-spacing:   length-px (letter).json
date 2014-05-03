@@ -1,0 +1,7 @@
+{
+  "content": "letter-spacing: $1px;$0",
+  "name": "letter-spacing: px",
+  "scope": "source.css",
+  "tabTrigger": "letter",
+  "uuid": "17BBB1F1-1F83-4386-97B8-23144EB2441A"
+}

@@ -1,0 +1,12 @@
+{
+  "beforeRunningCommand": "nop",
+  "bundleUUID": "467B298F-6227-11D9-BFB1-000D93589AF6",
+  "command": "#!/usr/bin/env ruby\nrequire \"#{ENV['TM_SUPPORT_PATH']}/lib/codecompletion\"\nTextmateCodeCompletion.go!\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "~\u001b",
+  "name": "CodeCompletion HTML Tags",
+  "output": "insertAsSnippet",
+  "scope": "text.html -entity.other.attribute-name -string.quoted, invalid.illegal.incomplete.html",
+  "uuid": "3463E85F-F500-49A0-8631-D78ED85F9D60"
+}

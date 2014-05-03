@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nprint case str = STDIN.read\n  when /=>/;                 str.gsub(/:(\\w+)[\\s]+=>[\\s]+/, '\\1: ')\n  when /(\\w+):/;             str.gsub(/(\\w+):(\\s*(?:\"(?:\\\\\"|[^\"])*\"|'(?:\\\\'|[^'])*'|\\w+\\([^)]*\\)|[^,]+))/, \":\\\\1 =>\\\\2\")\n  else;                      str\nend\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "^=",
+  "name": "Toggle Ruby Hash 1.8/1.9 Syntax",
+  "output": "replaceSelectedText",
+  "uuid": "F4EEB2B6-07D8-402F-8FC3-79B7308D2576"
+}

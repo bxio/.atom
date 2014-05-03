@@ -1,0 +1,7 @@
+{
+  "content": "@import \"compass/css3\";$0",
+  "name": "css3",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "E38974B1-5EE5-423E-B719-9AE6EACBBC20"
+}

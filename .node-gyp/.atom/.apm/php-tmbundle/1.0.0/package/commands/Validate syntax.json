@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n# encoding: UTF-8\nrequire ENV['TM_SUPPORT_PATH'] + '/lib/textmate'\nversion = %x{#{ENV['TM_PHP'] || 'php'} -v}.split[0..2].join(' ')\nputs \"Running syntax check with \" + version + \"…\"\nresult = `#{ENV['TM_PHP'] || 'php'} -d display_errors=on -l`\nputs result.gsub('in -', '')\nTextMate.go_to :line => $1 if result =~ /line (\\d+)/",
+  "input": "document",
+  "keyEquivalent": "^V",
+  "name": "Validate Syntax",
+  "output": "showAsTooltip",
+  "scope": "source.php",
+  "uuid": "EC271DAE-BEC9-11D9-8856-000D93589AF6"
+}

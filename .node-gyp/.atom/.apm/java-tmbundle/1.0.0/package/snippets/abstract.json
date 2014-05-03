@@ -1,0 +1,7 @@
+{
+  "content": "abstract ",
+  "name": "abstract",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "ab",
+  "uuid": "E54D7A3C-107A-426E-91E8-D066A978BC5E"
+}

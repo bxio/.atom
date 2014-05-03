@@ -1,0 +1,7 @@
+{
+  "content": "margin-bottom:${TM_CSS_SPACE}${1:10px}${2:;}$0",
+  "name": "margin-bottom: length",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "margin",
+  "uuid": "37AAB3D8-E9F9-421E-9E64-3FC6D99AF324"
+}

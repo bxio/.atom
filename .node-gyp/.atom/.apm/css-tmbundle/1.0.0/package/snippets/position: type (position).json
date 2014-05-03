@@ -1,0 +1,7 @@
+{
+  "content": "position: ${1|static,relative,absolute,fixed|};$0",
+  "name": "position: type",
+  "scope": "source.css",
+  "tabTrigger": "position",
+  "uuid": "1398502F-D4FD-437B-9033-49E254159BDE"
+}

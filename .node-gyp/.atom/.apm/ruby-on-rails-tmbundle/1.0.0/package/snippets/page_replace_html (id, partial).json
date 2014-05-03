@@ -1,0 +1,7 @@
+{
+  "content": "page.replace_html ${1:\"${2:id}\"}, :${3:partial => \"${4:template}\"}",
+  "name": "page.replace_html (id, partial)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "reph",
+  "uuid": "8B914165-9C66-4FA3-9AD6-1DA41B25F8F1"
+}

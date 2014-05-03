@@ -1,0 +1,8 @@
+{
+  "name": "Add Magic Methods to the Symbol List",
+  "scope": "support.function.magic.php",
+  "settings": {
+    "showInSymbolList": 1
+  },
+  "uuid": "77F2D17D-A48A-4E19-B2A4-B2FBCBD1264D"
+}

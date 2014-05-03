@@ -1,0 +1,7 @@
+{
+  "content": "<?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} \\$this->$0 ?>",
+  "name": "<?php echo $this->… ?>",
+  "scope": "text.html.php - source",
+  "tabTrigger": "ethis",
+  "uuid": "7553818C-6FF8-455D-BD83-D2A587BAF6F4"
+}

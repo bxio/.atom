@@ -1,0 +1,7 @@
+{
+  "content": "border-left:${TM_CSS_SPACE}${1:1}px ${2|none,hidden,dotted,dashed,solid,double,groove,ridge,inset,outset|} #${3:999}${4:;}$0",
+  "name": "border-left: size style color",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "border",
+  "uuid": "A9140790-4572-4D87-B4FA-BAE6EDB5A616"
+}

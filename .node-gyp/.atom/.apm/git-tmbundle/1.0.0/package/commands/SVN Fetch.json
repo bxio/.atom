@@ -1,0 +1,23 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"svn\", :action => \"fetch\"",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "SVN Fetch",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "uuid": "1CCC4394-A243-4E78-A720-B2DA1BC37DC0",
+  "version": 2
+}

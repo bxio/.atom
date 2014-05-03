@@ -1,0 +1,7 @@
+{
+  "content": "assert`snippet_paren.rb`${1:test}, \"${0:Failure message.}\"`snippet_paren.rb end`",
+  "name": "assert(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "as",
+  "uuid": "B32C147D-44A6-478A-9D5D-189D7831E9A7"
+}

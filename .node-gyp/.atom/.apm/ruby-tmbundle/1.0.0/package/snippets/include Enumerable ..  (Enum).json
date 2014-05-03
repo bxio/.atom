@@ -1,0 +1,7 @@
+{
+  "content": "include Enumerable\n\ndef each(&block)\n\t$0\nend",
+  "name": "include Enumerable ..",
+  "scope": "source.ruby",
+  "tabTrigger": "Enum",
+  "uuid": "AAD5D511-6BE7-41DA-8F2B-1593A48FBB08"
+}

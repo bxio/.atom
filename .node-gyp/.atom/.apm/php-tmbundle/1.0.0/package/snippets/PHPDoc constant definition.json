@@ -1,0 +1,8 @@
+{
+  "bundlePath": "/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle",
+  "content": "/**\n * ${3:undocumented constant}\n **/\ndefine($1, $2);$0",
+  "name": "Constant Definition",
+  "scope": "source.php",
+  "tabTrigger": "doc_d",
+  "uuid": "9086E254-87E7-11D9-A6A3-000D93589AF6"
+}

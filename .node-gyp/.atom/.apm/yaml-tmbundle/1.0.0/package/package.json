@@ -1,0 +1,18 @@
+{
+  "name": "yaml-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for YAML",
+  "homepage": "https://github.com/textmate/yaml.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/yaml.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/yaml.tmbundle/issues"
+  },
+  "commitSha": "173808ba47df99b22a43670bf4f8a71370339ae7",
+  "version": "1.0.0"
+}

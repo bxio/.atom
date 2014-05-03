@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Asterisk",
+  "scope": "comment.line.asterisk",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(\\*)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "CB39E715-315E-453E-92B3-6F03EF8DAD7F"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "if ARGV.$1\n\tabort \"Usage:  #{\\$PROGRAM_NAME} ${2:ARGS_GO_HERE}\"\nend",
+  "name": "usage_if()",
+  "scope": "source.ruby",
+  "tabTrigger": "usai",
+  "uuid": "21C0D711-F32A-4665-AA0D-B136F9DD3945"
+}

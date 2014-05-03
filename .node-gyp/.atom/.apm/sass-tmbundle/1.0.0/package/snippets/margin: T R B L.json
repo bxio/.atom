@@ -1,0 +1,7 @@
+{
+  "content": "margin:${TM_CSS_SPACE}${1:10px} ${2:0px} ${3:20px} ${4:0px}${2:;}$0",
+  "name": "margin: T R B L",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "margin",
+  "uuid": "37846543-ABD9-425F-86E6-5DA9919D545E"
+}

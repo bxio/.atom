@@ -1,0 +1,7 @@
+{
+  "content": "logger.warn { \"${1:message}\" }$0",
+  "name": "logger.warn",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "logw",
+  "uuid": "38D5CA05-E219-4399-A244-609AF40B1D0B"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "Dir[${1:\"${2:glob/**/*.rb}\"}]",
+  "name": "Dir[\"..\"]",
+  "scope": "source.ruby",
+  "tabTrigger": "Dir",
+  "uuid": "8EBBB26F-980E-404E-8366-74E5772298F6"
+}

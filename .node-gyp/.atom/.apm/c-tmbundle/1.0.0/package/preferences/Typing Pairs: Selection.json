@@ -1,0 +1,45 @@
+{
+  "name": "Typing Pairs: Selection",
+  "scope": "(source.c++ | source.objc++) & dyn.selection",
+  "settings": {
+    "smartTypingPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "{",
+        "}"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "<",
+        ">"
+      ],
+      [
+        "“",
+        "”"
+      ],
+      [
+        "‘",
+        "’"
+      ],
+      [
+        "'",
+        "'"
+      ],
+      [
+        "`",
+        "`"
+      ]
+    ]
+  },
+  "uuid": "F6AEAB37-D14E-49BF-BE1F-07883E248BFF"
+}

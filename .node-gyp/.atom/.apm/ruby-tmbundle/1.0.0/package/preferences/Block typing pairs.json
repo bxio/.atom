@@ -1,0 +1,33 @@
+{
+  "name": "Typing Pairs: Block Opening",
+  "scope": "keyword.control.start-block.ruby, meta.syntax.ruby.start-block",
+  "settings": {
+    "smartTypingPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "(",
+        ")"
+      ],
+      [
+        "{",
+        "}"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "“",
+        "”"
+      ],
+      [
+        "|",
+        "|"
+      ]
+    ]
+  },
+  "uuid": "6D75102B-6E51-4360-8F12-BE12327B6AE6"
+}

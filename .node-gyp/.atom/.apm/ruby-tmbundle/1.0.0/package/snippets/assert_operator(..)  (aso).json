@@ -1,0 +1,7 @@
+{
+  "content": "assert_operator`snippet_paren.rb`${1:left}, :${2:operator}, ${0:right}`snippet_paren.rb end`",
+  "name": "assert_operator(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "aso",
+  "uuid": "1B925A4D-8EE4-442B-9254-293599F5717F"
+}

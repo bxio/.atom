@@ -1,0 +1,7 @@
+{
+  "content": "do {\n\t${0:/* code */}\n} while(${1:/* condition */});",
+  "name": "Do While Loop",
+  "scope": "source.c, source.objc, source.c++, source.objc++",
+  "tabTrigger": "do",
+  "uuid": "D1F5A25E-A70F-11D9-A11A-000A95A89C98"
+}

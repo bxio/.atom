@@ -1,0 +1,19 @@
+{
+  "name": "Typing Pairs: Template/Cast",
+  "scope": "storage.type.c++.template, keyword.operator.c++.cast",
+  "settings": {
+    "highlightPairs": [
+      [
+        "<",
+        ">"
+      ]
+    ],
+    "smartTypingPairs": [
+      [
+        "<",
+        ">"
+      ]
+    ]
+  },
+  "uuid": "47DD44E6-B4F5-4C2E-BC62-C6ACEBC02A0D"
+}

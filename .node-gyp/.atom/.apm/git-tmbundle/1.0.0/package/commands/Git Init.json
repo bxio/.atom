@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"misc\", :action => \"init\"",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Initialize Repository",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "-attr.scm",
+  "semanticClass": "action.scm.new",
+  "uuid": "556EF65D-C59B-4A15-BA4A-D5D87C2695A0",
+  "version": 2
+}

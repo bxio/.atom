@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    },
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": ")",
+  "name": "Inside Inheritance List: Overtype Closing ):",
+  "scope": "source.python meta.class.python punctuation.definition.inheritance.end.python",
+  "uuid": "6CBFE583-039F-4C91-B532-FF1148DC1A6E"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "<${1:name} />",
+  "name": "Short Tag",
+  "scope": "text.xml",
+  "tabTrigger": ">",
+  "uuid": "BC8BA078-5F16-11D9-B9C3-000D93589AF6"
+}

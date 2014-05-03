@@ -1,0 +1,7 @@
+{
+  "content": "std::vector<${1:char}> v$0;",
+  "name": "std::vector",
+  "scope": "source.c++, source.objc++",
+  "tabTrigger": "vector",
+  "uuid": "5E468268-ACAF-11D9-987D-000D93589AF6"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "console.log $0",
+  "name": "log",
+  "scope": "source.coffee",
+  "tabTrigger": "log",
+  "uuid": "FBC44B18-323A-4C00-A35B-15E41830C5AD"
+}

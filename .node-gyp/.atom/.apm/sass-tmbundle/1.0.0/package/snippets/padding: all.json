@@ -1,0 +1,7 @@
+{
+  "content": "padding:${TM_CSS_SPACE}${1:10px}${2:;}$0",
+  "name": "padding: all",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "padding",
+  "uuid": "F52F5C4A-2731-4D27-9EEE-770E5BB11F56"
+}

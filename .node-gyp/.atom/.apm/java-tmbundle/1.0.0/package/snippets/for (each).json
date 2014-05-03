@@ -1,0 +1,7 @@
+{
+  "content": "for ($1 : $2) {\n\t$0\n}",
+  "name": "for (each)",
+  "scope": "source.java",
+  "tabTrigger": "fore",
+  "uuid": "8B84EAD3-F93D-407A-8BB1-4FEF8B0C71D7"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Misc.",
+  "scope": "comment.line.at-sign, comment.line.double-backslash, comment.line.double-dash, comment.line.double-dot, comment.line.exclamation, comment.line.double-percentage, comment.line.percentage",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(@|\\\\\\\\|--|\\.\\.|!|%%?)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "2645C181-6C31-4487-8F98-895A059781C0"
+}

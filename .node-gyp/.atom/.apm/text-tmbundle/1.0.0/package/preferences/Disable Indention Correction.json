@@ -1,0 +1,9 @@
+{
+  "name": "Disable Indention Correction",
+  "scope": "text - text source",
+  "settings": {
+    "disableIndentCorrections": "1",
+    "indentOnPaste": "simple"
+  },
+  "uuid": "29B976F9-853F-43FF-AA50-7A6A518EDC81"
+}

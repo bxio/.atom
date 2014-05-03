@@ -1,0 +1,7 @@
+{
+  "content": "function ${1:function_name}(${2:argument}) {\n\t${0:// body...}\n}",
+  "name": "Function",
+  "scope": "source.js",
+  "tabTrigger": "fun",
+  "uuid": "F0E4FB6A-4878-48C6-A777-62438DF1E14F"
+}

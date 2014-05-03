@@ -1,0 +1,16 @@
+{
+  "autoScrollOutput": true,
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV[\"TM_SUPPORT_PATH\"] + \"/lib/tm/executor\"\nrequire ENV[\"TM_SUPPORT_PATH\"] + \"/lib/tm/save_current_document\"\n\nTextMate.save_current_document\nTextMate::Executor.make_project_master_current_document\n\nTextMate::Executor.run(ENV[\"TM_SHELL\"] || ENV[\"SHELL\"] || \"bash\", ENV[\"TM_FILEPATH\"])",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "@r",
+  "name": "Run Script",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "scope": "source.shell",
+  "semanticClass": "process.run.script.shell",
+  "uuid": "7207ACC2-A64B-11D9-B384-000D93382786",
+  "version": 2
+}

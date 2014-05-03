@@ -1,0 +1,7 @@
+{
+  "content": "else {\n\t${0:# code...}\n}",
+  "name": "else …",
+  "scope": "source.php",
+  "tabTrigger": "else",
+  "uuid": "609FE8EB-B251-11D9-872D-000D93C8BE28"
+}

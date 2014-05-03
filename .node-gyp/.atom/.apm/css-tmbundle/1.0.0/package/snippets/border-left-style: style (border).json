@@ -1,0 +1,7 @@
+{
+  "content": "border-left-style: ${1|none,hidden,dotted,dashed,solid,double,groove,ridge,inset,outset|};$0",
+  "name": "border-left-style: style",
+  "scope": "source.css",
+  "tabTrigger": "border",
+  "uuid": "8AD77320-0E31-48B9-94A9-982FD8DD1885"
+}

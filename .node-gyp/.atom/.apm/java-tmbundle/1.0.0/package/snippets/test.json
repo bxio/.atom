@@ -1,0 +1,7 @@
+{
+  "content": "public void test${1:Name}() throws Exception {\n\t$0\n}",
+  "name": "test",
+  "scope": "source.java",
+  "tabTrigger": "t",
+  "uuid": "8B285F69-5A6A-46B4-BB31-B5F10DCB5719"
+}

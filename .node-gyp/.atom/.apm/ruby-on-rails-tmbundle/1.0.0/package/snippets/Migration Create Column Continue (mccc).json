@@ -1,0 +1,7 @@
+{
+  "content": "t.column ${1:title}, :${2:string}\nmccc$0",
+  "name": "Create Several Columns in Table",
+  "scope": "meta.rails.migration.create_table",
+  "tabTrigger": "mccc",
+  "uuid": "67FD2F8F-5F25-45F2-A451-2F39977A9EDE"
+}

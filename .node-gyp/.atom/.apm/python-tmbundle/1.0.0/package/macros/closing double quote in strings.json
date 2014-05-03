@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": "\"",
+  "name": "Inside String: Overtype Closing \"",
+  "scope": "source.python string.quoted.double.single-line punctuation.definition.string.end.python",
+  "scopeType": "local",
+  "uuid": "8FBF7D90-D1FC-49EE-AC1B-14BE5FB11647"
+}

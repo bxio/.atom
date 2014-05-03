@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"diff\", :action => \"uncommitted_changes\"",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Show Uncommitted Changes",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.status",
+  "uuid": "37CC38F5-AF4C-4915-B925-1DC810C25C8A",
+  "version": 2
+}

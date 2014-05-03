@@ -1,0 +1,7 @@
+{
+  "content": "<${1:name} ${2:attr=\"value\"}>$0\n</${1:name}>",
+  "name": "Long Attribute Tag",
+  "scope": "text.xml",
+  "tabTrigger": "<a",
+  "uuid": "F443A9C7-88A5-40EE-820E-A311B16D85C4"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Semicolon",
+  "scope": "comment.line.semicolon",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(;)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "0B427248-5D44-4106-A47E-F706561BA8F7"
+}

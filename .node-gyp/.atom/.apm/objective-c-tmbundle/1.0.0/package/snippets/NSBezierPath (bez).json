@@ -1,0 +1,7 @@
+{
+  "content": "NSBezierPath${TM_C_POINTER: *}${1:path} = [NSBezierPath bezierPath];\n$0",
+  "name": "NSBezierPath",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "bez",
+  "uuid": "917BA9ED-9A62-11D9-9A65-000A95A89C98"
+}

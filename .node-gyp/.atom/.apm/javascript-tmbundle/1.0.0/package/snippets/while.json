@@ -1,0 +1,7 @@
+{
+  "content": "while (${1:true}) {\n\t${2:$TM_SELECTED_TEXT}\n}",
+  "name": "while",
+  "scope": "source.js",
+  "tabTrigger": "while",
+  "uuid": "009514ED-12AE-440F-811E-CD7D41368DBF"
+}

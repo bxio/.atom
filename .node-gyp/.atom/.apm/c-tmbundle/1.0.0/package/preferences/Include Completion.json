@@ -1,0 +1,9 @@
+{
+  "name": "Header Completion (User)",
+  "scope": "meta.preprocessor.c.include string.quoted.double",
+  "settings": {
+    "completionCommand": "\"$TM_BUNDLE_SUPPORT/bin/headers\" -p\"$TM_CURRENT_WORD\" -duser -C\"$TM_DIRECTORY\"",
+    "disableDefaultCompletion": 1
+  },
+  "uuid": "66EE7D45-6AA0-4AB9-9699-A3DF4E2B9AE7"
+}

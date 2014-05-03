@@ -1,0 +1,7 @@
+{
+  "content": "switch (${1:expression}) {\ncase ${2:expression}:\n\t$4\n\tbreak;$5\ndefault:\n\t${3:$TM_SELECTED_TEXT}\n}",
+  "name": "switch",
+  "scope": "source.js",
+  "tabTrigger": "switch",
+  "uuid": "13386ECB-2A5C-4881-9D54-035BC8B0A4A1"
+}

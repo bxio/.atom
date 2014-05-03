@@ -1,0 +1,7 @@
+{
+  "content": "print($1);",
+  "name": "print(str) …",
+  "scope": "source.go",
+  "tabTrigger": "pr",
+  "uuid": "F2793E12-5D26-4C4A-91C5-2F1185D1EB5C"
+}

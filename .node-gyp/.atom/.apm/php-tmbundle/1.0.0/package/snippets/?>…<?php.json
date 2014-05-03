@@ -1,0 +1,8 @@
+{
+  "content": "?>$0<?${TM_PHP_OPEN_TAG:php}",
+  "keyEquivalent": "^>",
+  "name": "?>…<?php",
+  "scope": "source.php",
+  "tabTrigger": "php",
+  "uuid": "C1B97DFD-7F2E-4CF8-881D-F63843DE8BD5"
+}

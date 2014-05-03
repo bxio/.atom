@@ -1,0 +1,7 @@
+{
+  "content": "@import \"compass/reset\";$0",
+  "name": "reset",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "8B35CCD6-26F1-4F18-B3D7-81AE8C65CD57"
+}

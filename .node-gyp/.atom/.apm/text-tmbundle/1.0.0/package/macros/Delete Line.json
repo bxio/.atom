@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "command": "selectHardLine:"
+    },
+    {
+      "command": "deleteBackward:"
+    }
+  ],
+  "keyEquivalent": "^K",
+  "name": "Delete Line",
+  "scopeType": "local",
+  "uuid": "FB8960DB-AA2E-11D9-8E27-000D93589AF6"
+}

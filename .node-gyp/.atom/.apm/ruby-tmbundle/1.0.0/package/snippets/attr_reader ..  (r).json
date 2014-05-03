@@ -1,0 +1,7 @@
+{
+  "content": "attr_reader :${0:attr_names}",
+  "name": "attr_reader ..",
+  "scope": "source.ruby",
+  "tabTrigger": "r",
+  "uuid": "A150C2D8-25B3-4339-BC92-8A0160A70486"
+}

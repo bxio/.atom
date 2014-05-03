@@ -1,0 +1,7 @@
+{
+  "content": "synchronized ",
+  "name": "synchronized",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "sy",
+  "uuid": "96251D07-2F30-4610-9F0F-65DE730CC0B5"
+}

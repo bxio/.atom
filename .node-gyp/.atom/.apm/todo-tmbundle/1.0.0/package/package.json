@@ -1,0 +1,18 @@
+{
+  "name": "todo-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for TODO",
+  "homepage": "https://github.com/textmate/todo.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/todo.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/todo.tmbundle/issues"
+  },
+  "commitSha": "bbf5bdfa6144f4fd977e0cb791665b1b1c762bb1",
+  "version": "1.0.0"
+}

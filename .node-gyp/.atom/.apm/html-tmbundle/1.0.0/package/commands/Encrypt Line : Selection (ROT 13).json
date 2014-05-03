@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\ndef e_js(str)\n  str.gsub(/(?=[\\\\\"])/, '\\\\').gsub(/\\n/, '\\n').gsub(/[@.\\/]/) { |ch| sprintf('\\\\%03o', ch[0]) }\nend\n\ndef rot_13(str)\n  str.tr('A-Za-z', 'N-ZA-Mn-za-m')\nend\n\nprint %{<script type=\"text/javascript\">document.write(\n\"#{e_js(rot_13(STDIN.read))}\".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=\"Z\"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));\n</script>}\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "@&",
+  "name": "Encrypt Line / Selection (ROT 13)",
+  "output": "replaceSelectedText",
+  "scope": "text.html",
+  "uuid": "9B13543F-8356-443C-B6E7-D9259B604927"
+}

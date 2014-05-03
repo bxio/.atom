@@ -1,0 +1,7 @@
+{
+  "content": "t.string :${1:title}\nt.$0",
+  "name": "t.string (tcs)",
+  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
+  "tabTrigger": "t.",
+  "uuid": "B757F7E5-E4BD-11DC-A11A-00112475D960"
+}

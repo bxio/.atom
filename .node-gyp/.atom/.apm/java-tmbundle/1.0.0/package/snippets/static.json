@@ -1,0 +1,7 @@
+{
+  "content": "static ",
+  "name": "static",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "st",
+  "uuid": "C0525A43-EEF4-4F59-AC09-84D263888433"
+}

@@ -1,0 +1,7 @@
+{
+  "command": "[ -f \"$TM_NEW_FILE\" ] ||  perl -pe 's/\\$\\{([^}]*)\\}/$ENV{$1}/g' <index.html >\"$TM_NEW_FILE\"",
+  "extension": "html",
+  "name": "XHTML — 1.0 Strict",
+  "scope": "text.html",
+  "uuid": "EBEE6B51-29C7-4362-818F-A190CACD5296"
+}

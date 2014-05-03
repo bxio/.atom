@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nprint case str = STDIN.read\n  when /\\A\"(.*)\"\\z/m; \"'\" + $1 + \"'\"\n  when /\\A'(.*)'\\z/m; '\"' + $1 + '\"'\n  else str\nend\n",
+  "fallbackInput": "scope",
+  "input": "selection",
+  "keyEquivalent": "^\"",
+  "name": "Toggle Single / Double String Quotes",
+  "output": "replaceSelectedText",
+  "scope": "string.quoted.single, string.quoted.double, string.regexp.single-quoted, string.regexp.double-quoted",
+  "uuid": "70A0BC8E-98E0-4D14-B004-7ACA9162B496"
+}

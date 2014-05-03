@@ -1,0 +1,7 @@
+{
+  "content": "extend Forwardable",
+  "name": "extend Forwardable",
+  "scope": "source.ruby",
+  "tabTrigger": "Forw-",
+  "uuid": "7F46C90A-595B-4B83-A4F7-058F63CE4218"
+}

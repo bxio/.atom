@@ -1,0 +1,29 @@
+{
+  "main": "./lib/spellchecker.js",
+  "name": "spellchecker",
+  "description": "Bindings to native spellchecker",
+  "version": "0.6.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/atom/node-spellchecker/raw/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/node-spellchecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/node-spellchecker/issues"
+  },
+  "homepage": "http://atom.github.io/node-spellchecker",
+  "scripts": {
+    "test": "jasmine-focused --captureExceptions --coffee spec/"
+  },
+  "devDependencies": {
+    "jasmine-focused": "~0.7.0"
+  },
+  "dependencies": {
+    "bindings": "~1.1.0"
+  }
+}

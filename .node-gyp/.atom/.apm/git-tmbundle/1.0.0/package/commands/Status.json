@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch(:controller => \"status\")\n",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Status",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.status",
+  "uuid": "41F8764A-63DE-4965-9192-918E49E15907",
+  "version": 2
+}

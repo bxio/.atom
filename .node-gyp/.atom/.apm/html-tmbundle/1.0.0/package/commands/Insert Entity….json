@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -w\nSUPPORT = ENV['TM_SUPPORT_PATH']\nDIALOG = SUPPORT + '/bin/tm_dialog'\n\nrequire \"#{SUPPORT}/lib/osx/plist\"\nrequire \"#{SUPPORT}/lib/escape\"\n\nentities = [ ]\nFile.read(\"#{ENV['TM_BUNDLE_SUPPORT']}/entities.txt\").scan(/^(\\d+)\\t(.+)$/) do |key, value|\n  char = [key.to_i].pack('U')\n  entities << { 'display' => \"#{value} (#{char})\", 'char' => char, 'entity' => value }\nend\n\nplist = { 'entities' => entities, 'insertAsEntity' => true }.to_plist\nopen(\"|#{e_sh DIALOG} -cm 'Insert Entity'\", 'w+') do |io|\n  io << plist; io.close_write\n\n  res = OSX::PropertyList.load(io.read)['result']\n  abort if res.nil?\n\n  if res['asEntity']\n    print '&' + res['returnArgument'].first['entity'] + ';'\n  else\n    print res['returnArgument'].first['char']\n  end\nend\n",
+  "input": "none",
+  "keyEquivalent": "@&",
+  "name": "Insert Entity…",
+  "output": "afterSelectedText",
+  "scope": "text.html",
+  "uuid": "89E5CC0A-3EFF-4DEF-A299-2E9651DE6529"
+}

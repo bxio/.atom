@@ -1,0 +1,7 @@
+{
+  "content": "do {\n\t${0:# code...}\n} while (${1:$a <= 10});",
+  "name": "do … while …",
+  "scope": "source.php",
+  "tabTrigger": "do",
+  "uuid": "1C06D786-8CCF-11D9-B507-000D93C8BE28"
+}

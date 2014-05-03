@@ -1,0 +1,7 @@
+{
+  "content": "\"$0\"",
+  "keyEquivalent": "\"",
+  "name": "Inside String: Insert \"…\"",
+  "scope": "source.python string.quoted.double.single-line meta.empty-string.double",
+  "uuid": "44F64180-F86E-4980-895A-2994B0EEDB5D"
+}

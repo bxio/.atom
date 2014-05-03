@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: Prefix Banner Items",
+  "scope": "meta.toc-list.banner",
+  "settings": {
+    "symbolTransformation": "\n   s/^\\s+/# /;\n   s/^=+$/-/;\n   "
+  },
+  "uuid": "A8E4E48A-81F3-4DB7-A7A2-88662C06E011"
+}

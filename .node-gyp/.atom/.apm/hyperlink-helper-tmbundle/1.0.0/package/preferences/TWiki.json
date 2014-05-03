@@ -1,0 +1,13 @@
+{
+  "name": "TWiki",
+  "scope": "text.html.twiki",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "[[<%= e_sn url %>][<%= e_sn input %>]]"
+      }
+    ]
+  },
+  "uuid": "3A357346-EC7D-4F9F-AE65-D61AD62080CA"
+}

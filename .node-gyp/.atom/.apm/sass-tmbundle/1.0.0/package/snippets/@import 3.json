@@ -1,0 +1,7 @@
+{
+  "content": "@import \"$0\";",
+  "name": "@import",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "FF11A7DE-0BF1-4BF6-8D9A-B5E60CB0805F"
+}

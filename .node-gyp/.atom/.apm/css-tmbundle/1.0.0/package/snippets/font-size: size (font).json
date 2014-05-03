@@ -1,0 +1,7 @@
+{
+  "content": "font-size: ${1:100%};$0",
+  "name": "font-size: size",
+  "scope": "source.css",
+  "tabTrigger": "font",
+  "uuid": "CD8E3F13-2B14-401D-9646-E309FB04B678"
+}

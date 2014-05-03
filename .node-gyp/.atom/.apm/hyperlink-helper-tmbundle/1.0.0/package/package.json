@@ -1,0 +1,18 @@
+{
+  "name": "hyperlink-helper-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for Hyperlink Helper",
+  "homepage": "https://github.com/textmate/hyperlink-helper.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/hyperlink-helper.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/hyperlink-helper.tmbundle/issues"
+  },
+  "commitSha": "e37fd810cd735032cfc4cae5c102e5a4b27e9a2f",
+  "version": "1.0.0"
+}

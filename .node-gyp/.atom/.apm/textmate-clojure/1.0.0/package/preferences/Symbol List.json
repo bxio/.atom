@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List",
+  "scope": "entity.global.clojure",
+  "settings": {
+    "showInSymbolList": 1
+  },
+  "uuid": "3C7566E1-E339-4F14-813D-12B3EA6A38BD"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "page.toggle ${1:\"${2:id(s)}\"}",
+  "name": "page.toggle (*ids)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "tog",
+  "uuid": "028DA0A4-B310-4BEF-8643-2A22993C21C7"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "source.antlr",
+  "settings": {
+    "foldingStartMarker": "^(((override\\s*)?define)|ifdef|ifndef|ifeq|ifneq)\\b",
+    "foldingStopMarker": "^(endef|endif)\\b"
+  },
+  "uuid": "60544971-D81D-4569-B25A-D09025F41B80"
+}

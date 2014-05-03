@@ -1,0 +1,14 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n[[ -f \"${TM_SUPPORT_PATH}/lib/bash_init.sh\" ]] && . \"${TM_SUPPORT_PATH}/lib/bash_init.sh\"\n\nexport TM_RUBY=$(which \"${TM_RUBY:-ruby}\")\n\n\"${TM_RUBY}\" \"$TM_BUNDLE_SUPPORT/bin/execute_line.rb\"\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "inputFormat": "text",
+  "keyEquivalent": "^E",
+  "name": "Execute Line / Selection as Ruby",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "afterInput",
+  "uuid": "EE5F1FB2-6C02-11D9-92BA-0011242E4184",
+  "version": 2
+}

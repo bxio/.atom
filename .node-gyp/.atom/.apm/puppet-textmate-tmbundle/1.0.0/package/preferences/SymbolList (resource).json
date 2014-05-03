@@ -1,0 +1,9 @@
+{
+  "name": "SymbolList (resource)",
+  "scope": "source.puppet meta.definition.resource.puppet",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/^\\s*(\\w+)\\s*{\\s*['\"](.*)['\"]:/  \\u$1[\"$2\"]/"
+  },
+  "uuid": "13DD53A2-401B-4149-82B0-001374330B40"
+}

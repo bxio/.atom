@@ -1,0 +1,7 @@
+{
+  "content": "\\$${1:arrayName} = array('$2' => $3${4:,} $0);",
+  "name": "$… = array (…)",
+  "scope": "source.php",
+  "tabTrigger": "array",
+  "uuid": "CBF8F204-8CCF-11D9-B507-000D93C8BE28"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "tantamount",
+  "version": "0.3.0",
+  "description": "Is equal utility",
+  "main": "./index.js",
+  "scripts": {
+    "prepublish": "grunt clean lint coffee",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinsawicki/tantamount.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinsawicki/tantamount/issues"
+  },
+  "homepage": "http://kevinsawicki.github.io/tantamount",
+  "keywords": [
+    "equal",
+    "isEqual",
+    "equality",
+    "same"
+  ],
+  "author": {
+    "name": "Kevin Sawicki",
+    "email": "kevinsawicki@gmail.com"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "rimraf": "~2.2.0",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-coffeelint": "0.0.7",
+    "jasmine-focused": "~0.10.0",
+    "grunt-shell": "~0.3.0"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4"
+  }
+}

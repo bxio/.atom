@@ -1,0 +1,18 @@
+{
+  "commands": [
+    {
+      "command": "moveToEndOfParagraph:"
+    },
+    {
+      "argument": ":",
+      "command": "insertText:"
+    },
+    {
+      "command": "insertNewline:"
+    }
+  ],
+  "keyEquivalent": "$@\r",
+  "name": "Move to EOL and Insert ':' + LF",
+  "scope": "source.python",
+  "uuid": "EEFB390C-543A-48E8-B5E5-AAF98A0DAF3C"
+}

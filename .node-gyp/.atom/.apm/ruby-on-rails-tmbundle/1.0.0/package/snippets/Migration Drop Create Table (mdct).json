@@ -1,0 +1,7 @@
+{
+  "content": "drop_table :${1:table}${2: [press tab twice to generate create_table]}",
+  "name": "Drop / Create Table",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "tabTrigger": "mtab",
+  "uuid": "20375601-B13F-4314-B8E4-362706566636"
+}

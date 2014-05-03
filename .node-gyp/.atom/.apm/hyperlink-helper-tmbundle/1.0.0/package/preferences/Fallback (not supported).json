@@ -1,0 +1,12 @@
+{
+  "name": "Fallback (not supported)",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "(this language is not supported, see … for more info)"
+      }
+    ]
+  },
+  "uuid": "CA3F1BC7-8F8A-464F-BC3A-322B437F9E8E"
+}

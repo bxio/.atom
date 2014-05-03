@@ -1,0 +1,8 @@
+{
+  "name": "Completion: require strings",
+  "scope": "meta.require.ruby string.quoted",
+  "settings": {
+    "completionCommand": "#!/usr/bin/env ruby\n\t\tptrn = /^#{Regexp.escape ENV[\"TM_CURRENT_WORD\"].to_s}[^.]+\\..+/\n\t\tputs( $LOAD_PATH.inject([]) do |res, path|\n\t\tres << Dir.new(path).grep(ptrn) { |file| file[/^[^.]+/] } if File.exists?(path)\n\t\tres\n\t\tend.sort.uniq )"
+  },
+  "uuid": "AEDD6A5F-417F-4177-8589-B07518ACA9DE"
+}

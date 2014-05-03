@@ -1,0 +1,7 @@
+{
+  "content": "marker-offset: ${1:10px};$0",
+  "name": "marker-offset: length",
+  "scope": "source.css",
+  "tabTrigger": "marker",
+  "uuid": "5FDD30D8-7EF8-41E9-8A44-DC3C22EFD75D"
+}

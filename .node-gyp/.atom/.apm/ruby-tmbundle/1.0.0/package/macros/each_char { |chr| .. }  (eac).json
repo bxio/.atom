@@ -1,0 +1,31 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb jcode",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "bundlePath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle",
+        "content": "each_char { |${1:chr}| $0 }",
+        "scope": "source.ruby",
+        "supportPath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle/Support",
+        "tabTrigger": "eac-",
+        "uuid": "FDD73070-6D32-4301-A86A-C55B77C3D8ED"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "each_char { |chr| .. }",
+  "scope": "source.ruby",
+  "scopeType": "local",
+  "tabTrigger": "eac",
+  "uuid": "7E084412-80E6-4B70-8092-C03D1ECE4CD2"
+}

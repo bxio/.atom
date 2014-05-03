@@ -1,0 +1,7 @@
+{
+  "content": "padding-top: ${1:20px};$0",
+  "name": "padding-top: length",
+  "scope": "source.css",
+  "tabTrigger": "padding",
+  "uuid": "E5B92C27-8602-4E50-9DF7-DE476E63BA1A"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "else {\n\t${1:# enter puppet code}\n}$0",
+  "name": "else",
+  "scope": "source.puppet",
+  "tabTrigger": "else",
+  "uuid": "B3E52D1C-3A49-44FA-8D1E-2910567F22C4"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "@mixin circle(\\$r: 18px) {\n\t@include border-radius(\\$r);\n\theight: (\\$r * 2);\n\twidth: (\\$r * 2);\n}",
+  "name": "circle",
+  "scope": "source.css.scss",
+  "tabTrigger": "mixin",
+  "uuid": "CA05B5DA-846F-4C3B-AAB7-57968D3DD724"
+}

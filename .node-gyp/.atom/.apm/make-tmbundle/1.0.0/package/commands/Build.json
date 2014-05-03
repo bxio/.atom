@@ -1,0 +1,16 @@
+{
+  "autoScrollOutput": true,
+  "beforeRunningCommand": "saveModifiedFiles",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV[\"TM_BUNDLE_SUPPORT\"] + '/lib/make.rb'\n\nperform_make(ENV[\"TM_MAKE_TARGET\"])\n",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "@b",
+  "name": "Build",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "scope": "attr.project.make - (text dyn.selection)",
+  "semanticClass": "process.build.make",
+  "uuid": "B0AEB756-AA59-4771-AA6F-03114ADFA4EC",
+  "version": 2
+}

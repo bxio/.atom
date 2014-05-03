@@ -1,0 +1,7 @@
+{
+  "content": "find(:first${1:, :conditions => ['${2:${3:field} = ?}', ${5:true}]})",
+  "name": "find(:first)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "finf",
+  "uuid": "FE430ECD-5D40-4D95-A73B-F064C73992DE"
+}

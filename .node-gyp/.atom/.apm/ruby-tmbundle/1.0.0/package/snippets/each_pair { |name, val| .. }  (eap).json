@@ -1,0 +1,7 @@
+{
+  "content": "each_pair { |${1:name}, ${2:val}| $0 }",
+  "name": "each_pair { |name, val| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "eap",
+  "uuid": "7A3CECED-452B-438E-A5C6-95B6BDC43243"
+}

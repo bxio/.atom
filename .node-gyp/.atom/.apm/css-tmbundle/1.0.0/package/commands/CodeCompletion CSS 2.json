@@ -1,0 +1,12 @@
+{
+  "beforeRunningCommand": "nop",
+  "bundleUUID": "467B298F-6227-11D9-BFB1-000D93589AF6",
+  "command": "#!/usr/bin/env ruby\nrequire \"#{ENV['TM_SUPPORT_PATH']}/lib/codecompletion\"\npreference = 'Completions'\nchoices = []\n\nparsed_choices = TextmateCompletionsParser.new(nil, :scope => :css).to_ary\nchoices += parsed_choices if parsed_choices\n\nchoices += ['--']\n\nplist_choices = TextmateCompletionsPlist.new( \"#{ENV['TM_BUNDLE_PATH']}/Preferences/#{preference}.tmPreferences\" ).to_ary\nchoices += plist_choices if plist_choices\n\nprint TextmateCodeCompletion.new(choices,STDIN.read, :scope => :css).to_snippet\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "~\u001b",
+  "name": "CodeCompletion CSS",
+  "output": "insertAsSnippet",
+  "scope": "source.css -meta.property-list",
+  "uuid": "E6FB4209-818E-40F5-9AFF-96E204F52A11"
+}

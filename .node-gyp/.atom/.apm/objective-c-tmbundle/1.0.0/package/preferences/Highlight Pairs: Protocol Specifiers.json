@@ -1,0 +1,17 @@
+{
+  "name": "Highlight Pairs: Protocol Specifiers",
+  "scope": "meta.protocol-list.objc | meta.inherited-protocol.end.objc | meta.return-type.objc | meta.argument-type.objc",
+  "settings": {
+    "highlightPairs": [
+      [
+        "<",
+        ">"
+      ],
+      [
+        "(",
+        ")"
+      ]
+    ]
+  },
+  "uuid": "0D675D9D-B93C-400D-B8D6-C9888F7FAAE4"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.radio_button :${1:attribute}, :${2:tag_value}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "form_for radio_button",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "ffrb",
+  "uuid": "D4282CE1-4171-4B13-9220-3F2718BC2505"
+}

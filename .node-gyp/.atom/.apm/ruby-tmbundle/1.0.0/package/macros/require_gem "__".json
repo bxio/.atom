@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb rubygems",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "content": "require \"$0\"",
+        "name": "require_gem \"..\"",
+        "scope": "source.ruby",
+        "tabTrigger": "reqg-",
+        "uuid": "34FEBB9F-73CD-4DD4-A0A3-1CF2A5E3DE78"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "require_gem \"..\"",
+  "scope": "source.ruby",
+  "tabTrigger": "reqg",
+  "uuid": "33969819-62C5-4E03-B824-C2337205F364"
+}

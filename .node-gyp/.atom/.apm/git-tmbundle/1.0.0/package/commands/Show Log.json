@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"log\", :action => \"index\"",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Log",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.log",
+  "uuid": "46662F92-7739-42A7-B7CD-0527A0474BDC",
+  "version": 2
+}

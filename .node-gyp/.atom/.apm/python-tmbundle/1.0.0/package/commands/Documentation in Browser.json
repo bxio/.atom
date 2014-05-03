@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "TPY=${TM_PYTHON:-python}\n\necho '<html><body>'\n\"$TPY\" \"${TM_BUNDLE_SUPPORT}/browse_pydocs.py\"\necho '</body></html>'",
+  "input": "none",
+  "keyEquivalent": "^H",
+  "name": "Documentation in Browser",
+  "output": "showAsHTML",
+  "scope": "source.python",
+  "uuid": "095E8342-FAED-4B95-A229-E245B0B601A7"
+}

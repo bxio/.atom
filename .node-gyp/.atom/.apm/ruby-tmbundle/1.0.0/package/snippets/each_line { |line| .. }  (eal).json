@@ -1,0 +1,7 @@
+{
+  "content": "each_line$1 { |${2:line}| $0 }",
+  "name": "each_line { |line| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "eal",
+  "uuid": "02913388-EE8E-4C55-AC94-94F3D751F47E"
+}

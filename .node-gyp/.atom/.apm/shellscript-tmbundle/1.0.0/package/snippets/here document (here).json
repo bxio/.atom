@@ -1,0 +1,7 @@
+{
+  "content": "<<-${2:'${1:TOKEN}'}\n\t$0\n${1/['\"`](.+)['\"`]/$1/}",
+  "name": "Here Document",
+  "scope": "source.shell",
+  "tabTrigger": "here",
+  "uuid": "ED7D1DEB-B124-4428-9C87-D1D9F360D78C"
+}

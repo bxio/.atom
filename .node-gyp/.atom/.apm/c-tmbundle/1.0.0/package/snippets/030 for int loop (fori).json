@@ -1,0 +1,7 @@
+{
+  "content": "for(size_t ${2:i} = 0; $2 < ${1:count}; ${3:++$2})\n{\n\t${0:/* code */}\n}",
+  "name": "For Loop",
+  "scope": "source.c, source.objc, source.c++, source.objc++",
+  "tabTrigger": "for",
+  "uuid": "78EF7134-0859-4475-89C3-30927865E855"
+}

@@ -1,0 +1,8 @@
+{
+  "content": "- (${1:id})${2:${TM_SELECTED_TEXT:method}}${3::(${4:id})${5:${4/(NS([AEIOQUY])?(\\w+).*)|(.)?.*/(?1:a(?2:n$2)$3:(?4:anArgument))/}}}\n{$0${1/^(void|IBAction)$|(.*)/(?2:\n\treturn nil;)/}\n}",
+  "keyEquivalent": "^M",
+  "name": "Method",
+  "scope": "(source.objc | source.objc++) & meta.scope.implementation.objc - meta.function-with-body",
+  "tabTrigger": "m",
+  "uuid": "BC8B9DD7-5F16-11D9-B9C3-000D93589AF6"
+}

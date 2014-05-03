@@ -1,0 +1,7 @@
+{
+  "content": "${1:map}.resources :${2:resource}${10: do |${11:$2}|\n  $0\nend}",
+  "name": "map.resources",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "maprs",
+  "uuid": "0FF86C46-0E01-4D03-8232-72CA5BD55706"
+}

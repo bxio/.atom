@@ -1,0 +1,7 @@
+{
+  "content": "while ($1) {\n\t${2:# body...}\n}\n",
+  "name": "Loop",
+  "scope": "source.perl",
+  "tabTrigger": "while",
+  "uuid": "08C2210D-7F28-4FA6-93C6-D03D69A69EED"
+}

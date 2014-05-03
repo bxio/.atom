@@ -1,0 +1,27 @@
+{
+  "name": "Typing Pairs: Include Statements",
+  "scope": "meta.preprocessor.c.include",
+  "settings": {
+    "highlightPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "<",
+        ">"
+      ]
+    ],
+    "smartTypingPairs": [
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "<",
+        ">"
+      ]
+    ]
+  },
+  "uuid": "1EACF554-A30C-44B0-B97A-11E3FA995045"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "<data>\n\t$1\n</data>",
+  "name": "data",
+  "scope": "text.xml.plist",
+  "tabTrigger": "data",
+  "uuid": "9D710F5B-7E88-4CA1-B866-E00C3E52AAFC"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "text-decoration:${TM_CSS_SPACE}${1|none,underline,overline,line-through,blink|}${2:;}$0",
+  "name": "text-decoration: none/underline/overline/line-through/blink",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "text",
+  "uuid": "8C982AF4-4312-4F07-99B1-CB33B85791BB"
+}

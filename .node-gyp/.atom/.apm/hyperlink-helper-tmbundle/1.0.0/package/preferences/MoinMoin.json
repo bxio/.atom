@@ -1,0 +1,13 @@
+{
+  "name": "MoinMoin",
+  "scope": "text.moinmoin",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "[<%= e_sn url %> <%= e_sn input %>]"
+      }
+    ]
+  },
+  "uuid": "1EA4CA8E-1A38-4383-A288-BEE6359A6966"
+}

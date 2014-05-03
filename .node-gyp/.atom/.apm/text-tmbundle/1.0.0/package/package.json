@@ -1,0 +1,18 @@
+{
+  "name": "text-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for Text",
+  "homepage": "https://github.com/textmate/text.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/text.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/text.tmbundle/issues"
+  },
+  "commitSha": "0926ab7f4b59ab3b3ac174aab374c0db2372002b",
+  "version": "1.0.0"
+}

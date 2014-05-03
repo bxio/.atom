@@ -1,0 +1,7 @@
+{
+  "content": "${1:expression} while ${2:condition};\n",
+  "name": "Loop One-line",
+  "scope": "source.perl",
+  "tabTrigger": "xwhile",
+  "uuid": "0154A96A-844C-4C8A-909E-A2ED822320EE"
+}

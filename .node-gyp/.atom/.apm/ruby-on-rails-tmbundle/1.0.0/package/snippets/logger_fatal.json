@@ -1,0 +1,7 @@
+{
+  "content": "logger.fatal { \"${1:message}\" }$0",
+  "name": "logger.fatal",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "logf",
+  "uuid": "35E95C81-22F7-4C40-8297-ED21086DDA81"
+}

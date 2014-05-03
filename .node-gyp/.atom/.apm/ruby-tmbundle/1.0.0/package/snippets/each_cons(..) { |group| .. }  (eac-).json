@@ -1,0 +1,7 @@
+{
+  "content": "each_cons(${1:2}) { |${2:group}| $0 }",
+  "name": "each_cons(..) { |group| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "eac-",
+  "uuid": "3C04589C-5127-478E-97B3-CA7DD2EA7ECD"
+}

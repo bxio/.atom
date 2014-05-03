@@ -1,0 +1,12 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\ns = STDIN.read\ncase s\nwhen /^\\w+$/\n  print \"+#{s}+$0\"\nwhen \"\"\n  print \"+$1+$0\"\nelse\n  print \"<tt>#{s}</tt>\"\nend",
+  "fallbackInput": "word",
+  "input": "selection",
+  "keyEquivalent": "@k",
+  "name": "Typewriter",
+  "output": "insertAsSnippet",
+  "scope": "source.ruby comment",
+  "semanticClass": "style.alternate.typewriter.rdoc.ruby",
+  "uuid": "2DDB6FE0-6111-4C40-A149-8E67E76F8272"
+}

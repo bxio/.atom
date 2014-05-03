@@ -1,0 +1,7 @@
+{
+  "content": "get '${1:recent}'${2:, :on => :${3:member}}",
+  "name": "get :on => :member",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "get",
+  "uuid": "D696088D-DDCD-4F58-9C8A-E2D99B5F345B"
+}

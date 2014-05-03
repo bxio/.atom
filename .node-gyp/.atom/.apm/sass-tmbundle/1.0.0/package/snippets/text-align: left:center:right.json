@@ -1,0 +1,7 @@
+{
+  "content": "text-align:${TM_CSS_SPACE}${1|left,right,center,justify|}${2:;}$0",
+  "name": "text-align: left/center/right",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "text",
+  "uuid": "F899804C-7B76-40FD-978F-F545DA372392"
+}

@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire \"#{ENV['TM_BUNDLE_SUPPORT']}/tminclude.rb\"\nTextMate::Includes.instance.include_command\n",
+  "input": "none",
+  "keyEquivalent": "^@i",
+  "name": "Add Persistent Include",
+  "output": "afterSelectedText",
+  "scope": "text.html",
+  "uuid": "0D814247-7A00-46EE-A2A4-45FBBF4B1181"
+}

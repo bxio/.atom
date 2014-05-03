@@ -1,0 +1,7 @@
+{
+  "content": "list-style:${TM_CSS_SPACE}${1|none,disc,circle,square,decimal,zero|} ${2|inside,outside|} url($3)${4:;}$0",
+  "name": "list-style: type position image",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "list",
+  "uuid": "CBB63B92-DB07-4050-B03F-90E4925266E5"
+}

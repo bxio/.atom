@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.text_field :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "form_for text_field",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "fftf",
+  "uuid": "F46EE8EE-239C-46D7-980B-3F861B7D9111"
+}

@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "RUBYLIB=\"$TM_BUNDLE_SUPPORT/lib:$RUBYLIB\"\n\"${TM_RUBY:=ruby}\" \"${TM_BUNDLE_SUPPORT}/bin/fixture_auto_complete.rb\" preserve",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "~$\u001b",
+  "name": "Autocomplete Foreign Key Fixture Reference (habtm)",
+  "output": "insertAsSnippet",
+  "scope": "source.yaml",
+  "uuid": "275C0B86-F735-49B6-8A22-218A8F4CC2E0"
+}

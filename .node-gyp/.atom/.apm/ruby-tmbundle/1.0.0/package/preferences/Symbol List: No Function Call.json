@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: No Function Call",
+  "scope": "source.ruby meta.function-call entity.name.function",
+  "settings": {
+    "showInSymbolList": 0
+  },
+  "uuid": "A5D50494-EB97-48DE-A2BE-322DF52A7A7A"
+}

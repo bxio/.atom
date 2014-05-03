@@ -1,0 +1,26 @@
+{
+  "commands": [
+    {
+      "command": "deleteWordLeft:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "intelligent_migration_snippet.rb change_column",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "name": "Change Column",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "mcol",
+  "uuid": "42DE1441-D1B7-4998-BAF9-16B1EC7E210C"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "my \\$${1:var};\n{ local \\$/ = undef; local *FILE; open FILE, \"<${2:file}\"; \\$$1 = <FILE>; close FILE }\n",
+  "name": "Read File",
+  "scope": "source.perl",
+  "tabTrigger": "slurp",
+  "uuid": "CEE866A5-FA4B-4C5D-A80C-137A620E825E"
+}

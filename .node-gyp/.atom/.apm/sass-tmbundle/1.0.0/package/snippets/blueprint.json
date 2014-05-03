@@ -1,0 +1,7 @@
+{
+  "content": "@import \"blueprint\";$0",
+  "name": "blueprint",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "A58A4D8E-9E5B-4F1C-BA9D-77251E1DBEBC"
+}

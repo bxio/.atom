@@ -1,0 +1,7 @@
+{
+  "content": "t.rename :${1:old_column_name}, :${2:new_column_name}\n$0",
+  "name": "Table column(s) rename",
+  "scope": "meta.rails.migration.change_table",
+  "tabTrigger": "tre",
+  "uuid": "DF30226E-1111-448A-B669-7CA34EE83909"
+}

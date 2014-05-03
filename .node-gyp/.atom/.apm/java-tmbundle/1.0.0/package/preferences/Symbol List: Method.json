@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Methods",
+  "scope": "source.java meta.class.body meta.method.identifier",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "\n\t\ts/\\s{2,}/ /g;\n\t\ts/.*/  $0/g;\n\t"
+  },
+  "uuid": "FA4CD3FA-A79B-43E3-A432-DA53DA4A060D"
+}

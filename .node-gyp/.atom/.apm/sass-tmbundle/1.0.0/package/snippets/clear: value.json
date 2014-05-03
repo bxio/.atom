@@ -1,0 +1,7 @@
+{
+  "content": "clear:${TM_CSS_SPACE}${1:both}${2:;}$0",
+  "name": "clear: value",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "clear",
+  "uuid": "05E729F7-6CEF-4799-83D0-A659FD848BA9"
+}

@@ -1,0 +1,16 @@
+{
+  "commands": [
+    {
+      "command": "moveToEndOfParagraph:"
+    },
+    {
+      "argument": ".",
+      "command": "insertText:"
+    }
+  ],
+  "keyEquivalent": "~@\r",
+  "name": "Move to EOL and Insert “.”",
+  "scope": "text",
+  "scopeType": "local",
+  "uuid": "80CC504F-B13B-11D9-B41F-000D93589AF6"
+}

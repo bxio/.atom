@@ -1,0 +1,7 @@
+{
+  "content": "protected ",
+  "name": "protected",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "po",
+  "uuid": "56C938B4-22B8-45F4-8E09-5BB4DE4633B0"
+}

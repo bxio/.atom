@@ -1,0 +1,23 @@
+{
+  "commands": [
+    {
+      "argument": {
+        "action": "findNext",
+        "findInProjectIgnoreCase": 0,
+        "findString": "(?=\\S)|\\s+",
+        "ignoreCase": 0,
+        "regularExpression": 1,
+        "replaceAllScope": "document",
+        "wrapAround": 0
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "command": "deleteBackward:"
+    }
+  ],
+  "keyEquivalent": "^~",
+  "name": "Forward Delete All Whitespace",
+  "scope": "text.html",
+  "uuid": "7B7E945E-A112-11D9-A5A2-000D93C8BE28"
+}

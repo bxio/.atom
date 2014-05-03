@@ -1,0 +1,56 @@
+{
+  "commands": [
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "(?m)({|;)\\s*([-\\w]+:)\\s*(?=\\S)",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "$1\\n$2 ",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "(?m)\\s*}[ \\t]*\\n?",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "\\n}\\n",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "(?m)\\s*{[ \\t]*",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": " {",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "command": "alignLeft:"
+    },
+    {
+      "command": "indent:"
+    }
+  ],
+  "keyEquivalent": "^q",
+  "name": "Format CSS",
+  "scope": "source.css",
+  "uuid": "64180C76-8C8D-4F29-82BE-6096BE1B14D8"
+}

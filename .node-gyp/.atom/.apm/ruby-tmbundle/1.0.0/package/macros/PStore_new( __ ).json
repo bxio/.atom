@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb pstore",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "content": "PStore.new(${1:\"${2:file_name.pstore}\"})",
+        "name": "PStore.new( .. )",
+        "scope": "source.ruby",
+        "tabTrigger": "Pn-",
+        "uuid": "5B46ECFD-23A4-4F0C-9951-F64C19C72C2B"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "PStore.new( .. )",
+  "scope": "source.ruby",
+  "tabTrigger": "Pn",
+  "uuid": "5AE7CFB4-418E-4E00-AD76-06DB755EE876"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "@if ${1:conditions}\n\t$0",
+  "name": "@if",
+  "scope": "source.sass",
+  "tabTrigger": "if",
+  "uuid": "0FA3A84C-E254-41E6-8D8A-188FF7BA8C23"
+}

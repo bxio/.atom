@@ -1,0 +1,81 @@
+# season - CSON Node module [![Build Status](https://travis-ci.org/atom/season.png)](https://travis-ci.org/atom/season)
+
+Read and write CSON/JSON files seamlessly.
+
+## Installing
+
+```sh
+npm install season
+```
+
+## Building
+  * Clone the repository
+  * Run `npm install`
+  * Run `grunt` to compile the CoffeeScript code
+  * Run `grunt test` to run the specs
+
+## Compiling CSON to JSON
+
+This module comes with a `csonc` executable that allows you to compile a CSON
+file to JSON.
+
+To use:
+
+```sh
+npm install -g season
+echo "this: 'is cson'" > file.cson
+csonc file.cson file.json
+cat file.json
+{
+  "this": "is cson"
+}
+```
+
+## Docs
+
+```coffeescript
+CSON = require 'season'
+```
+
+### CSON.stringify(object)
+
+Convert the object to a CSON string.
+
+`object` - The object to convert to CSON.
+
+Returns the CSON string representation of the given object.
+
+### CSON.readFile(objectPath, callback)
+
+Read the CSON or JSON object at the given path and return it to the callback
+once it is read and parsed.
+
+`objectPath` - The string path to a JSON or CSON object file.
+
+`callback` - The callback to call with the error or object once the path
+             is read and parsed.
+
+### CSON.writeFileSync(objectPath, object)
+
+Write the object to the given path as either JSON or CSON depending on the
+path's extension.
+
+`objectPath` - The string path to a JSON or CSON object file.
+
+`object` - The object to convert to a string and write to the path.
+
+### CSON.isObjectPath(objectPath)
+
+Is the given path a valid object path?
+
+Returns `true` if the path has a `.json` or `.cson` file extension, `false`
+otherwise.
+
+### CSON.resolve(objectPath)
+
+Resolve the path to an existent file that has a `.json` or `.cson` extension.
+
+`objectPath` - The string path to a JSON or CSON object file with or without
+               an extension.
+
+Returns the path to an existent CSON or JSON file or `null` if none found.

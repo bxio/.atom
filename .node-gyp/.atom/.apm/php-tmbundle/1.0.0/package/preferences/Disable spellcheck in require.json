@@ -1,0 +1,8 @@
+{
+  "name": "Disable spellcheck in require",
+  "scope": "meta.include.php string.quoted",
+  "settings": {
+    "spellChecking": 0
+  },
+  "uuid": "FD4397A8-415F-47BC-9F8D-E0F0EC364286"
+}

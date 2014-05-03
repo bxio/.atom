@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    },
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": ")",
+  "name": "Inside Parameter List: Overtype Closing ):",
+  "scope": "source.python meta.function.python punctuation.definition.parameters.end.python",
+  "uuid": "CDA11D94-712F-48EB-932E-114878FD6A54"
+}

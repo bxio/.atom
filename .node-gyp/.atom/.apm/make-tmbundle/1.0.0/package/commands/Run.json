@@ -1,0 +1,15 @@
+{
+  "autoScrollOutput": true,
+  "beforeRunningCommand": "saveModifiedFiles",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV[\"TM_BUNDLE_SUPPORT\"] + '/lib/make.rb'\n\nperform_make(ENV[\"TM_MAKE_RUN_TARGET\"] || \"run\")\n",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "@r",
+  "name": "Run",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "semanticClass": "process.run.make",
+  "uuid": "E63C448C-ACD2-40D3-B3F6-5A00AFD9C795",
+  "version": 2
+}

@@ -1,0 +1,7 @@
+{
+  "content": "<% end %>",
+  "name": "end (ERB)",
+  "scope": "text.html.ruby",
+  "tabTrigger": "end",
+  "uuid": "AC385ABF-96CD-4FCB-80AD-BF37D6EE79D2"
+}

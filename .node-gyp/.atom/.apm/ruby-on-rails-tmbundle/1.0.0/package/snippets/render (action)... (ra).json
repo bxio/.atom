@@ -1,0 +1,7 @@
+{
+  "content": "render :action => \"${1:action}\"",
+  "name": "render (action)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "ra",
+  "uuid": "7B03D38B-7580-41AC-BC2B-3766AB074A43"
+}

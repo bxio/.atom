@@ -1,0 +1,105 @@
+{
+  "commands": [
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "\\n+",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "\\n",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "[ \\t]+",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": " ",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "(?m)([;:])\\s+",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "$1",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "\\s*}\\s*",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "}\\n",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "\\s*{\\s*",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": "{",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "[ \\t]*,[ \\t]*",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "replaceString": ",",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "argument": {
+        "action": "replaceAll",
+        "findInProjectIgnoreCase": true,
+        "findInProjectRegularExpression": false,
+        "findString": "^\\s+",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "selection",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    }
+  ],
+  "keyEquivalent": "^~q",
+  "name": "Format CSS Compressed",
+  "scope": "source.css",
+  "uuid": "3556C0BE-73B3-45CE-8C9C-7B3AA3BB038B"
+}

@@ -1,0 +1,17 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    },
+    {
+      "command": "moveRight:"
+    },
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": "'",
+  "name": "Inside Block String: Overtype Closing '''",
+  "scope": "source.python string.quoted.single.block punctuation.definition.string.end.python",
+  "uuid": "777874B4-E62C-4454-AC56-D4DB3F9965F8"
+}

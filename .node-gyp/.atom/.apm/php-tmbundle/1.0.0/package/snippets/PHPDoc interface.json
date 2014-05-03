@@ -1,0 +1,8 @@
+{
+  "bundlePath": "/Users/kumar/Library/Application Support/TextMate/Bundles/PHPDoc.tmbundle",
+  "content": "/**\n * ${2:undocumented class}\n *\n * @package ${3:default}\n * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}\n **/\ninterface $1\n{$0\n} // END interface $1",
+  "name": "Interface",
+  "scope": "source.php",
+  "tabTrigger": "doc_i",
+  "uuid": "90874D6F-87E7-11D9-A6A3-000D93589AF6"
+}

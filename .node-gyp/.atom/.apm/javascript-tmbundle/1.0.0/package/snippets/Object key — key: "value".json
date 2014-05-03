@@ -1,0 +1,8 @@
+{
+  "content": "${1:key}: ${2:\"${3:value}\"}${4:, }",
+  "keyEquivalent": "~:",
+  "name": "Object key — key: \"value\"",
+  "scope": "source.js",
+  "tabTrigger": ":",
+  "uuid": "DC8B46FB-8ADA-45EA-8F36-94C807A0D302"
+}

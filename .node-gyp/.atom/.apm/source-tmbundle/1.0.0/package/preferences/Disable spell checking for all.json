@@ -1,0 +1,8 @@
+{
+  "name": "Spell Checking: Disable for Source",
+  "scope": "source, constant, keyword, storage, support, variable",
+  "settings": {
+    "spellChecking": 0
+  },
+  "uuid": "67C15B0D-A505-4D6D-9443-6B1265C52DD7"
+}

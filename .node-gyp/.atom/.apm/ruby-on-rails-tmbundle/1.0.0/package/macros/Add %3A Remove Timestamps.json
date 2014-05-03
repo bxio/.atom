@@ -1,0 +1,26 @@
+{
+  "commands": [
+    {
+      "command": "deleteWordLeft:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "intelligent_migration_snippet.rb add_remove_timestamps",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "name": "Add / Remove Timestamps",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "mcol",
+  "uuid": "221969A1-A5EA-4A8E-8817-C74EBED63901"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "logger.error { \"${1:message}\" }$0",
+  "name": "logger.error",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "loge",
+  "uuid": "7053B86A-9B81-4154-AB3C-61B8035C5D33"
+}

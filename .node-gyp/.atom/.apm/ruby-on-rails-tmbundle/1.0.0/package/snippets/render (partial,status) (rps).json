@@ -1,0 +1,7 @@
+{
+  "content": "render :partial => \"${1:item}\", :status => ${2:500}",
+  "name": "render (partial, status)",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml",
+  "tabTrigger": "rps",
+  "uuid": "CBB06A4E-3A82-45F3-91AA-259F02314B9D"
+}

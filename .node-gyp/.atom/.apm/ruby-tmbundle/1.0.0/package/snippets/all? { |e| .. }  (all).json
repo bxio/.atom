@@ -1,0 +1,7 @@
+{
+  "content": "all? { |${1:e}| $0 }",
+  "name": "all? { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "all",
+  "uuid": "07D1F987-7CDB-4EAD-B64A-27A93051700E"
+}

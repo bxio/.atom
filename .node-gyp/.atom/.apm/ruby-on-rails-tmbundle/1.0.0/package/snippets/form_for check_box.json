@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.check_box :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "form_for check_box",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "ffcb",
+  "uuid": "F0DB6886-4FFE-45BA-907F-44326AD8142D"
+}

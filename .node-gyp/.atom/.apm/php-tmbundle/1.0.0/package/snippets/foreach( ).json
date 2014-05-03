@@ -1,0 +1,7 @@
+{
+  "content": "foreach (\\$${1:variable} as \\$${2:key}${3: => \\$${4:value}}) {\n\t${0:# code...}\n}",
+  "name": "foreach …",
+  "scope": "source.php",
+  "tabTrigger": "foreach",
+  "uuid": "C0229432-8CCE-11D9-B507-000D93C8BE28"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "redirect_to(${2:${12:model}_path(${13:@}${14:${12}})})",
+  "name": "redirect_to (path)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rep",
+  "uuid": "A909C4C3-8EFE-4E39-9D96-BA8F0ABE6085"
+}

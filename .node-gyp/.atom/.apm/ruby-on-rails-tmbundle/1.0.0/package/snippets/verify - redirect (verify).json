@@ -1,0 +1,8 @@
+{
+  "bundlePath": "/Users/tobi/Library/Application Support/TextMate/Bundles/Custom.tmbundle",
+  "content": "verify :only => [:$1], :session => :user, :params => :id, :redirect_to => {:action => '${2:index}'}\n",
+  "name": "verify — redirect",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "verify",
+  "uuid": "7BBD3F57-57A5-4CD0-8E79-B931021FC110"
+}

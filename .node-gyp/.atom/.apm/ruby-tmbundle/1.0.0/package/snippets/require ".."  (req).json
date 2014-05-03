@@ -1,0 +1,7 @@
+{
+  "content": "require \"$0\"",
+  "name": "require \"..\"",
+  "scope": "source.ruby",
+  "tabTrigger": "req",
+  "uuid": "97DE939B-D243-4D5C-B953-1C9090912E7C"
+}

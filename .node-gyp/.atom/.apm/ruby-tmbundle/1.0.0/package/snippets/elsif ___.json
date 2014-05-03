@@ -1,0 +1,7 @@
+{
+  "content": "elsif ${1:condition}\n\t$0",
+  "name": "elsif ...",
+  "scope": "source.ruby",
+  "tabTrigger": "elsif",
+  "uuid": "CD1609FA-47DA-4EE4-9C5B-5C56D953F5B1"
+}

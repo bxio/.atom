@@ -1,0 +1,7 @@
+{
+  "content": "\\`${1:`pbpaste`}\\`",
+  "keyEquivalent": "^j",
+  "name": "Raw javascript",
+  "scope": "source.coffee",
+  "uuid": "422A59E7-FC36-4E99-B01C-6353515BB544"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "file { \"${1:name}\":\n\tensure => ${2:file},\n}$0",
+  "name": "file",
+  "scope": "source.puppet",
+  "tabTrigger": "file",
+  "uuid": "C84524F5-B248-4A4B-87B9-69DCA93C393F"
+}

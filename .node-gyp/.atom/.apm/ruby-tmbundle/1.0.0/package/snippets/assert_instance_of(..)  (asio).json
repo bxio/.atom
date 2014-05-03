@@ -1,0 +1,7 @@
+{
+  "content": "assert_instance_of`snippet_paren.rb`${1:ExpectedClass}, ${0:actual_instance}`snippet_paren.rb end`",
+  "name": "assert_instance_of(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "asio",
+  "uuid": "0E831E03-67E1-4357-8323-C60685C23C4F"
+}

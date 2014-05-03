@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "export RUBYLIB=\"$TM_BUNDLE_SUPPORT/vendor/rcodetools/lib${RUBYLIB:+:$RUBYLIB}\"\nexport TM_RUBY=$(which \"${TM_RUBY:-ruby}\")\n\n\n\"${TM_RUBY}\" -r \"${TM_SUPPORT_PATH}/lib/ruby1.9/add_1.8_features.rb\" -- \"$TM_BUNDLE_SUPPORT/vendor/rcodetools/bin/xmpfilter\"\n",
+  "fallbackInput": "document",
+  "input": "selection",
+  "keyEquivalent": "^@E",
+  "name": "Execute and Update ‘# =>’ Markers",
+  "output": "replaceSelectedText",
+  "scope": "source.ruby",
+  "uuid": "FBFC214F-B019-4967-95D2-028F374A3221"
+}

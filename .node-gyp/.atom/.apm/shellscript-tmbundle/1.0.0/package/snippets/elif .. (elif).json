@@ -1,0 +1,7 @@
+{
+  "content": "elif ${2:[[ ${1:condition} ]]}; then\n\t${0:#statements}",
+  "name": "elif …",
+  "scope": "source.shell",
+  "tabTrigger": "elif",
+  "uuid": "A1E3D4D4-BFC6-11D9-BB97-000D93589AF6"
+}

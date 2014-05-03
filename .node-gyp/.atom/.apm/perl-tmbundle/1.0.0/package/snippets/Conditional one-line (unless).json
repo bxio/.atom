@@ -1,0 +1,7 @@
+{
+  "content": "${1:expression} unless ${2:condition};\n",
+  "name": "Conditional One-line",
+  "scope": "source.perl",
+  "tabTrigger": "xunless",
+  "uuid": "991A53EE-9471-45EC-9D78-1258AB1BC2AC"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "font-variant: ${1|normal,small-caps|};$0",
+  "name": "font-variant: normal/small-caps",
+  "scope": "source.css",
+  "tabTrigger": "font",
+  "uuid": "B6C9A8F9-2942-4592-B73F-2833B9F648E5"
+}

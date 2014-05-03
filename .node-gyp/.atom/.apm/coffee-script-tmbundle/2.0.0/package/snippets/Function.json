@@ -1,0 +1,7 @@
+{
+  "content": "(${1:args}) ->\n  ${0:# body...}\n\n",
+  "name": "Function",
+  "scope": "source.coffee",
+  "tabTrigger": "fun",
+  "uuid": "F2E2E79A-A85D-471D-9847-72AE40205942"
+}

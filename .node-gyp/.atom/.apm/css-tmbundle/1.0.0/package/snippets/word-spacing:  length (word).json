@@ -1,0 +1,7 @@
+{
+  "content": "word-spacing: ${1:10px};$0",
+  "name": "word-spacing: length",
+  "scope": "source.css",
+  "tabTrigger": "word",
+  "uuid": "B121F84A-CE4A-491D-BF3D-35ED51C82554"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "${0:${TM_SELECTED_TEXT/\\A@?[\\[({\"'“‘`](.*)[`’”'\"})\\]]\\z/$1/m}}",
+  "keyEquivalent": "]",
+  "name": "Strip Wrap Characters",
+  "scope": "dyn.selection & -dyn.caret.mixed",
+  "uuid": "879EF993-001F-444A-A803-1225C83B980A"
+}

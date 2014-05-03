@@ -1,0 +1,14 @@
+{
+  "fileTypes": [
+    "rjs"
+  ],
+  "keyEquivalent": "^~R",
+  "name": "Ruby on Rails (RJS)",
+  "patterns": [
+    {
+      "include": "source.ruby"
+    }
+  ],
+  "scopeName": "source.ruby.rails.rjs",
+  "uuid": "A6AE60CD-18CA-4474-BE7A-5255BC3EF083"
+}

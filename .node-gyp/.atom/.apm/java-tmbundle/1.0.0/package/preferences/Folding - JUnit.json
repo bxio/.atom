@@ -1,0 +1,9 @@
+{
+  "name": "Folding (JUnit)",
+  "scope": "text.junit-test-report",
+  "settings": {
+    "foldingStartMarker": "(\\{\\s*(//.*)?$|^\\s*// \\{\\{\\{)",
+    "foldingStopMarker": "^\\s*(\\}|// \\}\\}\\}$)"
+  },
+  "uuid": "D542DC17-5A9E-4DDF-B825-EC5C04F847B4"
+}

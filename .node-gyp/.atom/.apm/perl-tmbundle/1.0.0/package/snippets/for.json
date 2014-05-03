@@ -1,0 +1,7 @@
+{
+  "content": "for (my \\$${1:var} = 0; \\$$1 < ${2:expression}; \\$$1++) {\n\t${3:# body...}\n}\n",
+  "name": "Loop",
+  "scope": "source.perl",
+  "tabTrigger": "for",
+  "uuid": "B2A21D7E-F241-42D3-A6C4-5CA5470EC5C3"
+}

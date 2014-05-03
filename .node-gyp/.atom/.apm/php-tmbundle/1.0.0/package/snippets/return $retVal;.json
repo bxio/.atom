@@ -1,0 +1,7 @@
+{
+  "content": "return$1;$0",
+  "name": "return",
+  "scope": "source.php",
+  "tabTrigger": "ret",
+  "uuid": "80D861BF-8CD0-11D9-B507-000D93C8BE28"
+}

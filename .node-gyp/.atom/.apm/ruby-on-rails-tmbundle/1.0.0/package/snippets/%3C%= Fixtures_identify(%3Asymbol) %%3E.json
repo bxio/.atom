@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}Fixtures.identify(:${1:name})${TM_RAILS_TEMPLATE_END_RUBY_EXPR}$0",
+  "name": "<%= Fixtures.identify(:symbol) %>",
+  "scope": "source.yaml",
+  "tabTrigger": "fi",
+  "uuid": "9671EB7A-89D6-4C23-914F-88CBEE0D177A"
+}

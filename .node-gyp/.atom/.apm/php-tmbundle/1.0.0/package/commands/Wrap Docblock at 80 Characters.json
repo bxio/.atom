@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/ruby\ncol = ENV['TM_COLUMN_NUMBER'].to_i\nstart_col = ENV['TM_CURRENT_LINE'].index('*')\nif col - start_col >= 80\n  puts\n  print \" \" * start_col + \"*\"\nend\nprint \" \"",
+  "input": "none",
+  "name": "Wrap Docblock at 80 Characters",
+  "output": "afterSelectedText",
+  "scope": "comment.block.documentation.phpdoc.php",
+  "uuid": "6F7E7868-F5A2-4B7D-ACFB-2A8DE2CD04E2"
+}

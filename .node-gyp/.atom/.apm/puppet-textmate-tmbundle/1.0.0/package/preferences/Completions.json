@@ -1,0 +1,25 @@
+{
+  "name": "Completions",
+  "scope": "source.puppet",
+  "settings": {
+    "completions": [
+      "name",
+      "provider",
+      "ensure",
+      "enable",
+      "command",
+      "path",
+      "owner",
+      "group",
+      "refresh",
+      "refreshonly",
+      "unless",
+      "backup",
+      "content",
+      "source",
+      "mode",
+      "recurse"
+    ]
+  },
+  "uuid": "A0062DFA-F753-41C5-B48A-5DF9AA1352DD"
+}

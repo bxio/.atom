@@ -1,0 +1,14 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch(:controller => \"misc\", :action => \"gitx\")\n",
+  "input": "none",
+  "inputFormat": "text",
+  "name": "Visualize History with GitX",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "discard",
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.other",
+  "uuid": "1C12DE42-78A9-4DCA-BB55-2B8E6328C72D",
+  "version": 2
+}

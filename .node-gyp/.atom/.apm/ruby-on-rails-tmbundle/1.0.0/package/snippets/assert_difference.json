@@ -1,0 +1,7 @@
+{
+  "content": "assert_difference \"${1:Model}.${2:count}\", ${3:+1} do\n  $0\nend",
+  "name": "assert_difference",
+  "scope": "source.ruby",
+  "tabTrigger": "asd",
+  "uuid": "30BEA6FB-301C-4460-93EC-FA3404688962"
+}

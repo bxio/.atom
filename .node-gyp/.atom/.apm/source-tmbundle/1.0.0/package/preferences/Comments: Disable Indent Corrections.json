@@ -1,0 +1,8 @@
+{
+  "name": "Comments: Disable Indent",
+  "scope": "comment.block",
+  "settings": {
+    "unIndentedLinePattern": ".+"
+  },
+  "uuid": "B0E99103-4A5D-45FC-B5BD-38F681FFF29E"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Style: Raw",
+  "scope": "markup.raw.block",
+  "settings": {
+    "softWrap": false
+  },
+  "uuid": "47A88FB7-A084-48F6-9B54-078E9C888BE6"
+}

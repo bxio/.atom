@@ -1,0 +1,8 @@
+{
+  "content": "${1:!important}",
+  "keyEquivalent": "",
+  "name": "!important CSS",
+  "scope": "source.css",
+  "tabTrigger": "!",
+  "uuid": "EF1F2D38-A71A-4D1D-9B07-B1CBB6D84B81"
+}

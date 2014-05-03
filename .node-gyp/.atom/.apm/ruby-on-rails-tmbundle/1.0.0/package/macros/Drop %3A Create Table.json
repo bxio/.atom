@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_add_column_or_create_table.rb",
+        "input": "selection",
+        "output": "replaceSelectedText"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfLine:"
+    }
+  ],
+  "name": "Drop / Create Table (Second Half)",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "[press tab twice to generate create_table]",
+  "uuid": "A2135370-67A1-488D-B43C-B4F221127C2F"
+}

@@ -1,0 +1,51 @@
+{
+  "core": {
+    "themes": [
+      "atom-light-ui",
+      "fizzy"
+    ],
+    "disabledPackages": [],
+    "hideGitIgnoredFiles": true,
+    "ignoredNames": [
+      ".git",
+      ".svn",
+      ".DS_Store"
+    ]
+  },
+  "editor": {
+    "fontSize": 17,
+    "fontFamily": "Consolas",
+    "nonWordCharacters": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?-",
+    "hideGitIgnoredFiles": true,
+    "showIndentGuide": true
+  },
+  "spell-check": {
+    "grammars": [
+      "text.plain",
+      "source.gfm",
+      "text.git-commit"
+    ]
+  },
+  "autocomplete": {
+    "includeCompletionsFromAllBuffers": true
+  },
+  "autosave": {},
+  "release-notes": {
+    "viewedVersion": "0.55.0"
+  },
+  "tree-view": {
+    "hideVcsIgnoredFiles": true
+  },
+  "welcome": {
+    "showOnStartup": false
+  },
+  "feedback": {
+    "username": "jonrohan"
+  },
+  "exception-reporting": {
+    "userId": "5b8a84ec-a6a8-f7a8-06fd-aad937a643dd"
+  },
+  "metrics": {
+    "userId": "bf69df7b-3ffb-66f9-afa7-4675ab4060c2"
+  }
+}

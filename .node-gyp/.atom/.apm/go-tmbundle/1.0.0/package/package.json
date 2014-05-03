@@ -1,0 +1,18 @@
+{
+  "name": "go-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate bundle for the Go programming language",
+  "homepage": "https://github.com/rsms/Go.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsms/Go.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsms/Go.tmbundle/issues"
+  },
+  "commitSha": "d6db06051b8dd8683802d57e99bab6541c08f4d7",
+  "version": "1.0.0"
+}

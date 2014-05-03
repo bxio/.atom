@@ -1,0 +1,22 @@
+{
+  "command": "title=`echo $TM_DROPPED_FILE | perl -pe 's/^(.*\\/)?(.*?)(\\..*)?$/$2/g'`\necho -n \"<a href=\\\"$TM_DROPPED_FILE\\\" id=\\\"\\\" title=\\\"\\${1:$title}\\\">\\${1:$title}</a>\"",
+  "draggedFileExtensions": [
+    "html",
+    "htm",
+    "rhtml",
+    "shtml",
+    "phtml",
+    "php",
+    "php3",
+    "php4",
+    "php5",
+    "cfm",
+    "cfml",
+    "dbm",
+    "dbml"
+  ],
+  "name": "Insert Anchor",
+  "output": "insertAsSnippet",
+  "scope": "text.html",
+  "uuid": "B23D6E15-6B33-11D9-86C1-000D93589AF6"
+}

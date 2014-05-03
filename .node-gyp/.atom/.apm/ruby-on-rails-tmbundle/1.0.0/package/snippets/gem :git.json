@@ -1,0 +1,7 @@
+{
+  "content": "gem '${1:paperclip}', :git => \"${2:git://github.com/thoughtbot/paperclip.git}\"${3:, :branch => \"${4:rails3}\"}",
+  "name": "gem :git",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "gemg",
+  "uuid": "675DD92F-42F1-4B55-B56A-5D4ABC1375C4"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Symbol Popup: Git Config Section",
+  "scope": "entity.name.section.git-config",
+  "settings": {
+    "showInSymbolList": 1
+  },
+  "uuid": "3E646038-6F79-46BE-96A3-9802E7011162"
+}

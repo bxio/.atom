@@ -1,0 +1,17 @@
+{
+  "name": "Comments",
+  "scope": "text.html",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "<!-- "
+      },
+      {
+        "name": "TM_COMMENT_END",
+        "value": " -->"
+      }
+    ]
+  },
+  "uuid": "B79BDBCF-D0C9-468E-BE62-744074D7825F"
+}

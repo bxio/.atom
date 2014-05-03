@@ -1,0 +1,7 @@
+{
+  "content": "border-left-width:${TM_CSS_SPACE}${1:1}px ${2:solid} #${3:999}${4:;}$0",
+  "name": "border-left-width: size",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "border",
+  "uuid": "6BCD3621-E506-4034-A9DF-E7B0AB54C375"
+}

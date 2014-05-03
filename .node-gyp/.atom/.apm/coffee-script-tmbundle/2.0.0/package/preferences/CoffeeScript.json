@@ -1,0 +1,21 @@
+{
+  "name": "Comments",
+  "scope": "source.coffee",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "# "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "###"
+      },
+      {
+        "name": "TM_COMMENT_END_2",
+        "value": "###"
+      }
+    ]
+  },
+  "uuid": "0A92C6F6-4D73-4859-B38C-4CC19CBC191F"
+}

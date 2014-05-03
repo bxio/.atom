@@ -1,0 +1,7 @@
+{
+  "content": "clear: ${1|left,right,both,none|};$0",
+  "name": "clear: value",
+  "scope": "source.css",
+  "tabTrigger": "clear",
+  "uuid": "8E9366D7-BB0B-456C-B9F3-0CE8072A10C3"
+}

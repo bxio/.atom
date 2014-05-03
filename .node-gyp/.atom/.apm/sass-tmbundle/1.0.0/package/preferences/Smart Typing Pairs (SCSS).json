@@ -1,0 +1,13 @@
+{
+  "name": "Smart Typing Pairs (SCSS)",
+  "scope": "source.css.scss",
+  "settings": {
+    "smartTypingPairs": [
+      [
+        ":",
+        ";"
+      ]
+    ]
+  },
+  "uuid": "1AE52413-4F53-4EA6-B51E-30814C5B0D9C"
+}

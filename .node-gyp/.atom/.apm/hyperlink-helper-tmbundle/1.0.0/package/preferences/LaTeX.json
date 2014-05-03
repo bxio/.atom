@@ -1,0 +1,13 @@
+{
+  "name": "LaTeX",
+  "scope": "text.tex.latex",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "\\href{<%= e_sn url %>}{<%= e_sn input %>}"
+      }
+    ]
+  },
+  "uuid": "22EC4A8D-69B4-44D5-A029-EE67B144B53E"
+}

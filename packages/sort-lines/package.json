@@ -1,0 +1,35 @@
+{
+  "name": "sort-lines",
+  "main": "./lib/sort-lines",
+  "version": "0.1.0",
+  "description": "Sorts your lines. Never gets tired.",
+  "activationEvents": [
+    "sort-lines:sort"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/sort-lines"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://github.com/atom/sort-lines/raw/master/LICENSE.md"
+    }
+  ],
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "dependencies": {},
+  "readme": "## Sort Lines: An Atom Package\n\nSorts your lines. Never gets tired.\n\n![sort-lines-demo](https://f.cloud.github.com/assets/2988/1796891/85e69ff2-6a93-11e3-89ac-31927f604592.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/atom/sort-lines/issues"
+  },
+  "homepage": "https://github.com/atom/sort-lines",
+  "_id": "sort-lines@0.1.0",
+  "dist": {
+    "shasum": "97f0092cc0008e8a0f0fa0fe32cd5dae2e41df2e"
+  },
+  "_resolved": "/var/folders/_p/6lx9f_cj493_x_343z47mg900000gn/T/d-11408-65467-iykdct/package.tgz",
+  "_from": "/var/folders/_p/6lx9f_cj493_x_343z47mg900000gn/T/d-11408-65467-iykdct/package.tgz"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "for ${1:name} in ${2:array}\n  ${0:# body...}",
+  "name": "Array Comprehension",
+  "scope": "source.coffee",
+  "tabTrigger": "fora",
+  "uuid": "2D4AC0B4-47AA-4E38-9A11-09A48C2A9439"
+}

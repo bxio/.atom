@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Method",
+  "scope": "source.ruby meta.function",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/^\\s*def\\s+/ /"
+  },
+  "uuid": "92E190C9-A861-4025-92D4-D6B5A24C22D4"
+}

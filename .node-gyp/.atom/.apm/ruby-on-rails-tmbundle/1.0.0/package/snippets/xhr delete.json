@@ -1,0 +1,7 @@
+{
+  "content": "xhr :delete, :${1:destroy}, :id => ${2:1}$0",
+  "name": "xhr delete",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "xdelete",
+  "uuid": "F1BE0C3D-7203-43E9-BEFB-D1A99CDD31C1"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "def_delegators :${1:@del_obj}, :${0:del_methods}",
+  "name": "def_delegators ..",
+  "scope": "source.ruby",
+  "tabTrigger": "defds",
+  "uuid": "4A6EFD6B-88E2-4822-AD48-03460EDBC796"
+}

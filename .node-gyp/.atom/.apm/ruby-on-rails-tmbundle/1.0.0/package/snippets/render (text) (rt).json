@@ -1,0 +1,7 @@
+{
+  "content": "render :text => \"${1:text to render...}\"",
+  "name": "render (text)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rt",
+  "uuid": "67C5082F-5011-434A-8EAA-6B8D3600935F"
+}

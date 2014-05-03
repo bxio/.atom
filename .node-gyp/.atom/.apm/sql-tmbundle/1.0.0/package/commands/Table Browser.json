@@ -1,0 +1,8 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "ruby \"$TM_BUNDLE_SUPPORT/bin/db_browser.rb\"",
+  "input": "none",
+  "name": "Database Browser",
+  "output": "showAsHTML",
+  "uuid": "CDD74FE0-32E1-4604-BFC9-96173A557550"
+}

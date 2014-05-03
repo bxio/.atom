@@ -1,0 +1,7 @@
+{
+  "content": "switch ($1) {\n\t$0\n}",
+  "name": "switch",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "sw",
+  "uuid": "2D2F53B7-E41C-4AEE-8A5E-2A5BB7B42E65"
+}

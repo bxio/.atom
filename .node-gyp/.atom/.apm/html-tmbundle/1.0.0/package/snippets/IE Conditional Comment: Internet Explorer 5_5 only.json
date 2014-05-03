@@ -1,0 +1,7 @@
+{
+  "content": "<!--[if IE 5.5000]>${1:${TM_SELECTED_TEXT:   IE Conditional Comment: Internet Explorer 5.5 only }}<![endif]-->$0",
+  "name": "IE Conditional Comment: Internet Explorer 5.5 only",
+  "scope": "text.html",
+  "tabTrigger": "!",
+  "uuid": "E3F8984E-7269-4981-9D30-967AB56A6ACE"
+}

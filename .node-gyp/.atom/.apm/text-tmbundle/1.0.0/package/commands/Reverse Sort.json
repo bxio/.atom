@@ -1,0 +1,14 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n[[ -f \"${TM_SUPPORT_PATH}/lib/bash_init.sh\" ]] && . \"${TM_SUPPORT_PATH}/lib/bash_init.sh\"\n\nsort -rf",
+  "fallbackInput": "document",
+  "input": "selection",
+  "inputFormat": "text",
+  "keyEquivalent": "",
+  "name": "Sort Document / Selection Descending",
+  "outputCaret": "heuristic",
+  "outputFormat": "text",
+  "outputLocation": "replaceInput",
+  "uuid": "0EFCB390-DCBB-4B52-90DF-665571C0C446",
+  "version": 2
+}

@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.label :${1:attribute}${2:, \"${3:${1/[[:alpha:]]+|(_)/(?1: :\\u$0)/g}}\"}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "f.label (ffl)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "f.",
+  "uuid": "402C251E-595B-4A58-8EB9-41989040F280"
+}

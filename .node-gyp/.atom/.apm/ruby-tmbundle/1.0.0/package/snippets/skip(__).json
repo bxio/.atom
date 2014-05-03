@@ -1,0 +1,7 @@
+{
+  "content": "skip`snippet_paren.rb`\"${1:Message.}\"`snippet_paren.rb end`$0",
+  "name": "skip(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "ski",
+  "uuid": "B186BAC0-D981-41AC-B8F4-34BAD2BC4EE6"
+}

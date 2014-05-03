@@ -1,0 +1,7 @@
+{
+  "content": "#endif\n",
+  "keyEquivalent": "~@.",
+  "name": "#endif",
+  "scope": "source.c, source.c++, source.objc, source.objc++, (source.c | source.c++ | source.objc | source.objc++) & comment.block.preprocessor",
+  "uuid": "5039DA0E-538B-48E2-A45A-E5A27787E765"
+}

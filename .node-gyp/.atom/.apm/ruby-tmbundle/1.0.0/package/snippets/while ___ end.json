@@ -1,0 +1,7 @@
+{
+  "content": "while ${1:condition}\n\t$0\nend",
+  "name": "while ... end",
+  "scope": "source.ruby",
+  "tabTrigger": "while",
+  "uuid": "D121FC61-96A4-4B8F-8709-280EDA876FF3"
+}

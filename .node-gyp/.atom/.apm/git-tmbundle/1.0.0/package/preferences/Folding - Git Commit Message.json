@@ -1,0 +1,9 @@
+{
+  "name": "Folding (Git Commit Message)",
+  "scope": "text.git-commit",
+  "settings": {
+    "foldingStartMarker": "^\\+\\+\\+",
+    "foldingStopMarker": "^---"
+  },
+  "uuid": "1A0DB209-7219-4BA5-BB32-3A282919890B"
+}

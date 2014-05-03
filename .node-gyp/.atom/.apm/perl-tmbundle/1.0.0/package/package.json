@@ -1,0 +1,18 @@
+{
+  "name": "perl-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for Perl",
+  "homepage": "https://github.com/textmate/perl.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/perl.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/perl.tmbundle/issues"
+  },
+  "commitSha": "be60a7f3c40574b0d0f8cb571e2d69dbb259b4ca",
+  "version": "1.0.0"
+}

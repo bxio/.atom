@@ -1,0 +1,94 @@
+{
+  "fileTypes": [
+    "properties"
+  ],
+  "foldingStartMarker": "^[a-zA-Z0-9.-_]+=.*\\\n",
+  "foldingStopMarker": "^(.*(?<!\\)\n)",
+  "keyEquivalent": "^~J",
+  "name": "Java Properties",
+  "patterns": [
+    {
+      "begin": "(^[ \\t]+)?(?=#)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.comment.leading.java-props"
+        }
+      },
+      "end": "(?!\\G)",
+      "patterns": [
+        {
+          "begin": "#",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.java-props"
+            }
+          },
+          "end": "\\n",
+          "name": "comment.line.number-sign.java-props"
+        }
+      ]
+    },
+    {
+      "begin": "(^[ \\t]+)?(?=!)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.whitespace.comment.leading.java-props"
+        }
+      },
+      "end": "(?!\\G)",
+      "patterns": [
+        {
+          "begin": "!",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.java-props"
+            }
+          },
+          "end": "\\n",
+          "name": "comment.line.exclamation.java-props"
+        }
+      ]
+    },
+    {
+      "captures": {
+        "1": {
+          "name": "markup.heading.kvp.key.java.properties"
+        },
+        "2": {
+          "name": "markup.deleted.kvp.key.java.properties"
+        },
+        "3": {
+          "name": "string.kvp.value.java.properties"
+        }
+      },
+      "match": "^(?#KEY)(?:[ \t])*([a-zA-Z][^<>/][a-zA-Z0-9-_.]*)(=)(?#VALUE)(.*\n)",
+      "name": "kvp.singleline.properties"
+    },
+    {
+      "captures": {
+        "1": {
+          "name": "meta.line.error.logfile.dangling.key.properties"
+        },
+        "2": {
+          "name": "invalid.illegal.dangling.equalsign.properties"
+        },
+        "3": {
+          "name": "invalid.deprecated.dangling.value.properties"
+        }
+      },
+      "match": "^(?#KEY)(?:[ \t])*([a-zA-Z][^<>/][a-zA-Z0-9-_.]*)([ \t]+=)(?#VALUE)(.*\n)",
+      "name": "kvp.dangling.space.between.key.and.equalsign.properties"
+    },
+    {
+      "captures": {
+        "1": {
+          "name": "string.kvp.multiline.properties"
+        }
+      },
+      "match": "^((?:[ \t])*[^#].*\\\n|(?:[ \t])*\\\n|(?:[ \t])*[^#](?<!=).*\n)",
+      "name": "kvp.multiline.properties"
+    }
+  ],
+  "scopeName": "source.java.properties",
+  "uuid": "D364E829-7643-4AFF-948D-3C0D6B4EA8A4"
+}

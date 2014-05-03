@@ -1,0 +1,26 @@
+[
+  {
+    "file": "spec/templates/classes/empty_class.coffee",
+    "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+    },
+    "class": {
+      "className": "A",
+      "name": "A",
+      "namespace": ""
+    },
+    "methods": [
+      {
+        "type": "instance",
+        "signature": ".<strong>foo</strong>()",
+        "name": "foo",
+        "bound": false,
+        "parameters": []
+      }
+    ],
+    "variables": [],
+    "properties": []
+  }
+]

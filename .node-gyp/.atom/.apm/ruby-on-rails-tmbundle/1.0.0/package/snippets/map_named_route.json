@@ -1,0 +1,7 @@
+{
+  "content": "${1:map}.${2:connect} '${3::controller/:action/:id}'",
+  "name": "map.named_route",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "map",
+  "uuid": "91C543BF-7BD8-4E3A-B493-AE572C5472A0"
+}

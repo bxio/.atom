@@ -1,0 +1,7 @@
+{
+  "content": "@implementation ${1:${TM_FILENAME/.*?(\\w+).*|.*/(?1:$1:NSObject)/}} (${2:${TM_FILENAME/.*?\\w+\\W+(\\w+).*\\..+|.*/(?1:$1:Category)/}})\n$0\n@end",
+  "name": "Category Implementation",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "catm",
+  "uuid": "3E270C37-E7E2-4D1D-B28F-CEDD8DE0041C"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "render :partial => \"${1:item}\", :collection => ${2:@$1s}",
+  "name": "render (partial, collection)",
+  "scope": "source.ruby.rails, text.html.ruby, text.haml",
+  "tabTrigger": "rpc",
+  "uuid": "046FB1B6-9C65-4702-91EC-4AA9878CD949"
+}

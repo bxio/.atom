@@ -1,0 +1,7 @@
+{
+  "content": "border-top-style: ${1|none,hidden,dotted,dashed,solid,double,groove,ridge,inset,outset|};$0",
+  "name": "border-top-style: style",
+  "scope": "source.css",
+  "tabTrigger": "border",
+  "uuid": "C5039010-E264-4D3D-A12E-02C2DB7DC4BF"
+}

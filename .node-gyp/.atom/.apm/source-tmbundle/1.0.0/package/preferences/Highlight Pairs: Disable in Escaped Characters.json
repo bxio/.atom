@@ -1,0 +1,8 @@
+{
+  "name": "Highlight Pairs: Disable in Escaped Characters",
+  "scope": "constant.character.escape",
+  "settings": {
+    "highlightPairs": []
+  },
+  "uuid": "94B7F596-0981-4B76-A909-BF3FC1C2EBE8"
+}

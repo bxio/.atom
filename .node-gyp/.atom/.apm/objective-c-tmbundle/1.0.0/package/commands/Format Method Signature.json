@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\ntext = STDIN.read\n\ntext.gsub!(/(\\([^\\)]+)\\s+(\\*\\))/, '\\1\\2')\n\noffset_to_first_colon = text.index(':')\n\nargument_triplets = text.scan /(.+?):\\s*\\((.+?)\\)\\s*([^\\s]*)\\s*/\n\nprint(argument_triplets.collect do |triplet|\n\tsprintf \"%#{offset_to_first_colon}s:(%s)%s\", triplet[0], triplet[1], triplet[2]\nend.join(\"\\n\"))\n\nprint $1 if text.match /(\\n+)\\z/",
+  "fallbackInput": "scope",
+  "input": "selection",
+  "keyEquivalent": "^q",
+  "name": "Reformat Method Signature",
+  "output": "replaceSelectedText",
+  "scope": "meta.function.objc",
+  "uuid": "122E10C1-DFA2-4A9E-9B17-8EBFA6E10CC7"
+}

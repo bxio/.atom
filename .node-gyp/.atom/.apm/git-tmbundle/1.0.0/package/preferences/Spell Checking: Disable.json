@@ -1,0 +1,8 @@
+{
+  "name": "Spell Checking: Disable",
+  "scope": "meta.scope.metadata.git-commit",
+  "settings": {
+    "spellChecking": "0"
+  },
+  "uuid": "5CF68FFF-6562-4A58-8056-6034EF93E88A"
+}

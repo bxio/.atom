@@ -1,0 +1,13 @@
+{
+  "name": "Mediawiki",
+  "scope": "text.html.mediawiki",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "[<%= e_sn url %> <%= e_sn input %>]"
+      }
+    ]
+  },
+  "uuid": "8B0130E3-6091-445A-BBDA-B1BFC01AADF7"
+}

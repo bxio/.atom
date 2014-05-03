@@ -1,0 +1,7 @@
+{
+  "content": "[[NSUserDefaults standardUserDefaults] objectForKey:${1:key}];",
+  "name": "Read Defaults Value",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "getprefs",
+  "uuid": "3EF96A1F-B597-11D9-A114-000D93589AF6"
+}

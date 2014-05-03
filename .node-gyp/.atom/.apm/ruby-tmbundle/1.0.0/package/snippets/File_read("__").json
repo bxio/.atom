@@ -1,0 +1,7 @@
+{
+  "content": "File.read(${1:\"${2:path/to/file}\"})",
+  "name": "File.read(\"..\")",
+  "scope": "source.ruby",
+  "tabTrigger": "File",
+  "uuid": "50C56AC8-48F3-42A0-AF10-8164464AFAEF"
+}

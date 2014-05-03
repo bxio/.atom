@@ -1,0 +1,7 @@
+{
+  "content": "#if 0\n${1:#pragma mark -\n}#pragma mark $2\n#endif\n\n$0",
+  "name": "#pragma mark",
+  "scope": "source.c, source.objc, source.c++, source.objc++",
+  "tabTrigger": "mark",
+  "uuid": "ADD104E9-830A-4AC4-AAF4-DB6D3B0B7506"
+}

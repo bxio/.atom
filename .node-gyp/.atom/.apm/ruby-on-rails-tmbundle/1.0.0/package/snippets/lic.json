@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}link_to \"${1:link text...}\", :controller => \"${2:items}\"${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "link_to (controller)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "lt",
+  "uuid": "74590E16-7BCB-11D9-906A-000D932CD5BA"
+}

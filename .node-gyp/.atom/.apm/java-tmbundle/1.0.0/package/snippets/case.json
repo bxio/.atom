@@ -1,0 +1,7 @@
+{
+  "content": "case $1:\n\t$2\n$0",
+  "name": "case",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "cs",
+  "uuid": "7396532C-3567-4BDA-9C10-51454A2F2F6D"
+}

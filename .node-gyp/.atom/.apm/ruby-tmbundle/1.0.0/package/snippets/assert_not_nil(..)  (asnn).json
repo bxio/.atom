@@ -1,0 +1,7 @@
+{
+  "content": "assert_not_nil`snippet_paren.rb`${0:instance}`snippet_paren.rb end`",
+  "name": "assert_not_nil(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "asnn",
+  "uuid": "79FEC3CC-2A40-4611-9A85-ECDB22FE0701"
+}

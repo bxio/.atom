@@ -1,0 +1,8 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\nrequire \"#{ENV['TM_SUPPORT_PATH']}/lib/tm/detach\"\nrequire \"#{ENV['TM_BUNDLE_SUPPORT']}/lib/settings.rb\"\nTextMate.detach { Settings.show_ui }\n",
+  "input": "none",
+  "name": "Preferences…",
+  "output": "showAsTooltip",
+  "uuid": "65C4098C-BB16-4CA1-9297-B312BCD0433F"
+}

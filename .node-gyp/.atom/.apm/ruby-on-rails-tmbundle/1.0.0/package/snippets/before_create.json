@@ -1,0 +1,7 @@
+{
+  "content": "before_create ",
+  "name": "before_create",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "befc",
+  "uuid": "D64D8863-DCB6-4397-B5B0-073E0AE04167"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "default:\n\t$0",
+  "name": "default",
+  "scope": "source.java",
+  "tabTrigger": "de",
+  "uuid": "F050CAEB-56AB-40A7-846B-E5DB70FA0A90"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "word-spacing:${TM_CSS_SPACE}normal${2:;}$0",
+  "name": "word-spacing: normal",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "word",
+  "uuid": "2214ACCE-0C64-4CE1-A7A2-660512797CB2"
+}

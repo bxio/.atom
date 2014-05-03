@@ -1,0 +1,11 @@
+{
+  "name": "Style: Unnumbered List",
+  "scope": "markup.list.unnumbered",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": "\\A\\s*[-*]\\s+"
+    }
+  },
+  "uuid": "93CBCCEB-32BE-41F3-9F00-B975831F33EC"
+}

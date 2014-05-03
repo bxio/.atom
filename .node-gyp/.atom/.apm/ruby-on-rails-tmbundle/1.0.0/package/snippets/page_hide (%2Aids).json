@@ -1,0 +1,7 @@
+{
+  "content": "page.hide ${1:\"${2:id(s)}\"}",
+  "name": "page.hide (*ids)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "hide",
+  "uuid": "390A447F-0FA3-4F01-A10C-4F35675E0A43"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "margin-top: ${1:20px};$0",
+  "name": "margin-top: length",
+  "scope": "source.css",
+  "tabTrigger": "margin",
+  "uuid": "412AA532-762F-4270-961A-54BF6014996D"
+}

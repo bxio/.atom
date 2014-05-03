@@ -1,0 +1,7 @@
+{
+  "content": "if ($1) {\n\t${2:# body...}\n}\n",
+  "name": "Conditional",
+  "scope": "source.perl",
+  "tabTrigger": "if",
+  "uuid": "07200FA1-0292-4B6B-853D-F35573A9C5C7"
+}

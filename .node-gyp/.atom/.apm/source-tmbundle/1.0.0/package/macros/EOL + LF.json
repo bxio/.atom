@@ -1,0 +1,13 @@
+{
+  "commands": [
+    {
+      "command": "moveToEndOfParagraph:"
+    },
+    {
+      "command": "insertNewline:"
+    }
+  ],
+  "keyEquivalent": "@\r",
+  "name": "and Insert LF",
+  "uuid": "A72CBA80-5F10-11D9-9B72-000D93589AF6"
+}

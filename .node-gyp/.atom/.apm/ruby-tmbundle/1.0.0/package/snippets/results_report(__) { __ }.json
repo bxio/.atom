@@ -1,0 +1,7 @@
+{
+  "content": "results.report(\"${1:name}:\") { TESTS.times { $0 } }",
+  "name": "results.report(..) { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "rep",
+  "uuid": "1C60D589-DD46-4109-90CA-6B34AEA2F298"
+}

@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire \"#{ENV['TM_BUNDLE_SUPPORT']}/tminclude.rb\"\nTextMate::Includes.instance.process_persistent_includes_for_project\n",
+  "input": "none",
+  "keyEquivalent": "^@u",
+  "name": "Update Project / Selected Files",
+  "output": "showAsTooltip",
+  "scope": "text.html",
+  "uuid": "CA24BD98-E4B6-48F8-B15A-84CC533BE1BD"
+}

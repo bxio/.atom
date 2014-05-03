@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": "'",
+  "name": "Inside String: Overtype Closing '",
+  "scope": "source.python string.quoted.single punctuation.definition.string.end.python",
+  "scopeType": "local",
+  "uuid": "7797CDD8-76A2-4A5C-A41C-9AA7E6FBBA84"
+}

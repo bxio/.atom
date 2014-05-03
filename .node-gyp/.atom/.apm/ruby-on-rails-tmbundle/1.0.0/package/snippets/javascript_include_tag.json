@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}javascript_include_tag ${1::all}${2:, :cache => ${3:true}}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "javascript_include_tag",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "jit",
+  "uuid": "FEF49C86-9386-405E-A191-684D1C963E3A"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "render :nothing => ${1:true}",
+  "name": "render (nothing)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rn",
+  "uuid": "AC8A995F-0034-433C-905D-E5C1F29D6EFF"
+}

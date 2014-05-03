@@ -1,0 +1,7 @@
+{
+  "content": "border-bottom-style:${TM_CSS_SPACE}${1|none,hidden,dotted,dashed,solid,double,groove,ridge,inset,outset|}${2:;}$0",
+  "name": "border-bottom-style: style",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "border",
+  "uuid": "47F31419-D0EC-4E35-9DE7-6ECF00210190"
+}

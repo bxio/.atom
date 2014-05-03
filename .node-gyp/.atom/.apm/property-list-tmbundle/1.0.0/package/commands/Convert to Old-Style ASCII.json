@@ -1,0 +1,14 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env bash\n\n\"${TM_BUNDLE_SUPPORT}/bin/pretty_plist\"\n",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "^H",
+  "name": "Convert to Old-Style ASCII",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "newWindow",
+  "scope": "text.xml.plist, source.plist.binary",
+  "uuid": "827E8A23-2C7A-4BDD-987F-A3B67B51F239",
+  "version": 2
+}

@@ -1,0 +1,7 @@
+{
+  "content": "session[:${1:user}]",
+  "keyEquivalent": "^j",
+  "name": "session[…]",
+  "scope": "source.ruby.rails",
+  "uuid": "7B02ABF8-8763-11D9-897C-000393CBCE2E"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "source.shell",
+  "settings": {
+    "foldingStartMarker": "\\b(if|case)\\b|(\\{|\\b(do)\\b)$",
+    "foldingStopMarker": "^\\s*(\\}|(done|fi|esac)\\b)"
+  },
+  "uuid": "540E9053-CB97-423E-97EF-1F694B0015D3"
+}

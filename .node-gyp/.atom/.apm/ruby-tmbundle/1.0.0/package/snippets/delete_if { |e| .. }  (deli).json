@@ -1,0 +1,7 @@
+{
+  "content": "delete_if { |${1:e}| $0 }",
+  "name": "delete_if { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "deli",
+  "uuid": "263C94DC-63CF-4BA3-9692-C5582CA8F1AB"
+}

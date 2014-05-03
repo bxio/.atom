@@ -1,0 +1,18 @@
+{
+  "commands": [
+    {
+      "command": "moveToEndOfParagraph:"
+    },
+    {
+      "argument": ".",
+      "command": "insertText:"
+    },
+    {
+      "command": "insertNewline:"
+    }
+  ],
+  "keyEquivalent": "$@\r",
+  "name": "Move to EOL and Insert \".\" + LF",
+  "scope": "text",
+  "uuid": "E86C9A77-5B48-43C6-A712-A61B616269E6"
+}

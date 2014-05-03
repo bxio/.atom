@@ -1,0 +1,3 @@
+'body':
+  'ctrl-meta-,': 'window:toggle-full-screen'
+  'meta-ctrl-d': 'theme:dark-toggle'

@@ -1,0 +1,7 @@
+{
+  "content": "white-space: ${1|normal,pre,nowrap|};$0",
+  "name": "white-space: normal/pre/nowrap",
+  "scope": "source.css",
+  "tabTrigger": "white",
+  "uuid": "A7D10908-72FE-4502-A267-42C5B03F0D66"
+}

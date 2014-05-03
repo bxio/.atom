@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "# Xcode 2.1 supports preprocessed plist files\n# CPP's authors couldn't be bothered to support stdin\nTEMP_FILE1=`mktemp /tmp/TextMate_plist.XXXXXX`\nTEMP_FILE2=`mktemp /tmp/TextMate_plist_pre.XXXXXX`\nif [[ -n $TEMP_FILE1 ]]; then\n\tcat > \"$TEMP_FILE1\"\n\tcpp -P \"$TEMP_FILE1\" \"$TEMP_FILE2\"\n\tplutil -lint \"$TEMP_FILE2\"\n\trm \"$TEMP_FILE1\"\n\trm \"$TEMP_FILE2\"\nelse\n\techo \"Error: Temporary file could not be created\"\nfi",
+  "input": "document",
+  "keyEquivalent": "^V",
+  "name": "Preprocess and Validate Syntax",
+  "output": "showAsTooltip",
+  "scope": "source.plist -source.plist.binary",
+  "uuid": "A7240D98-3452-42FC-A3D8-960F1E992AD2"
+}

@@ -1,0 +1,7 @@
+{
+  "content": " :yields: ${0:arguments}",
+  "name": ":yields:",
+  "scope": "source.ruby comment",
+  "tabTrigger": "y",
+  "uuid": "ED6368FB-A11D-4622-9F42-7879481094F1"
+}

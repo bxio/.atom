@@ -1,0 +1,7 @@
+{
+  "content": "background-color:${TM_CSS_SPACE}#${1:DDD}${2:;}$0",
+  "name": "background-color: hex",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "background",
+  "uuid": "EED24E6A-B4AE-4CE8-94A3-50ECD76964E7"
+}

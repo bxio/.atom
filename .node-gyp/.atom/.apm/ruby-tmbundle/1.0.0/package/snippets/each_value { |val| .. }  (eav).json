@@ -1,0 +1,7 @@
+{
+  "content": "each_value { |${1:val}| $0 }",
+  "name": "each_value { |val| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "eav",
+  "uuid": "844DBD70-BC23-4FBF-9C18-F4A610239DF2"
+}

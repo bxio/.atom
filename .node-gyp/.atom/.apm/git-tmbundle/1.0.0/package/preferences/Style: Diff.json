@@ -1,0 +1,8 @@
+{
+  "name": "Style: Diff",
+  "scope": "text.git-commit source.diff",
+  "settings": {
+    "softWrap": false
+  },
+  "uuid": "EFA849A8-00DF-4D9A-BA37-504323969746"
+}

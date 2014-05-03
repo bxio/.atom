@@ -1,0 +1,7 @@
+{
+  "content": "${1:method_name}: function (${3:attribute}){\n\t$0\n}${10:,}",
+  "name": "Object Method",
+  "scope": "source.js",
+  "tabTrigger": ":f",
+  "uuid": "77065D69-742A-4FF0-9A41-AD211DFBE72F"
+}

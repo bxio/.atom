@@ -1,0 +1,7 @@
+{
+  "content": "else if ${1:condition}\n  ${0:# body...}",
+  "name": "Else if",
+  "scope": "source.coffee",
+  "tabTrigger": "elif",
+  "uuid": "EA8F5EDB-6E1E-4C36-9CA5-12B108F1A7C9"
+}

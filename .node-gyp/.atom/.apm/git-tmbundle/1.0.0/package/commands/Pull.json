@@ -1,0 +1,25 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"remote\", :action => \"pull\"",
+  "input": "selection",
+  "inputFormat": "text",
+  "name": "Pull",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "scope": "attr.scm.git",
+  "semanticClass": "action.scm.pull",
+  "uuid": "6494E41A-04CE-4D30-BD9A-B50056A7C13F",
+  "version": 2
+}

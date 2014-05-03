@@ -1,0 +1,8 @@
+{
+  "name": "Character Class: Punctuation",
+  "scope": "punctuation.separator",
+  "settings": {
+    "characterClass": "punctuation"
+  },
+  "uuid": "ACFE8A63-EE5C-42C2-87FE-21BAC1810FB9"
+}

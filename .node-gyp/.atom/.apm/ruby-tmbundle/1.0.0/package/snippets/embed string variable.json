@@ -1,0 +1,7 @@
+{
+  "content": "#{${1:$TM_SELECTED_TEXT}}",
+  "keyEquivalent": "#",
+  "name": "Embedded Code — #{…}",
+  "scope": "B:(string.quoted.double.ruby|string.interpolated.ruby) - string source",
+  "uuid": "EEE6D060-C5A0-400D-A2E0-0835013C5365"
+}

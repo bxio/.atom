@@ -1,0 +1,7 @@
+{
+  "content": "<% else %>\n  ",
+  "name": "else (ERB)",
+  "scope": "text.html.ruby",
+  "tabTrigger": "else",
+  "uuid": "B9889C00-FC9D-4956-81BF-600145F06976"
+}

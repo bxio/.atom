@@ -1,0 +1,8 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "say `echo \"$TM_SELECTED_TEXT\"` &",
+  "input": "selection",
+  "name": "Speak Document / Selection",
+  "output": "discard",
+  "uuid": "D26BEEE3-7439-4B7E-AD9D-9A144CDC5873"
+}

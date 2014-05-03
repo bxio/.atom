@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "cat <<SNIPPET\n${TM_SELECTED_TEXT:-$TM_CURRENT_WORD} = (\\${1:args}) ->\n  \\$0\nSNIPPET",
+  "fallbackInput": "word",
+  "input": "selection",
+  "keyEquivalent": "$\r",
+  "name": "New Function",
+  "output": "insertAsSnippet",
+  "scope": "source.coffee",
+  "uuid": "192428A1-8684-4172-8728-225B4C9E532F"
+}

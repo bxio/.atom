@@ -1,0 +1,7 @@
+{
+  "content": "sort { |a, b| $0 }",
+  "name": "sort { |a, b| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "sor",
+  "uuid": "9E0B4D4B-2956-4B3A-800A-3D8CE54E66BF"
+}

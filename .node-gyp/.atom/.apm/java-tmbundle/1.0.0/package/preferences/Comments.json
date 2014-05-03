@@ -1,0 +1,21 @@
+{
+  "name": "Comments",
+  "scope": "source.java",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "// "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "/*"
+      },
+      {
+        "name": "TM_COMMENT_END_2",
+        "value": "*/"
+      }
+    ]
+  },
+  "uuid": "FBA964F9-EA31-44D1-A5FD-AE8AB3FF8954"
+}

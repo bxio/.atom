@@ -1,0 +1,7 @@
+{
+  "content": "border-top-width: ${1:1}px",
+  "name": "border-top-width: size",
+  "scope": "source.css",
+  "tabTrigger": "border",
+  "uuid": "EE19367C-6634-4854-910D-90C6F5752A46"
+}

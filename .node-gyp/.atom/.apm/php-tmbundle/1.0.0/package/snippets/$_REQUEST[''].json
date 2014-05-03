@@ -1,0 +1,7 @@
+{
+  "content": "\\$_REQUEST['${1:variable}']",
+  "name": "REQUEST['…']",
+  "scope": "source.php",
+  "tabTrigger": "$_",
+  "uuid": "19B4F695-8CD1-11D9-B507-000D93C8BE28"
+}

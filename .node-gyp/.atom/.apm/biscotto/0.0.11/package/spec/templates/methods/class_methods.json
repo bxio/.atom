@@ -1,0 +1,135 @@
+[
+  {
+    "file": "spec/templates/methods/class_methods.coffee",
+    "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+    },
+    "class": {
+      "className": "TestClassMethods",
+      "name": "TestClassMethods",
+      "namespace": ""
+    },
+    "methods": [
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "class",
+        "signature": "@<strong>helper</strong>()",
+        "name": "helper",
+        "bound": false,
+        "parameters": []
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "class",
+        "signature": "@<strong>another</strong>(a, b)",
+        "name": "another",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "a",
+            "splat": false
+          },
+          {
+            "name": "b",
+            "splat": false
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "class",
+        "signature": "@<strong>withDefault</strong>(a = 2, c, d = 'hi', d, e = { a: 2 }, f = new TestClassMethods())",
+        "name": "withDefault",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "a",
+            "default": "2",
+            "splat": false
+          },
+          {
+            "name": "c",
+            "splat": false
+          },
+          {
+            "name": "d",
+            "default": "'hi'",
+            "splat": false
+          },
+          {
+            "name": "d",
+            "splat": false
+          },
+          {
+            "name": "e",
+            "default": "{\n  a: 2\n}",
+            "splat": false
+          },
+          {
+            "name": "f",
+            "default": "new TestClassMethods()",
+            "splat": false
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "class",
+        "signature": "@<strong>nowWithSpalt</strong>(foo, bar...)",
+        "name": "nowWithSpalt",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "foo",
+            "splat": false
+          },
+          {
+            "name": "bar",
+            "splat": true
+          }
+        ]
+      },
+      {
+        "doc": {
+          "comment": "",
+          "summary": "",
+          "status": "Public"
+        },
+        "type": "class",
+        "signature": "@<strong>andSoDoesThis</strong>(foo, bar)",
+        "name": "andSoDoesThis",
+        "bound": false,
+        "parameters": [
+          {
+            "name": "foo",
+            "splat": false
+          },
+          {
+            "name": "bar",
+            "splat": false
+          }
+        ]
+      }
+    ],
+    "variables": [],
+    "properties": []
+  }
+]

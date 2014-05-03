@@ -1,0 +1,29 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_add_column_or_create_table.rb",
+        "input": "selection",
+        "output": "replaceSelectedText"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "moveToEndOfLine:"
+    }
+  ],
+  "name": "Remove / Add Column (Second Half)",
+  "scope": "meta.rails.migration - meta.rails.migration.create_table - meta.rails.migration.change_table",
+  "scopeType": "local",
+  "tabTrigger": "[press tab twice to generate add_column]",
+  "uuid": "809BCA42-5C49-4B08-B3C4-BB773036C086"
+}

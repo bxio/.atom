@@ -1,0 +1,13 @@
+{
+  "name": "reStructuredText",
+  "scope": "text.restructuredtext",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "\\`<%= e_sn input %><<%= e_sn url %>>\\`_"
+      }
+    ]
+  },
+  "uuid": "F609EFEF-BFD8-4088-815D-1C17BB90FEAD"
+}

@@ -1,0 +1,31 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb enumerator",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "bundlePath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle",
+        "content": "enum_with_index.map { |${1:e}, ${2:i}| $0 }",
+        "scope": "source.ruby",
+        "supportPath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle/Support",
+        "tabTrigger": "mapwi-",
+        "uuid": "BD4CFD7B-1AC0-4569-9BDA-FD491F41F4E6"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "map_with_index { |e, i| .. }",
+  "scope": "source.ruby",
+  "scopeType": "local",
+  "tabTrigger": "mapwi",
+  "uuid": "BFB65D1C-62F1-485D-8A67-3E5A2E55107C"
+}

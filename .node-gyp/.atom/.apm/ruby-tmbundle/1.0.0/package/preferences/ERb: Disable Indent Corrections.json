@@ -1,0 +1,8 @@
+{
+  "name": "ERb: Disable Indent Corrections",
+  "scope": "meta.embedded.line.erb",
+  "settings": {
+    "disableIndentCorrections": true
+  },
+  "uuid": "DF7E649B-5464-424C-A480-F7A130E0E075"
+}

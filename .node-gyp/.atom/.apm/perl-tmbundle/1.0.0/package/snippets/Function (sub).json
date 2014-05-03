@@ -1,0 +1,7 @@
+{
+  "content": "sub ${1:function_name} {\n\t${2:# body...}\n}\n",
+  "name": "Function",
+  "scope": "source.perl",
+  "tabTrigger": "sub",
+  "uuid": "4734090D-F23D-4D6B-8581-AC1E1B776DCD"
+}

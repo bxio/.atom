@@ -1,0 +1,7 @@
+{
+  "content": "direction: ${1:ltr|rtl};$0",
+  "name": "direction: ltr/rtl",
+  "scope": "source.css",
+  "tabTrigger": "direction",
+  "uuid": "A723DACA-3819-4E8D-8BCF-9BD1B98AF651"
+}

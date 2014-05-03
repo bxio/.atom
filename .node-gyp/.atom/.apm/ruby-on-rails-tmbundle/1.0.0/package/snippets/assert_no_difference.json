@@ -1,0 +1,7 @@
+{
+  "content": "assert_no_difference \"${1:Model}.${2:count}\" do\n  $0\nend",
+  "name": "assert_no_difference",
+  "scope": "source.ruby",
+  "tabTrigger": "asnd",
+  "uuid": "5C6F4462-70E6-40B4-B3F2-F371656E7784"
+}

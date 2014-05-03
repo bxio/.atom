@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "source.c, source.c++",
+  "settings": {
+    "foldingStartMarker": "(?x)\n\t\t /\\*\\*(?!\\*)\n\t\t|^(?![^{]*?//|[^{]*?/\\*(?!.*?\\*/.*?\\{)).*?\\{\\s*($|//|/\\*(?!.*?\\*/.*\\S))\n\t",
+    "foldingStopMarker": "(?<!\\*)\\*\\*/|^\\s*\\}"
+  },
+  "uuid": "C7881C3D-B09F-405A-8E88-972EB244154A"
+}

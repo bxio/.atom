@@ -1,0 +1,7 @@
+{
+  "content": "getElementById(${1:'${2:id}'})",
+  "name": "getElementById",
+  "scope": "source.js",
+  "tabTrigger": "get",
+  "uuid": "B2225C2E-59BD-4AD5-9554-755A9864D7F1"
+}

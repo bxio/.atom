@@ -1,0 +1,7 @@
+{
+  "content": "\\$GLOBALS['${1:variable}']${2: = }${3:something}${4:;}$0",
+  "name": "$GLOBALS['…']",
+  "scope": "source.php",
+  "tabTrigger": "globals",
+  "uuid": "E8BDF86F-8CD0-11D9-B507-000D93C8BE28"
+}

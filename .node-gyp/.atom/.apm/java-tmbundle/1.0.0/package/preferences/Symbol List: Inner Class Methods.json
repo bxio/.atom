@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Inner Class Methods",
+  "scope": "source.java meta.class.body meta.class.body meta.method.identifier",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "\n\t\ts/\\s{2,}/ /g;\n\t\ts/.*/    $0/g;\n\t"
+  },
+  "uuid": "11D7DA6F-1AE7-4BC7-BB5E-8DF05984FEEE"
+}

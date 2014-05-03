@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Inner Classes",
+  "scope": "source.java meta.class.body meta.class.identifier",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/.*/  $0/g"
+  },
+  "uuid": "7A55A2BC-CD9D-4EBF-ABF4-3401AA64B7B3"
+}

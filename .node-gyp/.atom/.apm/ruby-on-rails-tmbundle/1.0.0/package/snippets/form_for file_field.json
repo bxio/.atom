@@ -1,0 +1,7 @@
+{
+  "content": "${TM_RAILS_TEMPLATE_START_RUBY_EXPR}f.file_field :${1:attribute}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}",
+  "name": "f.file_field (ffff)",
+  "scope": "text.html.ruby, text.haml",
+  "tabTrigger": "f.",
+  "uuid": "79BC2303-3D9D-4E21-AF85-73B388B7B56D"
+}

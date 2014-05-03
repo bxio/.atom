@@ -1,0 +1,42 @@
+{
+  "name" : "biscotto",
+  "description" : "A CoffeeScript documentation generator.",
+  "keywords" : ["coffeescript", "doc", "api", "tomdoc"],
+  "author" : "Garen J. Torikian <gjtorikian@gmail.com>",
+  "maintainers" : [
+    {
+      "name" : "Garen J. Torikian"
+    }
+  ],
+  "version" : "0.0.12",
+  "engines" : {
+    "node" : ">=0.10.0"
+  },
+  "main" : "./src/biscotto",
+  "bin" : {
+    "biscotto" : "./bin/biscotto"
+  },
+  "dependencies" : {
+    "coffee-script" : ">= 1.2.0",
+    "walkdir" : ">= 0.0.2",
+    "optimist" : ">= 0.3.0",
+    "marked": ">= 0.1.9",
+    "underscore" : ">= 0.1.0",
+    "underscore.string" : ">= 0.1.0",
+    "haml-coffee" : ">= 0.6.0",
+    "mkdirp" : ">= 0.1.0",
+    "connect" : ">= 0.1.0",
+    "async": ">= 0.1.22"
+  },
+  "devDependencies" : {
+    "jasmine-node" : ">= 1.0.13"
+  },
+  "homepage" : "https://github.com/gjtorikian/biscotto",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/gjtorikian/biscotto.git"
+  },
+  "scripts" : {
+    "test" : "./node_modules/.bin/cake test"
+  }
+}

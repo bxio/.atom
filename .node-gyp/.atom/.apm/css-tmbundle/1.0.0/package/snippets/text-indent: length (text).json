@@ -1,0 +1,7 @@
+{
+  "content": "text-indent: ${1:10}px;$0",
+  "name": "text-indent: length",
+  "scope": "source.css",
+  "tabTrigger": "text",
+  "uuid": "2CFA68DC-947B-4C43-872C-FB4DC0704D27"
+}

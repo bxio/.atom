@@ -1,0 +1,7 @@
+{
+  "content": "[[NSNotificationCenter defaultCenter] addObserver:${1:self} selector:@selector(${3:${2/^([A-Z]{2})?(.+?)(Notification)?$/\\l$2/}}:) name:${2:NSWindowDidBecomeMainNotification} object:${4:nil}];",
+  "name": "Register for Notification",
+  "scope": "source.objc meta.scope.implementation, source.objc++ meta.scope.implementation",
+  "tabTrigger": "obs",
+  "uuid": "E8107901-70F1-45D9-8633-81BD5E57CC89"
+}

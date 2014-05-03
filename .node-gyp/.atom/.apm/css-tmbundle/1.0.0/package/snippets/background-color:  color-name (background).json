@@ -1,0 +1,7 @@
+{
+  "content": "background-color: ${1:red};$0",
+  "name": "background-color: name",
+  "scope": "source.css",
+  "tabTrigger": "background",
+  "uuid": "913410E0-623A-43F0-B71F-2E8FB9D5EBC8"
+}

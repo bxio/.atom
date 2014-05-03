@@ -1,0 +1,24 @@
+{
+  "commands": [
+    {
+      "argument": "￼",
+      "command": "insertText:"
+    },
+    {
+      "command": "selectAll:"
+    },
+    {
+      "argument": {
+        "command": "insert_missing_includes.rb",
+        "input": "document",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    }
+  ],
+  "keyEquivalent": "^#",
+  "name": "Insert Missing Includes",
+  "scope": "source.c, source.c++, source.objc, source.objc++",
+  "scopeType": "local",
+  "uuid": "0DABAE22-81C5-4ADF-8BCC-9B343A51CCB9"
+}

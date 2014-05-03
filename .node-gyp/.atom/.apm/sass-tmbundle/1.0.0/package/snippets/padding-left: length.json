@@ -1,0 +1,7 @@
+{
+  "content": "padding-left:${TM_CSS_SPACE}${1:20px}${2:;}$0",
+  "name": "padding-left: length",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "padding",
+  "uuid": "3A9B38AE-BA01-4CF2-A18C-FCDA1B59FF3C"
+}

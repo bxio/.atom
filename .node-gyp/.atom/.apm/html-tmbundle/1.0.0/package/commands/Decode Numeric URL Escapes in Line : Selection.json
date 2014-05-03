@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire 'cgi'\nprint CGI.unescape(STDIN.read)\n",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "@&",
+  "name": "URL Unescape Line / Selection",
+  "output": "replaceSelectedText",
+  "scope": "text.html",
+  "uuid": "2C4C9673-B166-432A-8938-75A5CA622481"
+}

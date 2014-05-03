@@ -1,0 +1,7 @@
+{
+  "content": "redirect_to :action => \"${1:show}\", :id => ${0:@item}",
+  "name": "redirect_to (action, id)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "reai",
+  "uuid": "2233B484-73BA-11D9-B752-000D932CD5BA"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "__${1:init}__",
+  "name": "__magic__",
+  "scope": "source.python",
+  "tabTrigger": "__",
+  "uuid": "2E4E82B5-7E7A-4E23-B095-799DDCDB8F75"
+}

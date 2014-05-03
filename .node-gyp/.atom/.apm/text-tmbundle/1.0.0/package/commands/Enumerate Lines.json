@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "cat -n|expand -8",
+  "fallbackInput": "document",
+  "input": "selection",
+  "keyEquivalent": "",
+  "name": "Add Line Numbers to Document / Selection",
+  "output": "replaceSelectedText",
+  "uuid": "8085013F-8DEA-11D9-B421-000D93589AF6"
+}

@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "keyEquivalent": "~@,",
+  "command": "configure.sh",
+  "input": "none",
+  "name": "Preferences…",
+  "output": "discard",
+  "scope": "source.sql",
+  "uuid": "6374BC72-221E-4517-95DA-5D63B50E77BC"
+}

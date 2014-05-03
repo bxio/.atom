@@ -1,0 +1,16 @@
+{
+  "autoScrollOutput": true,
+  "beforeRunningCommand": "saveModifiedFiles",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV[\"TM_BUNDLE_SUPPORT\"] + '/lib/make.rb'\n\nrequire ENV[\"TM_SUPPORT_PATH\"] + \"/lib/ui\"\nrequire ENV[\"TM_SUPPORT_PATH\"] + \"/lib/exit_codes\"\n\ntargets = `#{TM_MAKE} -f#{TM_MAKE_FILE} -np|grep -B1 PHONY|grep -Ev '^(#|--|\\\\.)'|grep -Eo '^[^:]+'|sort -fu`.split.collect{|t| {\"title\" => t} }\nTextMate::exit_show_tool_tip \"No root targets found in ‘#{TM_MAKE_FILE}’.\\n\\nOnly targets declarated as “phony”\\nare considered to be root targets.\" if targets.empty?\nselection = TextMate::UI.menu(targets)\n\nTextMate::exit_discard if selection == nil\n\nperform_make(selection['title'])\n",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "~@b",
+  "name": "Build Target…",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "scope": "attr.project.make",
+  "semanticClass": "process.alternate.build.target.make",
+  "uuid": "6E5653CE-68E0-42E5-BF29-B3AB323BC218",
+  "version": 2
+}

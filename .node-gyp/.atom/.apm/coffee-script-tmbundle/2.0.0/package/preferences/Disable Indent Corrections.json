@@ -1,0 +1,9 @@
+{
+  "name": "Disable Indent Corrections",
+  "scope": "source.coffee",
+  "settings": {
+    "disableIndentCorrections": true,
+    "indentOnPaste": "simple"
+  },
+  "uuid": "5E57C0C3-77D5-4809-A131-F777EE264908"
+}

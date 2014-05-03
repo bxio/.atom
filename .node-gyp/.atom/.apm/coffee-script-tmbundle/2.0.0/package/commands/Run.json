@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/bin/bash\n\nfunction pre {\n\techo -n '<pre style=\"word-wrap: break-word;\">'\n\tperl -pe '$| = 1; s/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s/$\\\\n/<br>/'\n\techo '</pre>'\n}\n\n\n${TM_COFFEE:=coffee} -s | pre\n",
+  "input": "selection",
+  "keyEquivalent": "@r",
+  "name": "Run",
+  "output": "showAsHTML",
+  "scope": "source.coffee",
+  "uuid": "30395DAB-44A6-44F7-99E1-02D64621303A"
+}

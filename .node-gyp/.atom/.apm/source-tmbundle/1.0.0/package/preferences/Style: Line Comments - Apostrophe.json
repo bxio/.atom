@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Apostrophe",
+  "scope": "comment.line.apostrophe",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(')\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "41448D3A-7265-49B1-BF8F-0E8F0A6A57CD"
+}

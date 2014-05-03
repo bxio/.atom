@@ -1,0 +1,21 @@
+{
+  "name": "Comments",
+  "scope": "source.puppet",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "# "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "/*"
+      },
+      {
+        "name": "TM_COMMENT_END_2",
+        "value": "*/"
+      }
+    ]
+  },
+  "uuid": "BAB15109-162D-4E1F-92F9-CA83A21169C3"
+}

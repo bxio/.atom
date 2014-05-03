@@ -1,0 +1,7 @@
+{
+  "content": "for ${1:name} in [${2:start}..${3:finish}]${4: by ${5:step}}\n  ${0:# body...}",
+  "name": "Range comprehension (inclusive)",
+  "scope": "source.coffee",
+  "tabTrigger": "forr",
+  "uuid": "E0F8E45A-9262-4DD6-ADFF-B5B9D6CE99C2"
+}

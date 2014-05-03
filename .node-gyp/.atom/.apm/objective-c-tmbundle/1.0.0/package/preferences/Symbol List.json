@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Method",
+  "scope": "meta.function.objc",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "\n\t\ts/^([-+])\\s*\\(.*?\\)\\s*/ $1 /; # strip result type\n\t\ts/:\\s*\\(.*?\\)\\s*\\w+\\s*/:/g;   # strip argument variables\n\t\ts/\\s*;?$//g;                  # strip terminating ws + semi-colon\n\t"
+  },
+  "uuid": "ADFCD53A-3CC4-4C31-88C4-BB607684951A"
+}

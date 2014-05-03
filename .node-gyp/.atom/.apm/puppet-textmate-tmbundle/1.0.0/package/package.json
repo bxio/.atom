@@ -1,0 +1,18 @@
+{
+  "name": "puppet-textmate-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "a TextMate puppet manifests bundle",
+  "homepage": "https://github.com/cburyta/puppet-textmate.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cburyta/puppet-textmate.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cburyta/puppet-textmate.tmbundle/issues"
+  },
+  "commitSha": "5ef4949b2c964bace86782573cb952751ca77f5e",
+  "version": "1.0.0"
+}

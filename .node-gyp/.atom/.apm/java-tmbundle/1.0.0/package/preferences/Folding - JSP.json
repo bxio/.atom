@@ -1,0 +1,9 @@
+{
+  "name": "Folding (JSP)",
+  "scope": "text.html.jsp",
+  "settings": {
+    "foldingStartMarker": "/\\*\\*|\\{\\s*$",
+    "foldingStopMarker": "\\*\\*/|^\\s*\\}"
+  },
+  "uuid": "2C5379EE-F0E8-410F-8E5F-362D5A85FDEE"
+}

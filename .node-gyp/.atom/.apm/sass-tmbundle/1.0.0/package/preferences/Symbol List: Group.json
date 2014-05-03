@@ -1,0 +1,10 @@
+{
+  "isDisabled": false,
+  "name": "Symbol List: Group",
+  "scope": "source.sass comment.block.sass -source.css.embedded, source.css.scss comment.block.scss -source.css.embedded",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/\\/\\*\\*\\s*(.*?)\\s*\\*\\//** $1 **/; s/\\/\\*.*?\\*\\*\\//./; s/\\/\\*[^\\*].*?[^\\*]\\*\\///"
+  },
+  "uuid": "FE87A88E-73FB-41EA-8A1E-9F7681C0F25A"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "assert_throws(:${1:expected}) { $0 }",
+  "name": "assert_throws(..) { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "ast",
+  "uuid": "05655BD8-23C6-445F-BFD1-420BF25C3030"
+}

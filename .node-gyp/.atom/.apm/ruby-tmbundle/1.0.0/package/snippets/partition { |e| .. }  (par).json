@@ -1,0 +1,7 @@
+{
+  "content": "partition { |${1:e}| $0 }",
+  "name": "partition { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "par",
+  "uuid": "52B8BF63-F09E-4789-8407-06168A8AE666"
+}

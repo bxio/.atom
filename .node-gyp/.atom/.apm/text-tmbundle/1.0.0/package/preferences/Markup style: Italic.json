@@ -1,0 +1,8 @@
+{
+  "name": "Style: Italic",
+  "scope": "markup.italic",
+  "settings": {
+    "italic": "1"
+  },
+  "uuid": "2EE6D01F-50BC-434B-BE45-54D29CACB3E0"
+}

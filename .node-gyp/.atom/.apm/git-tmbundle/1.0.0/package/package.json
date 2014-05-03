@@ -1,0 +1,18 @@
+{
+  "name": "git-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "The Git TextMate Bundle",
+  "homepage": "https://github.com/textmate/git.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/git.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/git.tmbundle/issues"
+  },
+  "commitSha": "03a2042957c6283f3e12c633ef3499330ba5f190",
+  "version": "1.0.0"
+}

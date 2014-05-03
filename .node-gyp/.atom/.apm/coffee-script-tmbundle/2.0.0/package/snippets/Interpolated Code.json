@@ -1,0 +1,8 @@
+{
+  "content": "#{${1:$TM_SELECTED_TEXT}}",
+  "keyEquivalent": "#",
+  "name": "Interpolated Code",
+  "scope": "(string.quoted.double.coffee) - string source, (string.quoted.double.heredoc.coffee) - string source",
+  "tabTrigger": "#",
+  "uuid": "C04ED189-6ACB-44E6-AD5B-911B760AD1CC"
+}

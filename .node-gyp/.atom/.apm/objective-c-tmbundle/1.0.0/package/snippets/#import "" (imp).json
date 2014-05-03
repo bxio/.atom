@@ -1,0 +1,7 @@
+{
+  "content": "#import \"${1:${TM_FILENAME/\\...*$/.h/}}\"",
+  "name": "#import \"…\"",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "imp",
+  "uuid": "1E3A92DA-7299-11D9-813A-000D93589AF6"
+}

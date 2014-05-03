@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire \"yaml\"\nrequire \"pp\"\n\nputs \"#!/usr/bin/env ruby\\n\\n\"\nprint \"documents = \"\npp(YAML.load_stream(STDIN).documents)",
+  "input": "selection",
+  "keyEquivalent": "^H",
+  "name": "Convert Document / Selection to Ruby",
+  "output": "openAsNewDocument",
+  "scope": "source.yaml",
+  "uuid": "D73CBC77-1692-4981-8C3E-6DCE63F6E2E2"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "assert(${1:var} = assigns(:${1}), \"Cannot find @${1}\")\n$0",
+  "name": "assert(var = assigns(:var))",
+  "scope": "source.ruby",
+  "tabTrigger": "asg",
+  "uuid": "FE9C4B4E-860D-49F0-AAF7-5582B98F5F54"
+}

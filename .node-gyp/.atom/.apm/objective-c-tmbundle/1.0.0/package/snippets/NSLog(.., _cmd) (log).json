@@ -1,0 +1,7 @@
+{
+  "content": "NSLog(@\"%s$1\", sel_getName(_cmd)${1/[^%]*(%)?.*/(?1:, :\\);)/}$2${1/[^%]*(%)?.*/(?1:\\);)/}",
+  "name": "NSLog(.., _cmd)",
+  "scope": "source.objc meta.scope.implementation, source.objc++ meta.scope.implementation",
+  "tabTrigger": "log",
+  "uuid": "A3555C49-D367-4CF5-8032-13B291820CD3"
+}

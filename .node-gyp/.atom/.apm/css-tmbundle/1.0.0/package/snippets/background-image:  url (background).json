@@ -1,0 +1,7 @@
+{
+  "content": "background-image: url($1);$0",
+  "name": "background-image: url",
+  "scope": "source.css",
+  "tabTrigger": "background",
+  "uuid": "978CBFF6-62D6-45B1-93F7-5644E1C6262B"
+}

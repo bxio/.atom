@@ -1,0 +1,43 @@
+{
+  "name": "ctags",
+  "description": "A package for reading source code tag files",
+  "version": "0.5.0",
+  "keywords": [
+    "tags",
+    "etags"
+  ],
+  "author": {
+    "name": "Kevin Sawicki",
+    "email": "kevin@github.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/atom/node-ctags/raw/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/node-ctags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/node-ctags/issues"
+  },
+  "main": "./lib/ctags.js",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-shell": "~0.2.1",
+    "jasmine-node": "~1.3.0",
+    "coffee-script": "~1.6.1",
+    "grunt-cli": "~0.1.6",
+    "node-gyp": "~0.8.5"
+  },
+  "dependencies": {
+    "bindings": "~1.0.0"
+  },
+  "scripts": {
+    "prepublish": "grunt coffee",
+    "test": "jasmine-node --coffee spec/"
+  }
+}

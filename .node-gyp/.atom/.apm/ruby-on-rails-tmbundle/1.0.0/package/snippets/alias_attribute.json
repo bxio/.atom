@@ -1,0 +1,7 @@
+{
+  "content": "alias_attribute :${1:new_name}, :${2:old_name}",
+  "name": "alias_attribute",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "alias",
+  "uuid": "5694BA8B-64EC-4B1B-A00D-6366D28500C5"
+}

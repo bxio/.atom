@@ -1,0 +1,7 @@
+{
+  "content": "letter-spacing:${TM_CSS_SPACE}${1:1}px${2:;}$0",
+  "name": "letter-spacing: px",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "letter",
+  "uuid": "AE59C59D-B431-488C-8500-0951CAA87A8A"
+}

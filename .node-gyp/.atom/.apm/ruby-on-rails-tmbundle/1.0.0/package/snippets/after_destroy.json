@@ -1,0 +1,7 @@
+{
+  "content": "after_destroy ",
+  "name": "after_destroy",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "aftd",
+  "uuid": "A2F3E8C1-4216-4890-8491-2F8C7534ED03"
+}

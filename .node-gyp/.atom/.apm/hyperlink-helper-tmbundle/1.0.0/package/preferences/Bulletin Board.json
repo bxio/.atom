@@ -1,0 +1,13 @@
+{
+  "name": "Bulletin Board",
+  "scope": "text.bbcode",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "[URL=<%= e_sn url %>]<%= e_sn input %>[/URL]"
+      }
+    ]
+  },
+  "uuid": "8CCCD8B6-9583-4B5D-8CBF-0867B14E86D7"
+}

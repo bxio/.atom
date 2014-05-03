@@ -1,0 +1,9 @@
+{
+  "name": "Symbol List: Group",
+  "scope": "source.css comment.block.css -source.css.embedded",
+  "settings": {
+    "showInSymbolList": 1,
+    "symbolTransformation": "s/\\/\\*\\*\\s*(.*?)\\s*\\*\\//** $1 **/; s/\\/\\*.*?\\*\\*\\//./; s/\\/\\*[^\\*].*?[^\\*]\\*\\///"
+  },
+  "uuid": "096894D8-6A5A-4F1D-B68C-782F0A850E52"
+}

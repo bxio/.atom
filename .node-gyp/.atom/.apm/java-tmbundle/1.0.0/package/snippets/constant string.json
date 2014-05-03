@@ -1,0 +1,7 @@
+{
+  "content": "static public final String ${1:var} = \"$2\";$0",
+  "name": "constant string",
+  "scope": "source.java",
+  "tabTrigger": "cos",
+  "uuid": "4876099F-502E-471F-9D0D-916C7EF2E353"
+}

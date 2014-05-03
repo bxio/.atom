@@ -1,0 +1,7 @@
+{
+  "content": "@autoreleasepool {\n    $0\n}",
+  "name": "Autorelease Pool",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "pool",
+  "uuid": "D402B10A-149B-414D-9961-110880389A8E"
+}

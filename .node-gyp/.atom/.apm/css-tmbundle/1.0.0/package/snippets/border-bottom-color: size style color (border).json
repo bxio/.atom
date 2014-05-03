@@ -1,0 +1,7 @@
+{
+  "content": "border-bottom-color: #${1:999};$0",
+  "name": "border-bottom-color: color",
+  "scope": "source.css",
+  "tabTrigger": "border",
+  "uuid": "05AFB9EB-F4AB-4F86-8170-535CF508176C"
+}

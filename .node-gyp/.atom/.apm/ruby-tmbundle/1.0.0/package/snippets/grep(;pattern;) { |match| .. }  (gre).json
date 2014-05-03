@@ -1,0 +1,7 @@
+{
+  "content": "grep(${1:/${2:pattern}/}) { |${3:match}| $0 }",
+  "name": "grep(/pattern/) { |match| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "gre",
+  "uuid": "9D9E7BA3-8C5D-4532-83EA-326358C2F5BB"
+}

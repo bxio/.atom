@@ -1,0 +1,8 @@
+{
+  "name": "Symbol List: Hide Decorator",
+  "scope": "source.python meta.function.decorator.python entity.name.function.decorator.python",
+  "settings": {
+    "showInSymbolList": 0
+  },
+  "uuid": "F5CE4B1B-6167-4693-A49B-021D97C18F5A"
+}

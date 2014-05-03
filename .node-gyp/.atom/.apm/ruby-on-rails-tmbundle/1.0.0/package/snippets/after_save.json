@@ -1,0 +1,7 @@
+{
+  "content": "after_save ",
+  "name": "after_save",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "afts",
+  "uuid": "4D1787E3-1583-4CF3-8D99-CC45D7C35EED"
+}

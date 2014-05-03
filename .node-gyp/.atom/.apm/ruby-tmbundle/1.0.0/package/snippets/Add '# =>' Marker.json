@@ -1,0 +1,7 @@
+{
+  "content": "# => ",
+  "name": "Add ‘# =>’ Marker",
+  "scope": "source.ruby",
+  "tabTrigger": "#",
+  "uuid": "88BC3896-DC39-4307-A271-21D33340F15A"
+}

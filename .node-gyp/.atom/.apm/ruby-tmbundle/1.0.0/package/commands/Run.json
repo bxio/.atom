@@ -1,0 +1,16 @@
+{
+  "autoScrollOutput": true,
+  "beforeRunningCommand": "saveModifiedFiles",
+  "command": "#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby -KU\nENV['RUBYLIB'] = \"#{ENV['TM_BUNDLE_SUPPORT']}/RubyMate\"\nrequire \"#{ENV['TM_BUNDLE_SUPPORT']}/RubyMate/run_script.rb\"\n",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "@r",
+  "name": "Run",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "scope": "source.ruby",
+  "semanticClass": "process.run.script.ruby",
+  "uuid": "35222962-C50D-4D58-A6AE-71E7AD980BE4",
+  "version": 2
+}

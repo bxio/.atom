@@ -1,0 +1,7 @@
+{
+  "content": "for (( i = 0; i < ${1:10}; i++ )); do\n\t${0:#statements}\ndone",
+  "name": "for … done",
+  "scope": "source.shell",
+  "tabTrigger": "for",
+  "uuid": "E7807C18-AA17-11D9-AB33-000D93589AF6"
+}

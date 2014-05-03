@@ -1,0 +1,7 @@
+{
+  "content": "@mixin opacity(\\$opacity: 0.5) {\n\t-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=\\$opacity * 10)\";\n\tfilter: alpha(opacity=\\$opacity * 10);\n\t-moz-opacity: \\$opacity;\n\topacity: \\$opacity;\n}",
+  "name": "opacity",
+  "scope": "source.css.scss",
+  "tabTrigger": "mixin",
+  "uuid": "C7C87AA5-962E-4BC9-A8BD-5A86D1F47014"
+}

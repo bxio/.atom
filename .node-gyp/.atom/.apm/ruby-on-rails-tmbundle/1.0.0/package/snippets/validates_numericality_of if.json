@@ -1,0 +1,7 @@
+{
+  "content": "validates_numericality_of :${1:attribute}${2:, :on => :${3:create}, :message => \"${4:is not a number}\"}, :if => proc { |obj| ${5:obj.condition?} }}",
+  "name": "validates_numericality_of if",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "vnif",
+  "uuid": "CF506019-E964-4172-A3DA-475AE3B65558"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "render :update do |${2:page}|\n\t$2.$0\nend",
+  "name": "render (update)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "ru",
+  "uuid": "ECB10C0B-E8B7-4606-ABF5-4A2A26E5AB1A"
+}

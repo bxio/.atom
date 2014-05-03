@@ -1,0 +1,20 @@
+{
+  "commands": [
+    {
+      "argument": {
+        "action": "findNext",
+        "findInProjectIgnoreCase": true,
+        "findString": "^\\s*(pick|p|reword|r|edit|e|squash|s|fixup|f)",
+        "ignoreCase": true,
+        "regularExpression": true,
+        "replaceAllScope": "document",
+        "wrapAround": true
+      },
+      "command": "findWithOptions:"
+    }
+  ],
+  "keyEquivalent": "^n",
+  "name": "Next Rebase Command",
+  "scope": "text.git-rebase",
+  "uuid": "683BF855-9BC9-47A6-89DD-7C2192E62FD7"
+}

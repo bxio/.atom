@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/bin/sh\nexpand -t$TM_TAB_SIZE\n",
+  "input": "selection",
+  "keyEquivalent": "^@T",
+  "name": "Convert Tabs to Spaces",
+  "output": "replaceSelectedText",
+  "uuid": "B9B9EEC2-26C1-4475-9642-3EA551999169"
+}

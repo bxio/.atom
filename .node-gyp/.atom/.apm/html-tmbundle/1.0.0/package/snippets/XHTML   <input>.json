@@ -1,0 +1,7 @@
+{
+  "content": "<input type=\"${1|text,submit,hidden,button|}\" name=\"${2:some_name}\" value=\"$3\"${4: id=\"${5:$2}\"}${TM_XHTML}>",
+  "name": "Input",
+  "scope": "text.html",
+  "tabTrigger": "input",
+  "uuid": "44180979-A08E-11D9-A5A2-000D93C8BE28"
+}

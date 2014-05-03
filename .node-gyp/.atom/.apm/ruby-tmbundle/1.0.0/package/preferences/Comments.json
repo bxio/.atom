@@ -1,0 +1,21 @@
+{
+  "name": "Comments",
+  "scope": "source.ruby",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_COMMENT_START",
+        "value": "# "
+      },
+      {
+        "name": "TM_COMMENT_START_2",
+        "value": "=begin\n"
+      },
+      {
+        "name": "TM_COMMENT_END_2",
+        "value": "=end\n"
+      }
+    ]
+  },
+  "uuid": "1D26F26C-C6F7-434F-84F8-FEE895372E8A"
+}

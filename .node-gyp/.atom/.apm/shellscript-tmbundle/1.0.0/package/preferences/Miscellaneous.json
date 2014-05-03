@@ -1,0 +1,10 @@
+{
+  "name": "Miscellaneous",
+  "scope": "source.shell",
+  "settings": {
+    "decreaseIndentPattern": "^\\s*(\\}|(elif|else|fi|esac|done)\\b)",
+    "increaseIndentPattern": "^\\s*(if|elif|else|case)\\b|^.*(\\{|\\b(do)\\b)$",
+    "indentNextLinePattern": "^.*[^\\\\]\\\\$"
+  },
+  "uuid": "E3637B21-3DAB-41D2-AD9D-03735778D7EE"
+}

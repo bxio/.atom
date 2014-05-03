@@ -1,0 +1,7 @@
+{
+  "content": "getElementsByClassName(${1:'${2:className}'})",
+  "name": "getElementsByClassName",
+  "scope": "source.js",
+  "tabTrigger": "get",
+  "uuid": "923442DA-69C2-4681-B57D-510BB1312E9E"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "<!--[if lte IE 6]>${1:${TM_SELECTED_TEXT: IE Conditional Comment: Internet Explorer 6 and below }}<![endif]-->$0",
+  "name": "IE Conditional Comment: Internet Explorer 6 and below",
+  "scope": "text.html",
+  "tabTrigger": "!",
+  "uuid": "32BBB9AB-8732-4F91-A587-354941A27B69"
+}

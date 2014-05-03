@@ -1,0 +1,8 @@
+{
+  "content": "\n\t$0\n",
+  "hideFromUser": true,
+  "keyEquivalent": "\r",
+  "name": "Return Inside Empty Item",
+  "scope": "source & ((L:punctuation.section.*.begin & R:punctuation.section.*.end) | (L:punctuation.definition.*.begin & R:punctuation.definition.*.end)) - string",
+  "uuid": "893CC5DB-0FC8-4638-B547-A215E8C6C53F"
+}

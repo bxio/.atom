@@ -1,0 +1,13 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch(:controller => \"misc\", :action => \"gitgui\")",
+  "input": "selection",
+  "inputFormat": "text",
+  "name": "Open Git-Gui",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "discard",
+  "scope": "attr.scm.git",
+  "uuid": "D0DF4B19-F311-48CC-BF68-F8B33CD051D3",
+  "version": 2
+}

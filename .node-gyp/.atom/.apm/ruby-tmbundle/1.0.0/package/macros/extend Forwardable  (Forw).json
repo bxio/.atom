@@ -1,0 +1,31 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfDocumentAndModifySelection:"
+    },
+    {
+      "argument": {
+        "command": "insert_requires.rb forwardable",
+        "input": "selection",
+        "output": "insertAsSnippet"
+      },
+      "command": "executeCommandWithOptions:"
+    },
+    {
+      "argument": {
+        "bundlePath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle",
+        "content": "extend Forwardable",
+        "scope": "source.ruby",
+        "supportPath": "/Users/james/Library/Application Support/TextMate/Bundles/Ruby Idioms.tmbundle/Support",
+        "tabTrigger": "Forw-",
+        "uuid": "7F46C90A-595B-4B83-A4F7-058F63CE4218"
+      },
+      "command": "insertSnippetWithOptions:"
+    }
+  ],
+  "name": "extend Forwardable",
+  "scope": "source.ruby",
+  "scopeType": "local",
+  "tabTrigger": "Forw",
+  "uuid": "58FDEA60-10AF-4C49-AA09-29B77030DB25"
+}

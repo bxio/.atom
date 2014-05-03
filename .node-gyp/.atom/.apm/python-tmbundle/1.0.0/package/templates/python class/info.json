@@ -1,0 +1,6 @@
+{
+  "command": "#!/usr/bin/env ruby -wKU\n\nf = open(ENV[\"TM_NEW_FILE\"], 'w')\ntemplate = open(\"template.py\").read\n\nENV[\"TM_YEAR\"] = `date +%Y`.chomp\nENV[\"TM_DATE\"] = `date +%Y-%m-%d`.chomp\n\nif ENV[\"TM_SOFT_TABS\"] == \"YES\"\n\ttab_size = ENV[\"TM_TAB_SIZE\"].to_i\n\ttab_size = tab_size ? tab_size : 4\n\ttemplate = template.gsub(/\\t/, \" \"*tab_size)\nend\n\ntemplate = template.gsub(/[$]\\{([^}]+)\\}/){|match| \"#{ENV[$1]}\" }\nf.write template\nf.close\n",
+  "extension": "py",
+  "name": "Python Class With Unit Test",
+  "uuid": "2660AB58-7BAB-11D9-9C9F-000D93B6E43C"
+}

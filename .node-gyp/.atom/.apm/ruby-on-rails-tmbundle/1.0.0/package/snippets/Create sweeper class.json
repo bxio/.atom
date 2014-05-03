@@ -1,0 +1,7 @@
+{
+  "content": "class ${1:Model}Sweeper < ActionController::Caching::Sweeper\n  observe ${1:Model}\n\n  def after_save(${1/./\\l$0/})\n    expire_cache(${1/./\\l$0/})\n  end\n\n  def after_destroy(${1/./\\l$0/})\n    expire_cache(${1/./\\l$0/})\n  end\n\n  private\n\n    def expire_cache(${1/./\\l$0/})\n      ${0:expire_page ${1/./\\l$0/}s_path \n      expire_page ${1/./\\l$0/}_path(${1/./\\l$0/})}\n    end\n\nend",
+  "name": "Create sweeper class",
+  "scope": "source.ruby",
+  "tabTrigger": "sweeper",
+  "uuid": "FF022038-CA5D-4045-909E-BF509343A5C7"
+}

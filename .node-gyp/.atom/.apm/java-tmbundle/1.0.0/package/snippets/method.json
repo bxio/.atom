@@ -1,0 +1,7 @@
+{
+  "content": "${1:void} ${2:method}($3) ${4:throws $5 }{\n\t$0\n}\n",
+  "name": "method",
+  "scope": "source.java",
+  "tabTrigger": "m",
+  "uuid": "16D51B5E-56BC-4ED0-84FB-FCC68479BE8E"
+}

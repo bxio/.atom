@@ -1,0 +1,34 @@
+{
+  "name": "Miscellaneous",
+  "scope": "text.xml",
+  "settings": {
+    "comment": "\n    /*\n     * Don't indent:\n     *  <?, </, <!\n     *  <whatever></whatever>\n     *  <whatever />\n     *  <% %>\n     *  <!-- -->\n     *  <%-- --%>\n     *\n     * Do indent:\n     *  <whatever>\n     *  <%\n     *  <!--\n     *  <%--\n     *\n     * Decrease indent for:\n     *  </whatever>\n     *  -->\n     *  --%>\n     */",
+    "decreaseIndentPattern": "^\\s*(</[^>]+>|-->|--%>)",
+    "disableIndentCorrections": false,
+    "highlightPairs": [
+      [
+        "(",
+        ")"
+      ],
+      [
+        "[",
+        "]"
+      ],
+      [
+        "{",
+        "}"
+      ],
+      [
+        "\"",
+        "\""
+      ],
+      [
+        "<",
+        ">"
+      ]
+    ],
+    "increaseIndentPattern": "^\\s*<(([^!/?]|%)(?!.+?([/%]>|</.+?>))|[%!]--\\s*$)",
+    "indentOnPaste": "default"
+  },
+  "uuid": "95788610-7E2E-45CE-9CCE-708FE0C90BF7"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Style: Line Comments - Slash",
+  "scope": "comment.line.slash, comment.line.double-slash",
+  "settings": {
+    "indentedSoftWrap": {
+      "format": "${0/\\S/ /g}",
+      "match": ".*(//?)\\s+"
+    },
+    "softWrap": true
+  },
+  "uuid": "B538AEB0-E3CE-48A6-8F32-D9AD82DC4085"
+}

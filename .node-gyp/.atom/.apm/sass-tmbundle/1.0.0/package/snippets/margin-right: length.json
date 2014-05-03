@@ -1,0 +1,7 @@
+{
+  "content": "margin-right:${TM_CSS_SPACE}${1:10px}${2:;}$0",
+  "name": "margin-right: length",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "margin",
+  "uuid": "3270D740-D072-4E9A-8AE8-83D062F97F14"
+}

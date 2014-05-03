@@ -1,0 +1,11 @@
+{
+  "commands": [
+    {
+      "command": "moveRight:"
+    }
+  ],
+  "keyEquivalent": "}",
+  "name": "Overwrite '}' in #{ .. }",
+  "scope": "source.ruby string meta.embedded.line.ruby punctuation.section.embedded.end",
+  "uuid": "E5158F94-CC52-4424-A495-14EF9272653F"
+}

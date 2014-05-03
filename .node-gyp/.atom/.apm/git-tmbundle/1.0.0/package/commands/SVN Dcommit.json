@@ -1,0 +1,23 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\n\nrequire ENV['TM_BUNDLE_SUPPORT'] + '/environment.rb'\ndispatch :controller => \"svn\", :action => \"dcommit\"",
+  "input": "selection",
+  "inputFormat": "text",
+  "name": "SVN Dcommit",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "newWindow",
+  "requiredCommands": [
+    {
+      "command": "git",
+      "locations": [
+        "/usr/local/git/bin/git",
+        "/opt/local/bin/git",
+        "/usr/local/bin/git"
+      ],
+      "variable": "TM_GIT"
+    }
+  ],
+  "uuid": "8FD8CC00-0A38-4472-9C3A-F22AE289B3A9",
+  "version": 2
+}

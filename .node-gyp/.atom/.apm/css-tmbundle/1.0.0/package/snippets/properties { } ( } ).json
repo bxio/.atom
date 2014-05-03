@@ -1,0 +1,7 @@
+{
+  "content": "{\n\t/* $1 */\n\t$0\n",
+  "name": "properties { } ( } )",
+  "scope": "source.css",
+  "tabTrigger": "{",
+  "uuid": "0975B58C-C7A1-441E-90E4-C7C413975D42"
+}

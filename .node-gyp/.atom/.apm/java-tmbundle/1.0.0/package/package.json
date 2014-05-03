@@ -1,0 +1,18 @@
+{
+  "name": "java-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for Java",
+  "homepage": "https://github.com/textmate/java.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/java.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/java.tmbundle/issues"
+  },
+  "commitSha": "2fda1cbf0be33c4bfcb7c9759d6e8430e3b3155b",
+  "version": "1.0.0"
+}

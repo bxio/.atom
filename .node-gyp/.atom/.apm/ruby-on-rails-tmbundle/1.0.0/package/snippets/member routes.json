@@ -1,0 +1,7 @@
+{
+  "content": "member do\n  ${1:get :${2:action}}\n  ${3:put :${4:action}}\n  ${5:post :${6:action}}\n  ${7:delete :${8:action}}\nend",
+  "name": "member routes",
+  "scope": "meta.rails.routes",
+  "tabTrigger": "member",
+  "uuid": "7C2F96AF-7F07-4B71-A41C-812294ECA6EE"
+}

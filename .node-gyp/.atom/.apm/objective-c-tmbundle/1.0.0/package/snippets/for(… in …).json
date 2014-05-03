@@ -1,0 +1,7 @@
+{
+  "content": "for(${1:id} ${2:item} in ${3:array})\n{\n\t$0\n}",
+  "name": "for(… in …)",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "forin",
+  "uuid": "B47D188C-C0F7-4C53-A6ED-9EFE09371F37"
+}

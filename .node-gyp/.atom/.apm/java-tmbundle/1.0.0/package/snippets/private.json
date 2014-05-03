@@ -1,0 +1,7 @@
+{
+  "content": "private ",
+  "name": "private",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "pr",
+  "uuid": "8E765795-CC9D-46D7-8602-7E2DBB7026B2"
+}

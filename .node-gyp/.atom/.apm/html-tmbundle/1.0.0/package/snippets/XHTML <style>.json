@@ -1,0 +1,7 @@
+{
+  "content": "<style type=\"text/css\" media=\"screen\">\n\t$0\n</style>",
+  "name": "Style",
+  "scope": "text.html",
+  "tabTrigger": "style",
+  "uuid": "3C518074-A088-11D9-A5A2-000D93C8BE28"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "mustache-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "A little textmate bundle for defunkt/mustache",
+  "homepage": "https://github.com/kevinsawicki/Mustache.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinsawicki/Mustache.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinsawicki/Mustache.tmbundle/issues"
+  },
+  "commitSha": "21ed7c4a49989a9bd30da496b083fe74c1c5b699",
+  "version": "1.0.0"
+}

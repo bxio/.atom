@@ -1,0 +1,7 @@
+{
+  "content": "${1:expression} foreach @${2:array};\n",
+  "name": "Loop One-line",
+  "scope": "source.perl",
+  "tabTrigger": "xfore",
+  "uuid": "0130788D-F714-4964-83A3-26EC0E01D3C9"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "\n\t$0\n",
+  "keyEquivalent": "\r",
+  "name": "Special: Return Inside Empty Open/Close Tags",
+  "scope": "meta.scope.between-tag-pair",
+  "uuid": "3C44EABE-8D6F-4B1B-AB91-F419FAD1A0AD"
+}

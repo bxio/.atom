@@ -1,0 +1,7 @@
+{
+  "content": "t.integer :${1:title}\n$0",
+  "name": "Table column integer",
+  "scope": "meta.rails.migration.create_table, meta.rails.migration.change_table",
+  "tabTrigger": "tci",
+  "uuid": "729D559E-D52D-11DC-BD8E-00112475D960"
+}

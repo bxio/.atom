@@ -1,0 +1,7 @@
+{
+  "content": "sort_by { rand }",
+  "name": "randomize()",
+  "scope": "source.ruby",
+  "tabTrigger": "ran",
+  "uuid": "B0CE57EC-FB2E-4482-8CCE-448DC2588715"
+}

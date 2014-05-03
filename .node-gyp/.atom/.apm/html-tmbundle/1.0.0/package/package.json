@@ -1,0 +1,18 @@
+{
+  "name": "html-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for HTML",
+  "homepage": "https://github.com/textmate/html.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/html.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/html.tmbundle/issues"
+  },
+  "commitSha": "bd5d02b2672e32c5acb5230098af120da0c3e9bc",
+  "version": "1.0.0"
+}

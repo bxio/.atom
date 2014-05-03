@@ -1,0 +1,7 @@
+{
+  "content": "namespace${1/.+/ /m}${1:${TM_FILENAME/^((.*?)\\..*)?$/(?1:\\L$2:my)/}}\n{\n\t$0\n}${1/.+/ \\/* /m}$1${1/.+/ *\\//m}",
+  "name": "Namespace",
+  "scope": "source.c++, source.objc++",
+  "tabTrigger": "ns",
+  "uuid": "CEE5F928-47A2-4648-96F0-99FF5C2A7419"
+}

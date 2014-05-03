@@ -1,0 +1,7 @@
+{
+  "content": "if ${1:condition}\n\t$0\nend",
+  "name": "if … end",
+  "scope": "source.ruby",
+  "tabTrigger": "if",
+  "uuid": "6670835F-62C3-11D9-B8CF-000D93589AF6"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "redirect_to :controller => \"${1:items}\"",
+  "name": "redirect_to (controller)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rec",
+  "uuid": "053490FE-73BA-11D9-B752-000D932CD5BA"
+}

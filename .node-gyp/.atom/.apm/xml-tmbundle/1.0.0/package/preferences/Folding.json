@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "text.xml",
+  "settings": {
+    "foldingStartMarker": "^\\s*(<[^!?%/](?!.+?(/>|</.+?>))|<[!%]--(?!.+?--%?>)|<%[!]?(?!.+?%>))",
+    "foldingStopMarker": "^\\s*(</[^>]+>|[/%]>|-->)\\s*$"
+  },
+  "uuid": "C585F2BD-5CC0-4CAC-A7D6-D41F13816751"
+}

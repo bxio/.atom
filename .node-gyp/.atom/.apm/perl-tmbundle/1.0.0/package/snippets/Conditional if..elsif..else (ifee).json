@@ -1,0 +1,7 @@
+{
+  "content": "if ($1) {\n\t${2:# body...}\n} elsif ($3) {\n\t${4:# elsif...}\n} else {\n\t${5:# else...}\n}\n",
+  "name": "Conditional if..elsif..else",
+  "scope": "source.perl",
+  "tabTrigger": "ifee",
+  "uuid": "4EA1224E-2FBA-496D-87F4-9C92CEC2F86F"
+}

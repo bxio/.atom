@@ -1,0 +1,10 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "export RUBYLIB=\"$TM_BUNDLE_SUPPORT/RakeMate${RUBYLIB:+:$RUBYLIB}\"\nexport TM_RUBY=$(which \"${TM_RUBY:-ruby}\")\nexport TM_RAKE=$(which \"${TM_RAKE:-rake}\")\n\n\"${TM_RUBY}\" -- \"$TM_BUNDLE_SUPPORT/RakeMate/rake_mate.rb\"\n",
+  "input": "none",
+  "keyEquivalent": "^R",
+  "name": "Run Rake Task",
+  "output": "showAsHTML",
+  "scope": "source.ruby",
+  "uuid": "569C9822-8C41-4907-94C7-1A8A0031B66D"
+}

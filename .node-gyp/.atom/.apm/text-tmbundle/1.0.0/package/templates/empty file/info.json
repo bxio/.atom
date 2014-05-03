@@ -1,0 +1,6 @@
+{
+  "command": "touch \"$TM_NEW_FILE\"",
+  "isDefault": "1",
+  "name": "Empty File",
+  "uuid": "2D3AFF01-6DFB-11D9-91EB-000D93589AF6"
+}

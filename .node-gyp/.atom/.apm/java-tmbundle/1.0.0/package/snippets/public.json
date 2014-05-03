@@ -1,0 +1,7 @@
+{
+  "content": "public ",
+  "name": "public",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "pu",
+  "uuid": "BD7A6DBE-0180-4E1A-A428-14D44BD88F88"
+}

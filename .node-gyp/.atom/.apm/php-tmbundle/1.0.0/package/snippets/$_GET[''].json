@@ -1,0 +1,7 @@
+{
+  "content": "\\$_GET['${1:variable}']",
+  "name": "GET['…']",
+  "scope": "source.php",
+  "tabTrigger": "$_",
+  "uuid": "CF29C6B5-8CD0-11D9-B507-000D93C8BE28"
+}

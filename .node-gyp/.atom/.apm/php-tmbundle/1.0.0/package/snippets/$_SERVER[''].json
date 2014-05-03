@@ -1,0 +1,7 @@
+{
+  "content": "\\$_SERVER['${1:variable}']",
+  "name": "SERVER['…']",
+  "scope": "source.php",
+  "tabTrigger": "$_",
+  "uuid": "306E5B79-8CD1-11D9-B507-000D93C8BE28"
+}

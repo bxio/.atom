@@ -1,0 +1,7 @@
+{
+  "content": "redirect_to :action => \"${1:index}\"",
+  "name": "redirect_to (action)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rea",
+  "uuid": "F2F3167C-73B9-11D9-B752-000D932CD5BA"
+}

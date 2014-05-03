@@ -1,0 +1,10 @@
+{
+  "name": "Indentation",
+  "scope": "source.makefile",
+  "settings": {
+    "disableIndentCorrections": "1",
+    "increaseIndentPattern": "^[^\\t ]+:",
+    "indentOnPaste": "simple"
+  },
+  "uuid": "FA4E2642-684D-44FC-AC3A-1513718119AC"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "assert_same`snippet_paren.rb`${1:expected}, ${0:actual}`snippet_paren.rb end`",
+  "name": "assert_same(..)",
+  "scope": "source.ruby",
+  "tabTrigger": "ass",
+  "uuid": "29340695-E426-4F77-8CF7-C59360A549F4"
+}

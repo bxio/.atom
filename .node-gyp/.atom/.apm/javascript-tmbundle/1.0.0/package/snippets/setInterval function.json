@@ -1,0 +1,7 @@
+{
+  "content": "setInterval(${2:function () {\n\t${3:$TM_SELECTED_TEXT}\n\\}}, ${1:10});",
+  "name": "setInterval function",
+  "scope": "source.js",
+  "tabTrigger": "interval",
+  "uuid": "3A00B409-6E94-4E27-8050-45F04EB9765A"
+}

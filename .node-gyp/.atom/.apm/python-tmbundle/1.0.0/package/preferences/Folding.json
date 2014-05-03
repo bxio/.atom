@@ -1,0 +1,9 @@
+{
+  "name": "Folding",
+  "scope": "source.python",
+  "settings": {
+    "foldingStartMarker": "^\\s*\"\"\"(?=.)(?!.*\"\"\")",
+    "foldingStopMarker": "^\\s*\"\"\"\\s*$"
+  },
+  "uuid": "7FD3FA0D-A907-4142-9A64-70A5DA366AA4"
+}

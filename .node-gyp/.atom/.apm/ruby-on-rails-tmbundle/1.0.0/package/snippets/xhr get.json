@@ -1,0 +1,7 @@
+{
+  "content": "xhr :get, :${1:show}${2:, :id => ${3:1}}$0",
+  "name": "xhr get",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "xget",
+  "uuid": "78FCF992-D01B-404F-BC54-5EE7B91F999A"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "xml-tmbundle",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "description": "TextMate support for XML",
+  "homepage": "https://github.com/textmate/xml.tmbundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textmate/xml.tmbundle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textmate/xml.tmbundle/issues"
+  },
+  "commitSha": "19ca64447ff1c70fed0398f3209de8445794480e",
+  "version": "1.0.0"
+}

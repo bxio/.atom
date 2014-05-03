@@ -1,0 +1,8 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "ruby -pe'$_ = (rand * 100000000).round.to_s + \"\\t\" + $_'|sort|cut -f2-",
+  "input": "selection",
+  "name": "Randomize Lines in Document / Selection",
+  "output": "replaceSelectedText",
+  "uuid": "90291A6E-34F6-4FD5-BA82-6BB6FB4DD492"
+}

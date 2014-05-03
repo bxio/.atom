@@ -1,0 +1,21 @@
+{
+  "commands": [
+    {
+      "command": "moveToBeginningOfLine:"
+    },
+    {
+      "command": "insertNewline:"
+    },
+    {
+      "command": "moveToEndOfLine:"
+    },
+    {
+      "command": "moveUp:"
+    }
+  ],
+  "keyEquivalent": "~@\r",
+  "name": "Move to BOL and Insert LF",
+  "scope": "source.ruby | source.ocaml | source.fsharp | source.python | source.haskell | text.html",
+  "scopeType": "local",
+  "uuid": "DE720B53-107F-4AF8-8768-96D25AEBEE6C"
+}

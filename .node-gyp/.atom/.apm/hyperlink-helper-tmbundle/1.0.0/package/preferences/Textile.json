@@ -1,0 +1,13 @@
+{
+  "name": "Textile",
+  "scope": "text.html.textile",
+  "settings": {
+    "shellVariables": [
+      {
+        "name": "TM_LINK_FORMAT",
+        "value": "\"<%= e_sn input %>\":<%= e_sn url %>"
+      }
+    ]
+  },
+  "uuid": "F514F82B-9C65-46BA-B264-D2F374372C54"
+}

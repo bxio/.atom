@@ -1,0 +1,7 @@
+{
+  "content": "cron { \"${1:name}\":\n\t$2\n}$0",
+  "name": "cron",
+  "scope": "source.puppet",
+  "tabTrigger": "cron",
+  "uuid": "C22C1778-E61D-40EC-8E06-4B4A5ABEC0E7"
+}

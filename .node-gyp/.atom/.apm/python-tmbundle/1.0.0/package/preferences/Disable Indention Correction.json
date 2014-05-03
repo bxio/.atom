@@ -1,0 +1,9 @@
+{
+  "name": "Disable Indention Correction",
+  "scope": "source.python",
+  "settings": {
+    "disableIndentCorrections": "1",
+    "indentOnPaste": "simple"
+  },
+  "uuid": "5B3272DB-6253-4E35-8763-99B01EDF9B46"
+}

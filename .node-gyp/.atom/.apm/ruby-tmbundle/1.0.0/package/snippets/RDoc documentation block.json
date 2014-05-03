@@ -1,0 +1,8 @@
+{
+  "content": "`[[ $TM_LINE_INDEX != 0 ]] && echo; echo`=begin rdoc\n\t$0\n=end",
+  "name": "New Block",
+  "scope": "source.ruby",
+  "tabTrigger": "=b",
+  "uuid": "05984208-D559-4C04-A69C-2019361A985A",
+  "disableAutoIndent": true
+}

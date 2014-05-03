@@ -1,0 +1,7 @@
+{
+  "content": "page.show ${1:\"${2:id(s)}\"}",
+  "name": "page.show (*ids)",
+  "scope": "source.ruby.rails.rjs",
+  "tabTrigger": "show",
+  "uuid": "5ACBF49D-B5A5-495C-89D8-18AA740D9D02"
+}

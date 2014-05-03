@@ -1,0 +1,7 @@
+{
+  "content": "collect { |${1:e}| $0 }",
+  "name": "collect { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "col",
+  "uuid": "669A86AD-936F-4EDA-8E4E-6863804072DA"
+}

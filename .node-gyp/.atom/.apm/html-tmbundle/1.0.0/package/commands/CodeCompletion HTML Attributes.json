@@ -1,0 +1,12 @@
+{
+  "beforeRunningCommand": "nop",
+  "bundleUUID": "467B298F-6227-11D9-BFB1-000D93589AF6",
+  "command": "#!/usr/bin/env ruby\nrequire \"#{ENV['TM_SUPPORT_PATH']}/lib/codecompletion\"\nTextmateCodeCompletion.go!",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "~\u001b",
+  "name": "CodeCompletion HTML Attributes",
+  "output": "insertAsSnippet",
+  "scope": "text.html punctuation.definition.tag -source, text.html meta.tag -entity.other.attribute-name -source",
+  "uuid": "CBD82CF3-74E9-4E7A-B3F6-9348754EB5AA"
+}

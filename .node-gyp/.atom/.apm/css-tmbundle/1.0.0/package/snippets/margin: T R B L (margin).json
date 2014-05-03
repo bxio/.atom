@@ -1,0 +1,7 @@
+{
+  "content": "margin: ${1:20px} ${2:0px} ${3:40px} ${4:0px};$0",
+  "name": "margin: T R B L",
+  "scope": "source.css",
+  "tabTrigger": "margin",
+  "uuid": "68A3178C-A024-48BD-ABA6-0A03A69BD82E"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "self.assert_(${1:boolean expression}${2:, '${3:message}'})$0",
+  "name": "Assert",
+  "scope": "source.python",
+  "tabTrigger": "as",
+  "uuid": "AD5B91E1-7DF0-4E4C-B794-591640FAFD08"
+}

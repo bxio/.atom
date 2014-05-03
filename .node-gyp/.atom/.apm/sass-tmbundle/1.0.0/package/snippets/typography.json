@@ -1,0 +1,7 @@
+{
+  "content": "@import \"compass/typography\";$0",
+  "name": "typography",
+  "scope": "source.css.scss",
+  "tabTrigger": "import",
+  "uuid": "6FE81084-C270-4E43-A3F3-01808AF3AB0D"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "// \n// @TODO: Add docs to $1!\n//\n@mixin ${1:mixin-name}${2:(${3:\\$params})}\n  $0",
+  "name": "@mixin",
+  "scope": "source.sass",
+  "tabTrigger": "mixin",
+  "uuid": "B5A073FD-08F0-444C-8773-0BA2DBD0C7D6"
+}

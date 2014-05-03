@@ -1,0 +1,7 @@
+{
+  "content": "<%= ${0:$TM_SELECTED_TEXT} %>",
+  "keyEquivalent": "^>",
+  "name": "Insert ERb’s <% .. %> or <%= .. %>",
+  "scope": "text.html.erb, source.yaml",
+  "uuid": "FDFABCB9-DF58-4469-AE11-5407A4FF4D70"
+}

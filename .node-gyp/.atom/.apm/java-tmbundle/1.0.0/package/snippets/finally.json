@@ -1,0 +1,7 @@
+{
+  "content": "finally {\n\t$0\n}",
+  "name": "finally",
+  "scope": "source.java, source.groovy",
+  "tabTrigger": "fy",
+  "uuid": "2556E4C9-353C-4D34-A48D-7718A3739F40"
+}

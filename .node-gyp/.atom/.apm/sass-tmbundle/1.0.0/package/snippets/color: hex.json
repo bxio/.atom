@@ -1,0 +1,7 @@
+{
+  "content": "color:${TM_CSS_SPACE}${1:#${2:DDD}}${2:;}$0",
+  "name": "color: hex",
+  "scope": "source.sass, source.css.scss",
+  "tabTrigger": "color",
+  "uuid": "C68A288D-F71A-4ACC-A96E-EC9C6547144A"
+}

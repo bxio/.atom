@@ -1,0 +1,7 @@
+{
+  "content": "each_byte { |${1:byte}| $0 }",
+  "name": "each_byte { |byte| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "eab",
+  "uuid": "338EC03D-3FF4-4435-94E8-1CEF20CEC75D"
+}

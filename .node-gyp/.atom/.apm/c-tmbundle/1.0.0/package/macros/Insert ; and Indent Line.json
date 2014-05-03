@@ -1,0 +1,17 @@
+{
+  "commands": [
+    {
+      "argument": ";",
+      "command": "insertText:"
+    },
+    {
+      "command": "indent:"
+    }
+  ],
+  "isDisabled": true,
+  "keyEquivalent": ";",
+  "name": "Insert ; and Indent Line",
+  "scope": "(source.c | source.c++ | source.objc | source.objc++) - comment - string",
+  "scopeType": "local",
+  "uuid": "034C3F18-097D-4B2C-8F20-C1CA3E9573E9"
+}

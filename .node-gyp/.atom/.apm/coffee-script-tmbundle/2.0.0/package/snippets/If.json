@@ -1,0 +1,7 @@
+{
+  "content": "if ${1:condition}\n  ${0:# body...}",
+  "name": "If",
+  "scope": "source.coffee",
+  "tabTrigger": "if",
+  "uuid": "F4FDFB3A-71EF-48A4-93F4-178B949546B1"
+}

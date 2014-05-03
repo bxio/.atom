@@ -1,0 +1,25 @@
+{
+  "commands": [
+    {
+      "argument": {
+        "action": "findNext",
+        "findInProjectIgnoreCase": false,
+        "findInProjectRegularExpression": false,
+        "findString": "$\\n\\s*",
+        "ignoreCase": false,
+        "regularExpression": true,
+        "replaceAllScope": "document",
+        "replaceString": "key",
+        "wrapAround": false
+      },
+      "command": "findWithOptions:"
+    },
+    {
+      "command": "deleteForward:"
+    }
+  ],
+  "keyEquivalent": "^J",
+  "name": "Join Line With Next",
+  "scopeType": "local",
+  "uuid": "3D7504EE-B927-4D3D-A3CC-BFB189027EE7"
+}

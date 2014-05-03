@@ -1,0 +1,11 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby\ns = STDIN.read\nputs \"\\#--\"\nif s== \"\"\n  puts \"\\# $0\",\"\\#++\"\nelse\n  puts s, \"\\#++\", \"$0\"\nend",
+  "fallbackInput": "line",
+  "input": "selection",
+  "keyEquivalent": "^@O",
+  "name": "Omit",
+  "output": "insertAsSnippet",
+  "scope": "source.ruby",
+  "uuid": "BF4CA9F1-51CD-48D4-8357-852234F59046"
+}

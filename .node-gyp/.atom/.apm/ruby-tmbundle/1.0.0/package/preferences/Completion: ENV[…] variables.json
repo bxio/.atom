@@ -1,0 +1,8 @@
+{
+  "name": "Completion: ENV[…] variables",
+  "scope": "meta.environment-variable.ruby string.quoted",
+  "settings": {
+    "completionCommand": "env|grep \"^$TM_CURRENT_WORD\"|sort|cut -d= -f1"
+  },
+  "uuid": "1A7701FA-D866-498C-AD4C-7846538DB535"
+}

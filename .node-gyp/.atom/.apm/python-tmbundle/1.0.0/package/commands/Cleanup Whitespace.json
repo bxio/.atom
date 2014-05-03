@@ -1,0 +1,9 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "\"${TM_PYTHON:-python}\" \"${TM_BUNDLE_SUPPORT}/cleanup_whitespace.py\"",
+  "input": "selection",
+  "name": "Cleanup Whitespace",
+  "output": "replaceSelectedText",
+  "scope": "source.python",
+  "uuid": "95FFEECE-73E4-4B33-9CAE-1641C62FFBC0"
+}

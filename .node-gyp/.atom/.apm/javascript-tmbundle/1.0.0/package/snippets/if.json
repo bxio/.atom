@@ -1,0 +1,7 @@
+{
+  "content": "if (${1:true}) {\n\t${2:$TM_SELECTED_TEXT}\n}",
+  "name": "if",
+  "scope": "source.js",
+  "tabTrigger": "if",
+  "uuid": "F19F3732-39A7-48EC-A72B-A8F477A01795"
+}

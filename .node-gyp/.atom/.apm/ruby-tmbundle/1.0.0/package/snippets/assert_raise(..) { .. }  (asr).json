@@ -1,0 +1,7 @@
+{
+  "content": "assert_raise(${1:Exception}) { $0 }",
+  "name": "assert_raise(..) { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "asr",
+  "uuid": "68B21F6F-5D89-41FA-A19C-F29C2F912B4E"
+}

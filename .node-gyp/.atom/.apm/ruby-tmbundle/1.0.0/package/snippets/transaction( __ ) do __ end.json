@@ -1,0 +1,7 @@
+{
+  "content": "transaction${1/(^.*?\\S.*)|.*/(?1:\\()/}${1:true}${1/(^.*?\\S.*)|.*/(?1:\\))/} { $0 }",
+  "name": "transaction( .. ) { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "tra",
+  "uuid": "46BF99AD-E172-4D49-BCF7-072F4730E1D9"
+}

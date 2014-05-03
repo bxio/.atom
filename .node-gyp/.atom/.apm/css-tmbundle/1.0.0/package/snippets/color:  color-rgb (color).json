@@ -1,0 +1,7 @@
+{
+  "content": "color: rgb(${1:255},${2:255},${3:255});$0",
+  "name": "color: rgb",
+  "scope": "source.css",
+  "tabTrigger": "color",
+  "uuid": "FBA1210B-33DB-49D0-B026-FF31DBC41FD6"
+}

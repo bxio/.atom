@@ -1,0 +1,7 @@
+{
+  "content": "${1:expression} if ${2:condition};\n",
+  "name": "Conditional One-line",
+  "scope": "source.perl",
+  "tabTrigger": "xif",
+  "uuid": "EB212713-70FC-4948-AABD-C6E991060E93"
+}

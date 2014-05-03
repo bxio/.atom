@@ -1,0 +1,7 @@
+{
+  "content": "group { \"${1:name}\":\n\tgid => $2,\n}$0",
+  "name": "group",
+  "scope": "source.puppet",
+  "tabTrigger": "group",
+  "uuid": "44C1B58A-0EF0-4022-A9EF-2D3B432C83FE"
+}

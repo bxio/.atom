@@ -1,0 +1,15 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/usr/bin/env ruby -wKU\n\nlink = STDIN.read\n\nif link =~ %r{ra?dar://(?:problem/)?([0-9]+)}\n  %x{ open \"http://openradar.appspot.com/#{$1}\" }\nelse\n  puts \"Error parsing issue number: #{link}\"\nend\n",
+  "hideFromUser": "1",
+  "input": "scope",
+  "inputFormat": "text",
+  "keyEquivalent": "\u0003",
+  "name": "Open Radar",
+  "outputCaret": "afterOutput",
+  "outputFormat": "html",
+  "outputLocation": "toolTip",
+  "scope": "L:markup.underline.link.radar | R:markup.underline.link.radar",
+  "uuid": "0711A4CE-3C0C-42B6-AA44-3CA3038DC391",
+  "version": 2
+}

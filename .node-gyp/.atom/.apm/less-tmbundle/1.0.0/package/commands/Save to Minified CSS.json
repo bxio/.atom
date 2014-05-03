@@ -1,0 +1,23 @@
+{
+  "beforeRunningCommand": "saveActiveFile",
+  "command": "#!/usr/bin/env ruby\n\nfile = ENV[\"TM_FILEPATH\"]\ntarget = file.sub(/\\.less$/, \".css\")\nsystem(\"lessc -x \\\"#{file}\\\" \\\"#{target}\\\"\")\nputs \"Compiled Minified CSS to '#{target}'\"",
+  "input": "document",
+  "inputFormat": "text",
+  "keyEquivalent": "~@b",
+  "name": "Save to Minified CSS",
+  "outputCaret": "afterOutput",
+  "outputFormat": "text",
+  "outputLocation": "toolTip",
+  "requiredCommands": [
+    {
+      "command": "lessc",
+      "locations": [
+        "/opt/local/bin/lessc",
+        "/usr/local/bin/lessc"
+      ]
+    }
+  ],
+  "scope": "source.css.less",
+  "uuid": "448D3A8D-260E-4949-BA33-654886ECDCAF",
+  "version": 2
+}

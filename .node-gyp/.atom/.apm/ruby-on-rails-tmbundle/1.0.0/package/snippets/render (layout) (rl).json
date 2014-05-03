@@ -1,0 +1,7 @@
+{
+  "content": "render :layout => \"${1:layoutname}\"",
+  "name": "render (layout)",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "rl",
+  "uuid": "3F83272F-62D5-4BCB-BAA3-806083078829"
+}

@@ -1,0 +1,7 @@
+{
+  "content": "${1:name} => \"${2:value}\",$0",
+  "name": "Parameter",
+  "scope": "source.puppet",
+  "tabTrigger": "=",
+  "uuid": "8261BD6F-38ED-4AB3-A20B-29AFDE01EE36"
+}

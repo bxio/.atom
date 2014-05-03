@@ -1,0 +1,7 @@
+{
+  "content": "File.open(${1:\"${2:path/to/file}.yaml\"}) { |${3:file}| YAML.load(${3:file}) }",
+  "name": "YAML.load(file)",
+  "scope": "source.ruby",
+  "tabTrigger": "Yl-",
+  "uuid": "8343ACF4-EEB7-44B5-B835-94826466D4D5"
+}

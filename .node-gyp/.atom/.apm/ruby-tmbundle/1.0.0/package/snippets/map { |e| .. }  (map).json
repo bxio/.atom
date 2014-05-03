@@ -1,0 +1,7 @@
+{
+  "content": "map { |${1:e}| $0 }",
+  "name": "map { |e| .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "map",
+  "uuid": "5A3754FC-43A3-462B-AB42-E3E951872E6F"
+}

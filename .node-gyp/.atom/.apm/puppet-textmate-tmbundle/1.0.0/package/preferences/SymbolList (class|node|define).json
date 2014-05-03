@@ -1,0 +1,8 @@
+{
+  "name": "SymbolList (class|node|define)",
+  "scope": "source.puppet entity.name.function entity.name.type",
+  "settings": {
+    "showInSymbolList": 1
+  },
+  "uuid": "DCFE74BF-4295-47AB-B91E-66A5761BFA96"
+}

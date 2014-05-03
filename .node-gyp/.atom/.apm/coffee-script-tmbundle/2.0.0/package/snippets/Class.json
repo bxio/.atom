@@ -1,0 +1,7 @@
+{
+  "content": "class ${1:ClassName}${2: extends ${3:Ancestor}}\n\n  ${4:constructor: (${5:args}) ->\n    ${6:# body...}}\n  $7",
+  "name": "Class",
+  "scope": "source.coffee",
+  "tabTrigger": "cla",
+  "uuid": "765ACBD3-380A-4CF8-9111-345A36A0DAE7"
+}

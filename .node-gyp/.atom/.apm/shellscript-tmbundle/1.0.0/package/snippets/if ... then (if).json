@@ -1,0 +1,7 @@
+{
+  "content": "if ${2:[[ ${1:condition} ]]}; then\n\t${0:#statements}\nfi",
+  "name": "if … fi",
+  "scope": "source.shell",
+  "tabTrigger": "if",
+  "uuid": "B26A35EE-AA17-11D9-AB33-000D93589AF6"
+}

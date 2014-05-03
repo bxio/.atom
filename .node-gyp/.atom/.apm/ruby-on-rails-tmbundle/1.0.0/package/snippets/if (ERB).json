@@ -1,0 +1,7 @@
+{
+  "content": "<% if ${1:condition} %>$0",
+  "name": "if (ERB)",
+  "scope": "text.html.ruby",
+  "tabTrigger": "if",
+  "uuid": "1ED49D4D-D4A0-4CF0-8ED2-DCE70854B839"
+}

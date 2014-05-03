@@ -1,0 +1,7 @@
+{
+  "content": "@protocol ${1:${2:${TM_FILENAME:?${TM_FILENAME/\\..+$//}:My}}Delegate}${3: <NSObject>}\n$0\n@optional\n@end",
+  "name": "Protocol",
+  "scope": "source.objc, source.objc++",
+  "tabTrigger": "pro",
+  "uuid": "B638A0D2-1B84-4932-99D4-3134230C3EC8"
+}

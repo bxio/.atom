@@ -1,0 +1,7 @@
+{
+  "content": "include Comparable\n\ndef <=>(other)\n\t$0\nend",
+  "name": "include Comparable ..",
+  "scope": "source.ruby",
+  "tabTrigger": "Comp",
+  "uuid": "6C9D6B3D-D8E9-4606-9534-577C8D21FFF6"
+}

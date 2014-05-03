@@ -1,0 +1,9 @@
+{
+  "bundleUUID": "4675A940-6227-11D9-BFB1-000D93589AF6",
+  "name": "Symbol List: Indent Class Methods",
+  "scope": "meta.class-struct-block.c++ entity.name.function",
+  "settings": {
+    "symbolTransformation": "\n      s/^\\s*/ /;  # pad"
+  },
+  "uuid": "B2B97E23-E686-4410-991D-A92AF3A9FC95"
+}

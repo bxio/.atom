@@ -1,0 +1,7 @@
+{
+  "content": "if __FILE__ == \\$PROGRAM_NAME\n\t$0\nend",
+  "name": "application { .. }",
+  "scope": "source.ruby",
+  "tabTrigger": "app",
+  "uuid": "E16D24D2-CC7E-4786-BE0B-1725FC865D78"
+}

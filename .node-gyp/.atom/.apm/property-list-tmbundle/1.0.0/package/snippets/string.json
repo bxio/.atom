@@ -1,0 +1,7 @@
+{
+  "content": "<string>$1</string>",
+  "name": "string",
+  "scope": "text.xml.plist",
+  "tabTrigger": "str",
+  "uuid": "B454B512-8514-4293-AF58-60CE3FFDB05A"
+}

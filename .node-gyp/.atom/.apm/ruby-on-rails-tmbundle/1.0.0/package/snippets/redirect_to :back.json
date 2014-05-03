@@ -1,0 +1,7 @@
+{
+  "content": "redirect_to :back",
+  "name": "redirect_to :back",
+  "scope": "source.ruby.rails",
+  "tabTrigger": "reb",
+  "uuid": "BC194AE7-FA60-4E65-9503-6920D1666A29"
+}
